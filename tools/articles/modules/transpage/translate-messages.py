@@ -64,19 +64,46 @@ def load_config() -> dict:
     with open(CONFIG_PATH, 'r', encoding='utf-8') as f:
         return json.load(f)
 
+
+def effective_api_base_url(config: dict) -> str:
+    return (
+        os.environ.get('TRANSPAGE_API_BASE_URL')
+        or os.environ.get('OPENAI_BASE_URL')
+        or os.environ.get('ANTHROPIC_BASE_URL')
+        or config['api_base_url']
+    )
+
+
+def effective_api_key(config: dict) -> str:
+    return (
+        os.environ.get('TRANSPAGE_API_KEY')
+        or os.environ.get('OPENAI_API_KEY')
+        or os.environ.get('ANTHROPIC_AUTH_TOKEN')
+        or config['api_key']
+    )
+
+
+def effective_model(config: dict) -> str:
+    return (
+        os.environ.get('TRANSPAGE_MODEL')
+        or os.environ.get('OPENAI_MODEL')
+        or os.environ.get('ANTHROPIC_DEFAULT_HAIKU_MODEL')
+        or config.get('model', 'gemini-2.5-flash')
+    )
+
 # ─── API 调用 ─────────────────────────────────────────────────────────────────
 
 
 def call_api(content: str, lang_name: str, config: dict, timeout: int = 120, retries: int = 3) -> Optional[str]:
     """调用翻译 API，失败返回 None"""
-    base = config['api_base_url'].rstrip('/')
+    base = effective_api_base_url(config).rstrip('/')
     # 兼容各种写法：/v1、/v1/、/v1/chat/completions 均可正常工作
     if base.endswith('/chat/completions'):
         api_url = base
     else:
         api_url = f"{base}/chat/completions"
-    api_key = config['api_key']
-    model = config.get('model', 'gemini-2.5-flash')
+    api_key = effective_api_key(config)
+    model = effective_model(config)
     temperature = config.get('temperature', 0.1)
 
     # 构建专有名词保护列表
@@ -314,9 +341,11 @@ def main():
     args = parser.parse_args()
 
     config = load_config()
+    api_base_url = effective_api_base_url(config)
+    model = effective_model(config)
     print(f"[OK] 配置已加载: {CONFIG_PATH}")
     print(f"[OK] 项目根目录: {PROJECT_ROOT}")
-    print(f"[OK] API: {config['api_base_url']} / 模型: {config.get('model')}\n")
+    print(f"[OK] API: {api_base_url} / 模型: {model}\n")
 
     # 读取英文源文件
     en_path = PROJECT_ROOT / config.get('output_dir', 'src/locales/') / 'en.json'

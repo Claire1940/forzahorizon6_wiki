@@ -14,26 +14,24 @@ const staticPagesConfig: Record<string, { priority: number; changeFrequency: 'mo
 
 // 内容类型优先级配置
 const contentTypePriority: Record<string, number> = {
-	'guides': 0.9,
-	'crafting': 0.9,
-	'biomes': 0.8,
-	'creatures': 0.8,
-	'items': 0.8,
-	'achievements': 0.7,
-	'lore': 0.7,
-	'support': 0.6,
+	'release': 0.95,
+	'platforms': 0.9,
+	'map': 0.9,
+	'cars': 0.9,
+	'editions': 0.85,
+	'specs': 0.8,
+	'media': 0.8,
 }
 
 // 内容更新频率配置
 const contentTypeChangeFrequency: Record<string, 'daily' | 'weekly' | 'monthly'> = {
-	'guides': 'weekly',
-	'crafting': 'weekly',
-	'biomes': 'weekly',
-	'creatures': 'weekly',
-	'items': 'weekly',
-	'achievements': 'monthly',
-	'lore': 'monthly',
-	'support': 'monthly',
+	'release': 'daily',
+	'platforms': 'weekly',
+	'map': 'weekly',
+	'cars': 'weekly',
+	'editions': 'weekly',
+	'specs': 'monthly',
+	'media': 'weekly',
 }
 
 export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
@@ -71,13 +69,13 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
 				const priority = contentTypePriority[contentType] || 0.7
 				const changeFrequency = contentTypeChangeFrequency[contentType] || 'weekly'
 
-				if (articles.length > 1) {
+				if (articles.length !== 1) {
 					const listUrl =
 						locale === 'en'
 							? `${BASE_URL}/${contentType}`
 							: `${BASE_URL}/${locale}/${contentType}`
 					const latestArticle = articles[0]
-					const latestDate = latestArticle.frontmatter.lastModified || latestArticle.frontmatter.date
+					const latestDate = latestArticle?.frontmatter.lastModified || latestArticle?.frontmatter.date
 
 					sitemap.push({
 						url: listUrl,

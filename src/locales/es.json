@@ -1,13 +1,13 @@
 {
   "seo": {
     "home": {
-      "title": "Wiki de Lucid Blocks - Fabricación, biomas y logros",
-      "description": "La Wiki de Lucid Blocks cubre fabricación, biomas, criaturas, objetos, logros, finales y consejos de supervivencia para la aventura surrealista de sandbox de vóxeles en Steam.",
-      "keywords": "Lucid Blocks, Lucid Blocks wiki, fabricación, biomas, logros, supervivencia, Steam",
-      "ogTitle": "Wiki de Lucid Blocks - Fabricación, biomas y logros",
-      "ogDescription": "La Wiki de Lucid Blocks cubre fabricación, biomas, criaturas, objetos, logros, finales y consejos de supervivencia para la aventura surrealista de sandbox de vóxeles en Steam.",
-      "twitterTitle": "Wiki de Lucid Blocks - Fabricación, biomas y logros",
-      "twitterDescription": "La Wiki de Lucid Blocks cubre fabricación, biomas, criaturas, objetos, logros y consejos de supervivencia para el sandbox surrealista de vóxeles en Steam."
+      "title": "Forza Horizon 6 - Release Date, Car List & Steam",
+      "description": "Forza Horizon 6 guide for release date, Steam editions, car list, Japan map, Tokyo City, system requirements, early access, trailers and gameplay updates.",
+      "keywords": "Forza Horizon 6, Forza Horizon 6 wiki, release date, Steam, editions, Game Pass, car list, Japan map",
+      "ogTitle": "Forza Horizon 6 - Release Date, Car List & Steam",
+      "ogDescription": "Forza Horizon 6 guide for release date, Steam editions, car list, Japan map, Tokyo City, system requirements, early access, trailers and gameplay updates.",
+      "twitterTitle": "Forza Horizon 6 - Release Date, Car List & Steam",
+      "twitterDescription": "Forza Horizon 6 guide for release date, Steam editions, car list, Japan map, Tokyo City, system requirements, early access, trailers and gameplay updates."
     }
   },
   "nav": {
@@ -20,914 +20,1701 @@
     "media": "Media"
   },
   "common": {
-    "home": "Inicio",
-    "more": "Más",
-    "playNow": "Juega en Steam",
-    "switchLanguage": "Cambiar idioma",
-    "switchTheme": "Cambiar tema",
-    "lightMode": "Modo claro",
-    "darkMode": "Modo oscuro",
-    "notFound": "Página no encontrada",
-    "notFoundDescription": "La página que buscas no existe.",
-    "backToHome": "Volver al inicio",
-    "relatedArticles": "Artículos relacionados",
-    "readMore": "Leer más",
-    "articlesComingSoon": "Artículos próximamente"
+    "home": "Home",
+    "more": "More",
+    "playNow": "Pre-Purchase Forza Horizon 6",
+    "switchLanguage": "Switch Language",
+    "switchTheme": "Switch Theme",
+    "lightMode": "Light Mode",
+    "darkMode": "Dark Mode",
+    "notFound": "Page Not Found",
+    "notFoundDescription": "The page you are looking for does not exist.",
+    "backToHome": "Back to Home",
+    "relatedArticles": "Related Articles",
+    "readMore": "Read More",
+    "articlesComingSoon": "Forza Horizon 6 articles coming soon"
   },
   "hero": {
-    "badge": "__PROTECTED_c0b0161c__ Sandbox de supervivencia de vóxeles",
-    "title": "Lucid Blocks Wiki",
-    "description": "Explora biomas oníricos, fusiona objetos con Apotheosis, construye libremente y sobrevive a criaturas extrañas en este sandbox surrealista de mundo abierto en Steam.",
-    "getFreeCodesCTA": "Explorar guía de fabricación",
-    "playOnSteamCTA": "Jugar en Steam",
+    "badge": "Open-World Racing in Japan",
+    "title": "Forza Horizon 6",
+    "description": "Explore Japan in Forza Horizon 6 with over 550 real-world cars, Tokyo City, JDM culture, Steam editions, early access, and official release updates.",
+    "getFreeCodesCTA": "Visit Forza Horizon 6 Official Site",
+    "playOnSteamCTA": "Pre-Purchase Forza Horizon 6 on Steam",
     "stats": {
       "stat1": {
-        "value": "1,325",
-        "label": "Jugadores en línea"
+        "value": "550+",
+        "label": "Real-World Cars"
       },
       "stat2": {
-        "value": "1,986",
-        "label": "Pico de CCU"
+        "value": "May 18, 2026",
+        "label": "Steam Release"
       },
       "stat3": {
-        "value": "97%",
-        "label": "Reseñas positivas"
+        "value": "$69.99",
+        "label": "Steam Base Price"
       },
       "stat4": {
-        "value": "12 de mar. de 2026",
-        "label": "Fecha de lanzamiento"
+        "value": "4 Days",
+        "label": "Premium Early Access"
       }
     }
   },
   "gameFeature": {
-    "title": "Jugabilidad de Lucid Blocks",
-    "description": "Explora biomas surrealistas, fusiona objetos con Apotheosis y sobrevive a criaturas extrañas en este sandbox de vóxeles onírico en Steam."
+    "title": "Forza Horizon 6 Gameplay and Release Hub",
+    "description": "Follow Forza Horizon 6 launch timing, Steam purchase choices, Premium Early Access, Game Pass access, Japan map details, and official platform links."
   },
   "tools": {
-    "title": "Lucid Blocks",
-    "titleHighlight": "Recursos",
-    "subtitle": "Todo lo que necesitas para explorar, fabricar y sobrevivir en Lucid Blocks",
+    "title": "Forza Horizon 6 Resource Navigation",
+    "titleHighlight": "Forza Horizon 6 Guide Cards",
+    "subtitle": "Jump to the Forza Horizon 6 launch, platform, PC specs, map, cars, videos, race types, multiplayer, collection, achievements, and beginner guides on this page.",
     "cards": [
       {
+        "icon": "Clock",
+        "title": "Forza Horizon 6 Release Date",
+        "description": "Official launch timing, Steam unlock, Premium Early Access, Game Pass, and PS5 window."
+      },
+      {
         "icon": "BookOpen",
-        "title": "Guía para principiantes",
-        "description": "Primeros pasos, exploración y progresión inicial"
-      },
-      {
-        "icon": "Sparkles",
-        "title": "Fabricación de Apotheosis",
-        "description": "Sistema de fusión libre y recetas iniciales"
-      },
-      {
-        "icon": "Hammer",
-        "title": "Herramientas y armas",
-        "description": "Pico de escarcha, Azrael, __PROTECTED_6a765cb2__ y más"
+        "title": "Forza Horizon 6 Steam Pre-Order",
+        "description": "Steam page actions, edition choices, Advanced Access, pre-order bonus, and PC notes."
       },
       {
         "icon": "Package",
-        "title": "Almacenamiento e inventario",
-        "description": "Cubos de suministros, gabinetes y almacenamiento de Qualia"
-      },
-      {
-        "icon": "Home",
-        "title": "Qualia y construcción de bases",
-        "description": "Qualia personal y configuración de la base"
-      },
-      {
-        "icon": "Eye",
-        "title": "Regiones del mundo",
-        "description": "Fog Meadow, Ciénaga de la Esencia y más"
-      },
-      {
-        "icon": "AlertTriangle",
-        "title": "Criaturas y enemigos",
-        "description": "Maniquíes, arañas y cómo sobrevivir"
-      },
-      {
-        "icon": "ArrowRight",
-        "title": "Equipo de movilidad",
-        "description": "__PROTECTED_6a765cb2__, Guante planeador, __PROTECTED_163b9bec__"
-      },
-      {
-        "icon": "TrendingUp",
-        "title": "Cultivo y crecimiento",
-        "description": "Progresión de semillas y recolección de materiales"
-      },
-      {
-        "icon": "Star",
-        "title": "Mejores desbloqueos iniciales",
-        "description": "Mejoras prioritarias para la primera hora"
-      },
-      {
-        "icon": "ClipboardCheck",
-        "title": "Seguimiento de logros",
-        "description": "Los 19 logros y condiciones de Steam"
-      },
-      {
-        "icon": "MessageCircle",
-        "title": "Preguntas frecuentes del modo un jugador",
-        "description": "Preguntas sobre plataformas, precio, cooperativo e idiomas"
+        "title": "Forza Horizon 6 Editions and Price",
+        "description": "Standard, Deluxe, Premium Edition, and Premium Upgrade compared in one guide."
       },
       {
         "icon": "Gamepad2",
-        "title": "Steam Deck y controles",
-        "description": "Configuración de Proton 9.0.4 y consejos para el control"
+        "title": "Forza Horizon 6 Game Pass",
+        "description": "Day-one Game Pass access, PC and console paths, Premium Upgrade, and Steam purchase notes."
+      },
+      {
+        "icon": "Monitor",
+        "title": "Forza Horizon 6 PS5 Release",
+        "description": "PS5 release window, wishlist status, standalone ownership, DLC access, and cross-save details."
       },
       {
         "icon": "Settings",
-        "title": "Ajustes y accesibilidad",
-        "description": "Ocultar manos, __PROTECTED_38625270__ y opciones de pantalla"
+        "title": "Forza Horizon 6 System Requirements",
+        "description": "Minimum and recommended PC specs, SSD requirement, DirectX 12, handheld support, and visual features."
       },
       {
-        "icon": "Clock",
-        "title": "Actualizaciones y notas del parche",
-        "description": "Correcciones recientes y notas de la hoja de ruta"
+        "icon": "Map",
+        "title": "Forza Horizon 6 Japan Map",
+        "description": "Horizon Japan regions, Tokyo City, mountain roads, seasonal biomes, and route inspirations."
       },
       {
-        "icon": "Shield",
-        "title": "Solución de cierres inesperados",
-        "description": "Verificación de __PROTECTED_38625270__, ruta de registros y reporte de errores"
+        "icon": "Home",
+        "title": "Forza Horizon 6 Tokyo City",
+        "description": "Largest urban Horizon area, downtown streets, docks, shortcuts, vertical roads, and car culture."
+      },
+      {
+        "icon": "Car",
+        "title": "Forza Horizon 6 Car List",
+        "description": "Confirmed cars, classes, cover vehicles, JDM highlights, Treasure Cars, Forza Edition models, and add-ons."
+      },
+      {
+        "icon": "Wrench",
+        "title": "Forza Horizon 6 JDM Cars and Customization",
+        "description": "JDM roster picks, body kits, Forza Aero, window liveries, paint, rims, engine swaps, and rare car discovery."
+      },
+      {
+        "icon": "Video",
+        "title": "Forza Horizon 6 Trailer and Gameplay",
+        "description": "Official reveal, initial drive gameplay, Tokyo City showcase, culture feature, and Forza video channel."
+      },
+      {
+        "icon": "Route",
+        "title": "Forza Horizon 6 Beginner Guide",
+        "description": "Tourist start, Horizon Qualifiers, Wristbands, Collection Journal, Stamps, homes, garages, and Legend Island."
+      },
+      {
+        "icon": "Gauge",
+        "title": "Forza Horizon 6 Touge Battles and Time Attack",
+        "description": "Touge Battles, Time Attack Circuits, Drag Meets, Street Races, road inspiration, and Time Attack Car Pack highlights."
+      },
+      {
+        "icon": "Users",
+        "title": "Forza Horizon 6 Multiplayer and Cross Save",
+        "description": "Co-op campaign, Convoys, Car Meets, LINK Skills, multiplayer modes, cross-play, cross-save, and ownership notes."
+      },
+      {
+        "icon": "Compass",
+        "title": "Forza Horizon 6 Treasure Cars and Collection Journal",
+        "description": "Collection Journal Stamps, Aftermarket Cars, Treasure Cars, Barn Finds, mascot goals, rewards, and exploration routes."
+      },
+      {
+        "icon": "Trophy",
+        "title": "Forza Horizon 6 Achievements",
+        "description": "All 57 Forza Horizon 6 achievements across campaign, Wristbands, Stamps, cars, racing, multiplayer, and exploration."
       }
     ]
   },
   "modules": {
-    "lucidBlocksBeginnerGuide": {
-      "title": "Guía para principiantes de Lucid Blocks",
-      "displayType": "steps",
-      "intro": "Comienza aprendiendo cómo se conectan la exploración, la fusión y la progresión. Lucid Blocks premia la experimentación, por lo que el progreso temprano proviene de recolectar materiales inusuales, probar combinaciones y desbloquear tu Qualia personal.",
-      "steps": [
-        {
-          "title": "Explora antes de comprometerte",
-          "description": "Camina hacia el exterior, mina bloques comunes y conserva cualquier botín extraño que encuentres. El progreso inicial se trata menos de misiones fijas y más de descubrir en qué se pueden convertir los materiales."
-        },
-        {
-          "title": "Desbloquea tu Qualia personal pronto",
-          "description": "Tu Qualia personal es uno de los hitos iniciales más importantes. Te brinda un lugar confiable para reagruparte y construir a su alrededor."
-        },
-        {
-          "title": "Usa Osmio para progresar rápido al inicio",
-          "description": "El Osmio es uno de los materiales iniciales más útiles. Una ruta inicial popular es combinar Osmio con palos para fabricar un Pico de Escarcha para minar rápido."
-        },
-        {
-          "title": "Registra las buenas fusiones",
-          "description": "Lleva un registro de las combinaciones exitosas en tu diario. Lucid Blocks tiene muchas rutas de fusión posibles, por lo que anotar los resultados útiles ahorra mucho tiempo."
-        }
-      ],
-      "quickTips": [
-        "Apotheosis no requiere una lista de recetas fija.",
-        "La generación de mundo infinito significa que moverte hacia arriba o hacia lo profundo puede revelar materiales completamente diferentes.",
-        "Las herramientas de movimiento y el equipo de utilidad se convierten en una gran mejora de calidad de vida una vez que comienzas a desbloquearlos.",
-        "Perderse al principio es normal, pero las herramientas útiles, el almacenamiento y las opciones de movimiento crecen como bola de nieve rápidamente una vez que tus primeras buenas fusiones empiezan a funcionar."
-      ]
-    },
-    "lucidBlocksApotheosisCrafting": {
-      "title": "Artesanía de Apotheosis en Lucid Blocks",
-      "displayType": "cards",
-      "intro": "Apotheosis es el sistema de fusión sin restricciones del juego. En lugar de memorizar un libro de recetas tradicional, combinas materiales, observas el resultado y construyes tu propio conocimiento de artesanía con el tiempo.",
-      "cards": [
-        {
-          "name": "Fusión de forma libre",
-          "description": "Apotheosis te permite fusionar diferentes objetos sin necesidad de seguir una lista de recetas fija."
-        },
-        {
-          "name": "Múltiples resultados útiles",
-          "description": "Diferentes materiales suelen orientarse hacia ciertos resultados. Los descubrimientos de la comunidad muestran que insumos similares pueden derivar en herramientas prácticas, almacenamiento o mejoras de combate."
-        },
-        {
-          "name": "Artesanía basada en el diario",
-          "description": "La mejor manera de aprender Apotheosis es registrar tus combinaciones exitosas. Tu diario se convertirá rápidamente en tu propia referencia de artesanía."
-        },
-        {
-          "name": "Fusiones iniciales probadas por la comunidad",
-          "description": "Ejemplos iniciales populares incluyen Osmio más Palo para un Pico de Escarcha, Palo más Apéndice de Tungsteno para Azrael, y Azrael más Magnetita para el Estoque de Zarcillo."
-        }
-      ],
-      "milestones": [
-        "Fusionar un objeto",
-        "Fusionar una alimaña",
-        "Fusionar un artefacto divino"
-      ]
-    },
-    "lucidBlocksToolsAndWeapons": {
-      "title": "Herramientas y armas de Lucid Blocks",
-      "displayType": "itemCards",
-      "intro": "Lucid Blocks mezcla equipo de utilidad oficial con armas iniciales descubiertas por la comunidad. La mejor configuración suele ser una mezcla de minería rápida, travesía segura y una opción de combate confiable.",
+    "forzaHorizon6ReleaseDate": {
+      "title": "Forza Horizon 6 Release Date, Steam Unlock, and Early Access",
+      "intro": "Track the key launch dates for Forza Horizon 6 across Xbox, PC, Steam, Game Pass, and PlayStation 5. This guide highlights when the game comes out, when Early Access starts, and which platform gets access first.",
       "items": [
         {
-          "name": "Pico de Escarcha",
-          "type": "Herramienta de minería",
-          "description": "Un pico inicial rápido y económico hecho de Osmio y Palo. Los jugadores lo usan para acelerar la recolección inicial de materiales."
+          "label": "Official Launch Date",
+          "value": "May 19, 2026",
+          "description": "Forza Horizon 6 launches on Xbox Series X|S and PC through the Microsoft Store, Xbox app, and Steam. Standard and Deluxe Edition players enter during the full launch window."
         },
         {
-          "name": "Azrael",
-          "type": "Arma inicial",
-          "description": "Una ruta práctica para un arma inicial fabricada con un Palo y un Apéndice de Tungsteno."
+          "label": "Steam Store Date",
+          "value": "May 18, 2026",
+          "description": "The Steam storefront displays May 18, 2026 for the Steam release and provides the live store countdown, purchase buttons, and edition options."
         },
         {
-          "name": "Estoque de Zarcillo",
-          "type": "Arma mejorada",
-          "description": "Una continuación más fuerte creada al combinar Azrael con Magnetita. Es una de las rutas de combate inicial-media más útiles compartidas por los jugadores."
+          "label": "Premium Early Access",
+          "value": "May 15, 2026",
+          "description": "Forza Horizon 6 Premium Edition players and Premium Upgrade owners can start up to four days before the full launch."
         },
         {
-          "name": "__PROTECTED_6a765cb2__",
-          "type": "Herramienta de movilidad",
-          "description": "Un objeto de travesía oficial que mejora enormemente el movimiento y la exploración vertical."
+          "label": "Game Pass Launch",
+          "value": "May 19, 2026",
+          "description": "Forza Horizon 6 Standard Edition is included with Game Pass Ultimate and PC Game Pass on launch day."
         },
         {
-          "name": "__PROTECTED_163b9bec__",
-          "type": "Herramienta de movilidad",
-          "description": "Un objeto de movimiento oficial que ayuda a cubrir terreno de forma más segura y eficiente."
-        },
-        {
-          "name": "Varita de Bola",
-          "type": "Arma de utilidad",
-          "description": "Un objeto de utilidad a distancia oficial que expande tus opciones de combate y acertijos."
-        },
-        {
-          "name": "Equipo de buceo",
-          "type": "Equipo de travesía",
-          "description": "Un objeto de utilidad oficial para llegar a áreas que de otro modo ralentizarían la exploración."
-        },
-        {
-          "name": "Explosivos",
-          "type": "Daño de utilidad",
-          "description": "Destacados oficialmente como parte del conjunto de herramientas principal y útiles para atravesar amenazas u obstáculos."
-        }
-      ]
-    },
-    "lucidBlocksStorageAndInventory": {
-      "title": "Almacenamiento e inventario de Lucid Blocks",
-      "displayType": "solutionCards",
-      "intro": "La presión del inventario comienza temprano en Lucid Blocks, por lo que construir almacenamiento debería ser uno de tus primeros objetivos. Ya destacan varias soluciones probadas por jugadores reales.",
-      "solutions": [
-        {
-          "name": "Cubo de Almacenamiento",
-          "role": "Almacenamiento tipo cofre",
-          "description": "Los Cubos de Almacenamiento son una de las soluciones prácticas más tempranas y los jugadores los tratan como el contenedor principal tipo cofre del juego."
-        },
-        {
-          "name": "Gabinete",
-          "role": "Almacenamiento de base simple",
-          "description": "Los gabinetes son otra opción de almacenamiento confirmada. Una receta inicial compartida usa 1 de Madera cortada y 1 de Cuerda."
-        },
-        {
-          "name": "Qualia personal",
-          "role": "Centro de almacenamiento a largo plazo",
-          "description": "Una vez desbloqueada, tu Qualia personal se convierte en un lugar natural para organizar materiales, fabricar en paz y expandir la configuración de tu base."
-        },
-        {
-          "name": "Seguimiento en el diario",
-          "role": "Eficiencia de inventario",
-          "description": "Registrar combinaciones útiles en tu diario reduce el desperdicio de materiales y facilita mucho la gestión del inventario."
+          "label": "PlayStation 5 Release",
+          "value": "Later in 2026",
+          "description": "Forza Horizon 6 arrives on PlayStation 5 later in 2026, with wishlist access available through the PlayStation Store."
         }
       ],
-      "managementTips": [
-        "Prioriza una opción de almacenamiento confiable antes de acumular botines raros.",
-        "Construye alrededor de tu Qualia personal una vez que esté disponible.",
-        "Mantén separados los materiales de artesanía, las herramientas de combate y el equipo de movimiento para que las mejoras sean más fáciles de planificar.",
-        "Usa tu diario como parte de la gestión del inventario, no solo para descubrir recetas."
+      "summary": [
+        "Forza Horizon 6 launches first on Xbox Series X|S and PC.",
+        "Forza Horizon 6 Premium Early Access starts four days before the full launch.",
+        "Forza Horizon 6 Steam timing can display one day earlier because storefront timing is region-based."
       ]
     },
-    "lucidBlocksQualiaAndBaseBuilding": {
-      "title": "Qualia y construcción de bases en Lucid Blocks",
-      "displayType": "cards",
-      "intro": "La Qualia es uno de los hitos de progresión más importantes en Lucid Blocks. Te brinda un espacio personal para reagruparte, almacenar materiales y convertir gradualmente el progreso de exploración en una verdadera base de operaciones.",
-      "cards": [
-        {
-          "name": "Qualia personal",
-          "description": "Desbloquear una Qualia es un hito inicial que te da un lugar más confiable al cual regresar mientras exploras el mundo exterior."
-        },
-        {
-          "name": "Construcción centrada en el almacenamiento",
-          "description": "Muchos jugadores comienzan usando su Qualia como un centro de almacenamiento antes de convertirla en una base más grande con espacios organizados para artesanía y construcción."
-        },
-        {
-          "name": "Construcción creativa de hogares",
-          "description": "Lucid Blocks admite la construcción creativa, y los jugadores ya están usando los espacios de Qualia para crear casas y diseños personalizados."
-        },
-        {
-          "name": "Centro de progresión",
-          "description": "Una base sólida te ayuda a separar el botín de exploración, los materiales de artesanía, las semillas, las herramientas y el equipo de movilidad para planificar mejor tus próximas mejoras."
-        }
-      ],
-      "highlights": [
-        "Entrar en una qualia",
-        "Almacenar materiales de forma segura",
-        "Expandir de la utilidad a la decoración",
-        "Usar el espacio de la base para apoyar la artesanía y el cultivo"
-      ]
-    },
-    "lucidBlocksWorldRegions": {
-      "title": "Regiones del mundo de Lucid Blocks",
-      "displayType": "regionCards",
-      "intro": "Lucid Blocks utiliza generación de mundo infinito, por lo que los jugadores siguen descubriendo nuevos entornos y estructuras. Algunos lugares con nombre ya aparecen en los logros y en las discusiones de la comunidad.",
-      "regions": [
-        {
-          "name": "Fog Meadow",
-          "type": "Área destacada por la comunidad",
-          "description": "Fog Meadow ya es conocida entre los jugadores como un área tensa asociada con amenazas ocultas y encuentros peligrosos."
-        },
-        {
-          "name": "Línea ley de Tiamana",
-          "type": "Punto de referencia de descubrimiento",
-          "description": "La línea ley de tiamana es lo suficientemente importante como para tener su propio hito de logro, lo que la convierte en uno de los descubrimientos mundiales con nombre más claros hasta ahora."
-        },
-        {
-          "name": "Clonaqualia",
-          "type": "Espacio de construcción",
-          "description": "Los jugadores ya están usando Clonaqualia como un lugar para construir casas, almacenar materiales y experimentar con diseños más permanentes."
-        },
-        {
-          "name": "Ciénaga de Esencia",
-          "type": "Área de recolección",
-          "description": "La Ciénaga de Esencia está siendo compartida por los jugadores como una ubicación útil para recolectar recursos, especialmente para luchar contra slimes y ganar experiencia."
-        }
-      ]
-    },
-    "lucidBlocksCreaturesAndEnemies": {
-      "title": "Criaturas y enemigos de Lucid Blocks",
-      "displayType": "creatureCards",
-      "intro": "Lucid Blocks mezcla criaturas surreales con peligros reales. Las descripciones oficiales y las publicaciones de la comunidad apuntan a un mundo lleno de vida extraña, amenazas hostiles y algunos encuentros destacados que los jugadores recuerdan rápidamente.",
-      "creatures": [
-        {
-          "name": "Maniquíes",
-          "role": "Enemigo hostil",
-          "description": "Los maniquíes son uno de los enemigos nombrados oficialmente en el mundo y parte del catálogo de amenazas surreales del juego."
-        },
-        {
-          "name": "Geles blandos",
-          "role": "Enemigo hostil",
-          "description": "Los geles blandos son otro tipo de enemigo nombrado oficialmente y ayudan a definir el extraño estilo biológico del juego."
-        },
-        {
-          "name": "Seres de dimensiones superiores",
-          "role": "Enemigo hostil",
-          "description": "Estos seres se presentan como parte del catálogo de enemigos más abstractos e inquietantes del mundo."
-        },
-        {
-          "name": "Arañas colosales",
-          "role": "Amenaza mayor",
-          "description": "Las arañas son uno de los enemigos más temidos de inmediato en las discusiones de la comunidad y son claramente un peligro memorable."
-        },
-        {
-          "name": "__PROTECTED_26ee183b__",
-          "role": "Criatura con nombre",
-          "description": "__PROTECTED_26ee183b__ es lo suficientemente notable como para tener su propio logro, lo que lo convierte en uno de los encuentros con criaturas nombradas más claros del juego."
-        },
-        {
-          "name": "Alimañas adorables",
-          "role": "Criatura interactuable",
-          "description": "Las alimañas no solo son parte de la progresión de fusión, también se les puede cambiar el nombre, dándoles un papel más personal que a los enemigos estándar."
-        },
-        {
-          "name": "Criatura blasfema",
-          "role": "Amenaza de élite",
-          "description": "La criatura blasfema está vinculada a un logro de combate dedicado, lo que la marca como un encuentro enemigo significativo."
-        }
-      ]
-    },
-    "lucidBlocksMobilityGear": {
-      "title": "Equipo de movilidad de Lucid Blocks",
-      "displayType": "itemCards",
-      "intro": "Las mejoras de movimiento son uno de los mayores saltos en la calidad de vida en Lucid Blocks. Una vez que desbloqueas tus primeras herramientas de travesía, la exploración se vuelve más rápida, segura y mucho más gratificante.",
-      "items": [
-        {
-          "name": "__PROTECTED_6a765cb2__",
-          "type": "Herramienta de travesía",
-          "description": "El gancho es uno de los hitos de movimiento más claros del juego y tiene su propio logro dedicado."
-        },
-        {
-          "name": "Guante planeador",
-          "type": "Movilidad aérea",
-          "description": "El guante planeador permite un viaje mucho más fluido y es otro hito importante de progresión con su propio logro."
-        },
-        {
-          "name": "__PROTECTED_163b9bec__",
-          "type": "Herramienta de travesía",
-          "description": "Los planeadores abeja se destacan oficialmente como parte del conjunto de herramientas de movimiento del juego para cubrir terreno de manera más eficiente."
-        },
-        {
-          "name": "Varita de Bola",
-          "type": "Equipo de utilidad",
-          "description": "Las varitas de bola son una de las herramientas especiales destacadas oficialmente y expanden la forma en que te mueves o interactúas con el mundo."
-        },
-        {
-          "name": "Equipo de buceo",
-          "type": "Equipo de exploración",
-          "description": "El equipo de buceo figura oficialmente como parte del conjunto de utilidad principal para llegar a áreas que de otro modo serían más difíciles de explorar."
-        },
-        {
-          "name": "Explosivos",
-          "type": "Daño de utilidad",
-          "description": "Los explosivos están destacados oficialmente y vinculados a un hito de logro, lo que los hace parte de la progresión de utilidad principal del juego."
-        }
-      ],
-      "unlockMilestones": [
-        "Dominar un gancho",
-        "Volar con el guante planeador",
-        "Empuñar una varita de proyectiles",
-        "Empuñar un explosivo"
-      ]
-    },
-    "lucidBlocksFarmingAndGrowth": {
-      "title": "Cultivo y crecimiento en Lucid Blocks",
-      "displayType": "mixedCards",
-      "intro": "El crecimiento es parte de la progresión real en Lucid Blocks. El cultivo no se trata solo de plantar y cosechar, sino también de establecer rutas de materiales repetibles que mantengan el flujo de tus herramientas, armas y opciones de artesanía.",
-      "sections": [
-        {
-          "name": "Progresión de semillas",
-          "description": "Plantar y fertilizar semillas es un hito real en el juego, y cosechar una nuez completamente crecida es parte de la misma ruta de crecimiento."
-        },
-        {
-          "name": "Recolección de materiales",
-          "description": "Un ciclo práctico de recolección inicial es crear Cápsulas de Mercurio, que generan pequeños slimes que sueltan zarcillos y viscosidad para materiales de artesanía repetibles."
-        },
-        {
-          "name": "Sustento de herramientas",
-          "description": "La recolección de recursos se vuelve mucho más fuerte una vez que puedes reunir consistentemente Osmio, fragmentos de vidrio, plantas y materiales de slime para artesanías posteriores."
-        },
-        {
-          "name": "Rutina de base",
-          "description": "La mejor configuración de cultivo apoya más que solo la comida. Debería abastecer tu almacenamiento, herramientas de movimiento, mejoras de armas y futuros experimentos de fusión."
-        }
-      ],
-      "growthMilestones": [
-        "Fertilizar una semilla",
-        "Cosechar una nuez completamente crecida",
-        "Crear ciclos de materiales repetibles",
-        "Convertir el cultivo en progresión a largo plazo"
-      ]
-    },
-    "lucidBlocksBestEarlyUnlocks": {
-      "title": "Mejores desbloqueos iniciales de Lucid Blocks",
-      "displayType": "priorityCards",
-      "intro": "Los desbloqueos iniciales más fuertes son aquellos que mejoran la seguridad, el almacenamiento y el movimiento. En Lucid Blocks, unas pocas mejoras prácticas pueden hacer que el resto del juego sea mucho más fluido.",
-      "priorities": [
-        {
-          "name": "Qualia personal",
-          "priority": "Esencial",
-          "description": "Tan pronto como obtengas acceso a tu Qualia personal, tu partida se volverá mucho más estable. Actúa como un centro confiable para el almacenamiento, la construcción y el reagrupamiento."
-        },
-        {
-          "name": "Pico de Escarcha",
-          "priority": "Muy alta",
-          "description": "Una herramienta de minería inicial rápida y barata hecha de Osmio y Palo. Es una de las mejoras más útiles para acelerar la recolección inicial de recursos."
-        },
-        {
-          "name": "Cubo de Almacenamiento",
-          "priority": "Muy alta",
-          "description": "La presión del inventario comienza pronto, por lo que obtener tu primer contenedor confiable tipo cofre es una mejora importante de calidad de vida."
-        },
-        {
-          "name": "__PROTECTED_6a765cb2__",
-          "priority": "Alta",
-          "description": "El gancho es uno de los hitos de movimiento más claros del juego y rápidamente hace que la exploración sea más rápida y segura."
-        },
-        {
-          "name": "Guante planeador",
-          "priority": "Alta",
-          "description": "El guante planeador añade otro gran impulso a la movilidad y hace que el movimiento a larga distancia sea mucho más eficiente."
-        },
-        {
-          "name": "Varita de proyectiles o bombas",
-          "priority": "Alta",
-          "description": "Una herramienta a distancia o una opción explosiva te brinda una respuesta más segura ante enemigos peligrosos y encuentros tipo desafío."
-        }
-      ]
-    },
-    "lucidBlocksAchievementTracker": {
-      "title": "Seguimiento de logros de Lucid Blocks",
-      "displayType": "achievementGrid",
-      "intro": "Lucid Blocks tiene actualmente 19 logros de Steam, y se dividen naturalmente en progresión de exploración, artesanía, movilidad, combate y crecimiento.",
-      "groups": [
-        {
-          "name": "Exploración",
-          "achievements": [
-            {
-              "title": "__PROTECTED_c973d4a3__ α",
-              "description": "Entrar en una qualia."
-            },
-            {
-              "title": "__PROTECTED_c973d4a3__ γ",
-              "description": "Descubrir una línea ley de tiamana."
-            },
-            {
-              "title": "__PROTECTED_c973d4a3__ δ",
-              "description": "Superar un desafío de tiamana."
-            },
-            {
-              "title": "__PROTECTED_c973d4a3__ ε",
-              "description": "Logro oculto."
-            }
-          ]
-        },
-        {
-          "name": "Artesanía e invocación",
-          "achievements": [
-            {
-              "title": "Apotheosis α",
-              "description": "Fusionar un objeto."
-            },
-            {
-              "title": "Apotheosis β",
-              "description": "Fusionar una alimaña."
-            },
-            {
-              "title": "Apotheosis γ",
-              "description": "Fusionar un artefacto divino."
-            },
-            {
-              "title": "Arcángel β",
-              "description": "Invoca tu fe."
-            }
-          ]
-        },
-        {
-          "name": "Movilidad y utilidad",
-          "achievements": [
-            {
-              "title": "Virtud α",
-              "description": "Volar con el guante planeador."
-            },
-            {
-              "title": "Virtud β",
-              "description": "Dominar un gancho."
-            },
-            {
-              "title": "Arcángel α",
-              "description": "Empuñar una varita de proyectiles."
-            },
-            {
-              "title": "Arcángel γ",
-              "description": "Empuñar un explosivo."
-            }
-          ]
-        },
-        {
-          "name": "Combate y criaturas",
-          "achievements": [
-            {
-              "title": "Masacre de __PROTECTED_26ee183b__",
-              "description": "Derrotar osos burbuja inocentes."
-            },
-            {
-              "title": "Arcángel δ",
-              "description": "Eliminar una criatura blasfema."
-            },
-            {
-              "title": "__PROTECTED_c973d4a3__ β",
-              "description": "Morir."
-            },
-            {
-              "title": "Dominio γ",
-              "description": "Cambiar el nombre a una alimaña adorable."
-            }
-          ]
-        },
-        {
-          "name": "Crecimiento y cultivo",
-          "achievements": [
-            {
-              "title": "Dominio α",
-              "description": "Fertilizar una semilla."
-            },
-            {
-              "title": "Dominio β",
-              "description": "Cosechar una nuez completamente crecida."
-            },
-            {
-              "title": "Dominio δ",
-              "description": "Logro oculto."
-            }
-          ]
-        }
-      ]
-    },
-    "lucidBlocksSingleplayerAndPlatformFAQ": {
-      "title": "Preguntas frecuentes sobre un solo jugador y plataformas de Lucid Blocks",
-      "displayType": "accordion",
-      "intro": "Estas son las preguntas principales sobre plataformas y acceso que los jugadores suelen hacer antes de comprar Lucid Blocks.",
-      "faqs": [
-        {
-          "question": "¿Es Lucid Blocks para un solo jugador?",
-          "answer": "Sí. Lucid Blocks es un juego para un solo jugador."
-        },
-        {
-          "question": "¿Está planeado el multijugador o cooperativo?",
-          "answer": "No. No se planea multijugador para el lanzamiento ni para futuras actualizaciones."
-        },
-        {
-          "question": "¿Dónde puedo jugar Lucid Blocks?",
-          "answer": "Actualmente está disponible en Steam para Windows."
-        },
-        {
-          "question": "¿Cuánto cuesta Lucid Blocks?",
-          "answer": "$9.99 en Steam."
-        },
-        {
-          "question": "¿Lucid Blocks es compatible con controles?",
-          "answer": "Sí, pero no se recomienda jugar con control porque los menús no están diseñados para ello."
-        },
-        {
-          "question": "¿Lucid Blocks funciona en Steam Deck?",
-          "answer": "Sí. Proton 9.0 o 9.0.4 es la configuración recomendada habitualmente para Steam Deck."
-        },
-        {
-          "question": "¿Lucid Blocks funciona en Linux?",
-          "answer": "Sí. Se informa que Proton 9.0 funciona bien para Linux y Steam Deck."
-        },
-        {
-          "question": "¿Habrá soporte para Mac o Android?",
-          "answer": "Es posible que sean compatibles en el futuro, pero no son plataformas de lanzamiento actuales."
-        },
-        {
-          "question": "¿Lucid Blocks tiene traducciones?",
-          "answer": "No. Actualmente no hay traducciones planeadas."
-        },
-        {
-          "question": "¿Lucid Blocks seguirá recibiendo actualizaciones?",
-          "answer": "Sí. Se planean algunas actualizaciones de contenido después del lanzamiento, pero no pretenden continuar con un calendario regular indefinido."
-        }
-      ]
-    },
-    "lucidBlocksSteamDeckAndController": {
-      "title": "Lucid Blocks en Steam Deck y controles",
-      "displayType": "accordion",
-      "intro": "Lucid Blocks puede ejecutarse en Steam Deck, pero la configuración predeterminada puede necesitar ajustes. El teclado y el mouse siguen siendo la opción más fluida para los menús y el juego en general.",
-      "faqs": [
-        {
-          "question": "¿Lucid Blocks funciona en Steam Deck?",
-          "answer": "Sí. Proton 9.0 funciona bien, y Proton 9.0.4 es una solución compartida habitualmente para problemas en Steam Deck."
-        },
-        {
-          "question": "¿Qué debo hacer si los controles de Steam Deck no funcionan?",
-          "answer": "Fuerza la compatibilidad y cambia el juego a Proton 9.0.4. Es posible que la configuración predeterminada no acepte correctamente la entrada del control."
-        },
-        {
-          "question": "¿Lucid Blocks es compatible con controles?",
-          "answer": "Sí, pero no se recomienda jugar con control porque los menús del juego no están diseñados para ello."
-        },
-        {
-          "question": "¿Es posible el soporte para Linux?",
-          "answer": "Sí. Se informa que Proton 9.0 funciona bien para Linux y Steam Deck."
-        },
-        {
-          "question": "¿Cuál es la mejor configuración de entrada?",
-          "answer": "El teclado y el mouse son la opción más fluida para la navegación por los menús y el juego general momento a momento."
-        }
-      ]
-    },
-    "lucidBlocksSettingsAndAccessibility": {
-      "title": "Ajustes y accesibilidad de Lucid Blocks",
-      "displayType": "settingCards",
-      "intro": "Lucid Blocks ya cuenta con algunos ajustes prácticos y notas de compatibilidad que son importantes de inmediato cuando los jugadores inician el juego por primera vez.",
-      "settings": [
-        {
-          "name": "Ajustes de pantalla",
-          "type": "Opción de comodidad",
-          "description": "Los ajustes de pantalla incluyen una opción que permite a los jugadores ocultar las manos en pantalla."
-        },
-        {
-          "name": "Compatibilidad de gráficos",
-          "type": "Requisito del sistema",
-          "description": "Se requiere soporte de __PROTECTED_38625270__ para que los gráficos se rendericen correctamente. Los sistemas sin __PROTECTED_38625270__ pueden sufrir cierres inesperados y errores gráficos graves."
-        },
-        {
-          "name": "Preferencia de entrada",
-          "type": "Configuración de control",
-          "description": "Existe soporte para controles, pero el teclado y el mouse brindan una experiencia más fluida porque los menús no están diseñados para el uso de controles."
-        },
-        {
-          "name": "Soporte de idiomas",
-          "type": "Localización",
-          "description": "La configuración actual es solo en inglés y no hay traducciones planeadas en este momento."
-        }
-      ]
-    },
-    "lucidBlocksUpdatesAndPatchNotes": {
-      "title": "Actualizaciones y notas del parche de Lucid Blocks",
-      "displayType": "timeline",
-      "intro": "Lucid Blocks ya está recibiendo correcciones rápidas post-lanzamiento y pequeñas actualizaciones de usabilidad.",
-      "entries": [
-        {
-          "title": "Actualización 2.8.2",
-          "type": "Actualización de IU",
-          "description": "Se cambió el nombre de \"awaken\" (despertar) a \"exit\" (salir) en el menú principal."
-        },
-        {
-          "title": "Pequeño parche para cierres al iniciar",
-          "type": "Hotfix",
-          "description": "Se lanzó un parche dedicado para los jugadores cuyo juego se cerraba inesperadamente al iniciar."
-        },
-        {
-          "title": "Soporte de contenido post-lanzamiento",
-          "type": "Nota de hoja de ruta",
-          "description": "Se planean algunas actualizaciones de contenido después del lanzamiento, pero no pretenden continuar con un calendario regular indefinido."
-        }
-      ]
-    },
-    "lucidBlocksCrashFixAndTroubleshooting": {
-      "title": "Solución de cierres inesperados y solución de problemas de Lucid Blocks",
-      "displayType": "steps",
-      "intro": "La mayoría de los problemas inmediatos de inicio y cierres deben revisarse en un orden sencillo: nivel de parche, soporte de gráficos, compatibilidad de plataforma y registros.",
+    "forzaHorizon6SteamPreOrder": {
+      "title": "How to Pre-Order Forza Horizon 6 on Steam",
+      "intro": "Use this Forza Horizon 6 Steam guide to choose an edition, understand Advanced Access, collect the pre-order bonus, and review PC store requirements before launch.",
       "steps": [
         {
-          "title": "Instala el último hotfix para cierres inesperados",
-          "description": "Si el juego se cierra al iniciar, actualiza primero y prueba de nuevo con el parche más reciente para cierres al inicio."
+          "title": "Forza Horizon 6 Steam Store Page",
+          "description": "Open the Forza Horizon 6 Steam app page and use the wishlist, follow, or pre-purchase options. Steam lists Xbox Game Studios as publisher and Playground Games as developer."
         },
         {
-          "title": "Verifica el soporte de __PROTECTED_38625270__",
-          "description": "Lucid Blocks requiere soporte de __PROTECTED_38625270__. Los sistemas sin __PROTECTED_38625270__ pueden sufrir cierres inesperados o problemas graves de renderizado."
+          "title": "Forza Horizon 6 Steam Edition Choice",
+          "description": "Choose Standard Edition at $69.99, Deluxe Edition at $99.99, or Premium Edition at $119.99 depending on launch access and included content."
         },
         {
-          "title": "Usa Proton 9.0.4 en Steam Deck",
-          "description": "Si la entrada o el comportamiento de inicio en Steam Deck fallan, fuerza la compatibilidad y cambia a Proton 9.0.4."
+          "title": "Forza Horizon 6 Advanced Access Check",
+          "description": "Steam labels Advanced Access for the Premium Edition, while the Forza launch guide describes Premium Early Access as up to four days before the May 19 launch."
         },
         {
-          "title": "Recopila registros de cierres (logs)",
-          "description": "Abre Ejecutar de Windows, pega %APPDATA%, ve a lucid blocks/logs y reúne los archivos .txt para solucionar el problema."
+          "title": "Forza Horizon 6 Pre-Order Bonus",
+          "description": "Players who purchase a full edition or the Premium Upgrade before launch receive the exclusive pre-tuned Ferrari J50, redeemable from the in-game Autoshow when Forza Horizon 6 releases."
         },
         {
-          "title": "Reporta el problema correctamente",
-          "description": "Comparte los registros y los detalles del dispositivo a través del foro oficial de reportes de errores en Discord o en la página de la comunidad de Steam."
+          "title": "Forza Horizon 6 Steam Feature Review",
+          "description": "Review Steam features such as single-player, online PvP, online co-op, Family Sharing, Windows 10 22H2, DirectX 12, 16 GB RAM, broadband internet, and SSD storage."
         }
+      ]
+    },
+    "forzaHorizon6EditionsAndPrice": {
+      "title": "Forza Horizon 6 Editions, Prices, and Included Content",
+      "intro": "Compare Forza Horizon 6 Standard, Deluxe, Premium Edition, and Premium Upgrade before buying. The main decision is whether you want only the full game, extra cars, or the full Premium package with Early Access and expansions.",
+      "items": [
+        {
+          "edition": "Standard Edition",
+          "price": "$69.99",
+          "access": "May 19, 2026",
+          "includes": [
+            "Full Forza Horizon 6 game",
+            "Pre-order Ferrari J50 bonus when purchased before launch"
+          ],
+          "bestFor": "Forza Horizon 6 players who want the base game or plan to play through Game Pass."
+        },
+        {
+          "edition": "Deluxe Edition",
+          "price": "$99.99",
+          "access": "May 19, 2026",
+          "includes": [
+            "Full Forza Horizon 6 game",
+            "Welcome Pack",
+            "Car Pass with 30 cars delivered weekly"
+          ],
+          "bestFor": "Forza Horizon 6 players who want extra car content without Premium Early Access."
+        },
+        {
+          "edition": "Premium Edition",
+          "price": "$119.99",
+          "access": "May 15, 2026 Early Access",
+          "includes": [
+            "Full Forza Horizon 6 game",
+            "Up to four days Premium Early Access",
+            "VIP Membership",
+            "Welcome Pack",
+            "Time Attack Car Pack",
+            "Car Pass with 30 cars",
+            "Italian Passion Car Pack after launch",
+            "Two Premium Expansions after launch"
+          ],
+          "bestFor": "Forza Horizon 6 players who want the earliest access and the broadest content bundle."
+        },
+        {
+          "edition": "Premium Upgrade",
+          "price": "$59.99",
+          "access": "May 15, 2026 Early Access",
+          "includes": [
+            "Up to four days Premium Early Access",
+            "VIP Membership",
+            "Welcome Pack",
+            "Time Attack Car Pack",
+            "Car Pass with 30 cars",
+            "Italian Passion Car Pack after launch",
+            "Two Premium Expansions after launch"
+          ],
+          "bestFor": "Forza Horizon 6 Game Pass members or Standard and Deluxe owners who want Premium benefits without buying another full edition."
+        }
+      ]
+    },
+    "forzaHorizon6GamePass": {
+      "title": "Is Forza Horizon 6 on Game Pass?",
+      "intro": "Forza Horizon 6 Standard Edition is included with Game Pass Ultimate and PC Game Pass on May 19, 2026. Game Pass players can also buy the Premium Upgrade for Early Access and Premium add-ons.",
+      "items": [
+        {
+          "label": "Game Pass Availability",
+          "value": "Day One",
+          "description": "Forza Horizon 6 Standard Edition joins Game Pass Ultimate and PC Game Pass at launch on May 19, 2026."
+        },
+        {
+          "label": "Console Access",
+          "value": "Game Pass Ultimate",
+          "description": "Forza Horizon 6 console access is listed for Xbox Series X|S through Game Pass Ultimate, with Xbox Cloud Gaming included as part of the membership path."
+        },
+        {
+          "label": "PC Access",
+          "value": "PC Game Pass or Game Pass Ultimate",
+          "description": "Forza Horizon 6 PC players can access the game through the Xbox app and Microsoft Store with an eligible subscription."
+        },
+        {
+          "label": "Premium Upgrade",
+          "value": "Sold Separately",
+          "description": "Forza Horizon 6 Game Pass players can purchase the Premium Upgrade to play up to four days early and receive Premium Edition add-ons."
+        },
+        {
+          "label": "Xbox Play Anywhere",
+          "value": "Console and PC",
+          "description": "Forza Horizon 6 Microsoft Store and Xbox purchases support Xbox Play Anywhere across eligible Xbox console and PC devices."
+        },
+        {
+          "label": "Steam Version",
+          "value": "Separate Steam Purchase",
+          "description": "Forza Horizon 6 on Steam is sold as a separate storefront purchase with Standard, Deluxe, and Premium pre-purchase options."
+        }
+      ]
+    },
+    "forzaHorizon6Ps5Release": {
+      "title": "Forza Horizon 6 PS5 Release",
+      "intro": "Forza Horizon 6 is coming to PlayStation 5 later in 2026 after the Xbox Series X|S and PC launch. This platform guide covers PS5 wishlist access, launch timing, ownership, DLC purchases, and cross-save support.",
+      "items": [
+        {
+          "question": "Is Forza Horizon 6 coming to PS5?",
+          "answer": "Yes. Forza Horizon 6 has a PlayStation Store page from Microsoft Corporation, and PlayStation 5 players can add the game to their wishlist.",
+          "highlights": [
+            "Forza Horizon 6 platform: PlayStation 5",
+            "Forza Horizon 6 publisher: Microsoft Corporation",
+            "Forza Horizon 6 PS Store status: Announced"
+          ]
+        },
+        {
+          "question": "When is the Forza Horizon 6 PS5 version launching?",
+          "answer": "The Forza Horizon 6 PS5 version is planned for later in 2026. Xbox Series X|S and PC launch first on May 19, 2026, with Premium Edition early access beginning May 15.",
+          "highlights": [
+            "Forza Horizon 6 Xbox and PC launch: May 19, 2026",
+            "Forza Horizon 6 Premium early access: May 15, 2026",
+            "Forza Horizon 6 PS5 release window: Later in 2026"
+          ]
+        },
+        {
+          "question": "Can PS5 players wishlist or pre-order Forza Horizon 6?",
+          "answer": "Forza Horizon 6 PS5 players can add the game to their wishlist on the PlayStation Store. Steam, Xbox, and Microsoft Store PC versions are available for pre-order.",
+          "highlights": [
+            "Forza Horizon 6 PS5: Wishlist available",
+            "Forza Horizon 6 Steam: Pre-purchase available",
+            "Forza Horizon 6 Xbox and Microsoft Store PC: Pre-order available"
+          ]
+        },
+        {
+          "question": "Is Forza Horizon 6 PS5 included with another platform purchase?",
+          "answer": "No. Forza Horizon 6 on PS5 is a standalone product. Steam is also treated as a standalone product, while Xbox Play Anywhere covers digital Xbox console and Microsoft Store PC versions.",
+          "highlights": [
+            "Forza Horizon 6 PS5 ownership is separate",
+            "Forza Horizon 6 Steam ownership is separate",
+            "Forza Horizon 6 Xbox Play Anywhere covers Xbox console and Microsoft Store PC"
+          ]
+        },
+        {
+          "question": "Will Forza Horizon 6 support cross-play and cross-save on PS5?",
+          "answer": "Forza Horizon 6 supports cross-play and cross-save between PC and console versions, including Xbox Series X|S, Xbox on PC, Steam, SteamOS devices, PC handhelds, and the PS5 version when it arrives.",
+          "highlights": [
+            "Forza Horizon 6 cross-play: PC and console",
+            "Forza Horizon 6 cross-save: Xbox, PC, Steam, SteamOS, PC handhelds, and PS5",
+            "Forza Horizon 6 handheld progress support: Steam Deck and Xbox ROG Ally"
+          ]
+        },
+        {
+          "question": "Do Forza Horizon 6 DLC purchases carry over to PS5?",
+          "answer": "Forza Horizon 6 downloadable content such as Car Packs and Expansions must be purchased on each platform where you want to access that content. Xbox Play Anywhere-supported devices are the exception for Xbox console and Microsoft Store PC access.",
+          "highlights": [
+            "Forza Horizon 6 DLC is platform-specific",
+            "Forza Horizon 6 PS5 DLC purchases are separate",
+            "Forza Horizon 6 Xbox Play Anywhere covers supported Xbox and Microsoft Store PC devices"
+          ]
+        }
+      ]
+    },
+    "forzaHorizon6SystemRequirements": {
+      "title": "Forza Horizon 6 System Requirements",
+      "intro": "Check Forza Horizon 6 minimum and recommended PC specs for Steam, including Windows version, CPU, GPU, memory, DirectX 12, broadband internet, SSD storage, handheld support, and graphics features.",
+      "items": [
+        {
+          "spec": "Operating System",
+          "minimum": "Windows 10 22H2, version 19045 or higher",
+          "recommended": "Windows 10 22H2, version 19045 or higher",
+          "notes": "Forza Horizon 6 requires a 64-bit processor and operating system."
+        },
+        {
+          "spec": "Processor",
+          "minimum": "Intel i5-8400 or AMD Ryzen 5 1600",
+          "recommended": "Intel i5-12400F or AMD Ryzen 5 5600X",
+          "notes": "Forza Horizon 6 recommended specs target a newer mid-range CPU class for smoother open-world racing performance."
+        },
+        {
+          "spec": "Memory",
+          "minimum": "16 GB RAM",
+          "recommended": "16 GB RAM",
+          "notes": "Forza Horizon 6 lists 16 GB RAM for both minimum and recommended PC configurations."
+        },
+        {
+          "spec": "Graphics",
+          "minimum": "Nvidia GTX 1650, AMD RX 6500 XT, or Intel Arc A380",
+          "recommended": "NVIDIA RTX 3060 Ti, AMD RX 6700 XT, or Intel Arc A580",
+          "notes": "Forza Horizon 6 compatible graphics cards can use enhanced ray tracing features."
+        },
+        {
+          "spec": "DirectX",
+          "minimum": "DirectX 12",
+          "recommended": "DirectX 12",
+          "notes": "Forza Horizon 6 requires DirectX 12 on PC."
+        },
+        {
+          "spec": "Network",
+          "minimum": "Broadband Internet connection",
+          "recommended": "Broadband Internet connection",
+          "notes": "Forza Horizon 6 online features, multiplayer, and connected services require internet access."
+        },
+        {
+          "spec": "Storage",
+          "minimum": "SSD required",
+          "recommended": "SSD required",
+          "notes": "Forza Horizon 6 Steam requirements list SSD storage as required."
+        },
+        {
+          "spec": "PC Visual Features",
+          "minimum": "4K HDR, enhanced ray tracing features, high uncapped framerates, and ultrawide monitor support",
+          "recommended": "Use compatible hardware for ray-traced reflections, RTGI, high framerates, and advanced graphics settings",
+          "notes": "Forza Horizon 6 PC graphics settings can be changed without restarting the game, with live previews for many settings."
+        },
+        {
+          "spec": "Upscaling Technologies",
+          "minimum": "NVIDIA DLSS, AMD FSR, and Intel XeSS support on compatible hardware",
+          "recommended": "NVIDIA DLSS 4, AMD FSR 4 or 3, and Intel XeSS 2.1",
+          "notes": "Forza Horizon 6 supports advanced upscaling and frame generation options on compatible graphics hardware."
+        },
+        {
+          "spec": "Handheld and Cross-Save",
+          "minimum": "PC handheld support, including Steam Deck and Xbox ROG Ally",
+          "recommended": "Use cross-save to continue progress across supported PC, console, SteamOS, and handheld devices",
+          "notes": "Forza Horizon 6 supports cross-save across every platform where the game can be played."
+        },
+        {
+          "spec": "Benchmark Mode",
+          "minimum": "Supported on PC",
+          "recommended": "Use benchmark mode to test performance after changing graphics settings",
+          "notes": "Forza Horizon 6 includes a PC benchmark mode for consistent performance testing."
+        }
+      ]
+    },
+    "forzaHorizon6JapanMap": {
+      "title": "Forza Horizon 6 Japan Map",
+      "intro": "The Forza Horizon 6 Japan map is built around the contrast of urban and rural Japan, modern and traditional scenery, diverse biomes, seasonal changes, mountain roads, and world-famous route inspirations.",
+      "items": [
+        {
+          "question": "What is the Forza Horizon 6 map location?",
+          "answer": "Forza Horizon 6 takes place in Japan, bringing together scenic rural landscapes, dense urban driving, mountain roads, diverse biomes, and open-world racing routes.",
+          "highlights": [
+            "Forza Horizon 6 main setting: Japan",
+            "Forza Horizon 6 world style: Horizon-style interpretation of Japan",
+            "Forza Horizon 6 core contrast: Rural and urban, modern and traditional"
+          ]
+        },
+        {
+          "question": "How big is the Forza Horizon 6 map?",
+          "answer": "Forza Horizon 6 features the largest map in a Horizon game yet, with strong emphasis on verticality, density, diverse biomes, and seasonal driving experiences.",
+          "highlights": [
+            "Forza Horizon 6 largest Horizon map yet",
+            "Forza Horizon 6 most dense Horizon map yet",
+            "Forza Horizon 6 built for verticality and varied driving"
+          ]
+        },
+        {
+          "question": "What areas are shown in the Forza Horizon 6 full map reveal?",
+          "answer": "The Forza Horizon 6 full map reveal presents Horizon Japan from the downtown streets of Tokyo City to the snowy Japanese Alps, giving players a broad mix of city roads, mountains, and scenic exploration routes.",
+          "highlights": [
+            "Forza Horizon 6 Tokyo City",
+            "Forza Horizon 6 snowy Japanese Alps",
+            "Forza Horizon 6 mountain areas",
+            "Forza Horizon 6 rural and natural landscapes"
+          ]
+        },
+        {
+          "question": "Which real-world routes inspired the Forza Horizon 6 Japan map?",
+          "answer": "Forza Horizon 6 includes roads inspired by the C1 loop and Gingko Avenue, as well as mountain passes inspired by Mt. Haruna and Bandai Azuma.",
+          "highlights": [
+            "Forza Horizon 6 C1 loop-inspired roads",
+            "Forza Horizon 6 Gingko Avenue-inspired roads",
+            "Forza Horizon 6 Mt. Haruna-inspired mountain passes",
+            "Forza Horizon 6 Bandai Azuma-inspired mountain passes"
+          ]
+        },
+        {
+          "question": "Does the Forza Horizon 6 Japan map include seasons and biomes?",
+          "answer": "Yes. The Forza Horizon 6 Japan map includes diverse biomes and seasonality, combining urban roads, rural landscapes, mountain scenery, and natural environments across a varied open world.",
+          "highlights": [
+            "Forza Horizon 6 dynamic seasonal feel",
+            "Forza Horizon 6 urban and rural biomes",
+            "Forza Horizon 6 mountain and natural regions",
+            "Forza Horizon 6 dense city exploration"
+          ]
+        },
+        {
+          "question": "How does the Forza Horizon 6 map connect to progression?",
+          "answer": "Forza Horizon 6 players start as tourists, qualify through the Horizon Invitational, rise through faster car classes, earn Wristbands, complete the Collection Journal, and work toward Horizon Legend status.",
+          "highlights": [
+            "Forza Horizon 6 tourist starting point",
+            "Forza Horizon 6 Horizon Invitational",
+            "Forza Horizon 6 Wristband progression",
+            "Forza Horizon 6 Collection Journal",
+            "Forza Horizon 6 Legend Island access"
+          ]
+        }
+      ]
+    },
+    "forzaHorizon6TokyoCity": {
+      "title": "Forza Horizon 6 Tokyo City",
+      "intro": "Tokyo City is one of the biggest reasons players are searching for Forza Horizon 6. This city guide highlights scale, road density, districts, shortcuts, vertical driving, car culture, and open-world multiplayer activities.",
+      "items": [
+        {
+          "title": "Forza Horizon 6 Largest Urban Area",
+          "description": "Tokyo City is the largest urban environment ever featured in a Forza Horizon game and is five times larger than Forza Horizon 5's Guanajuato.",
+          "meta": "Scale"
+        },
+        {
+          "title": "Forza Horizon 6 Iconic Downtown Streets",
+          "description": "Tokyo City includes iconic downtown streets designed around neon lights, busy roads, layered scenery, and fast exploration with friends.",
+          "meta": "Downtown"
+        },
+        {
+          "title": "Forza Horizon 6 Suburbs and Shortcuts",
+          "description": "Tokyo City includes suburban roads, corners, and shortcuts built to make every route feel fun to drive and easy to explore.",
+          "meta": "Exploration"
+        },
+        {
+          "title": "Forza Horizon 6 Docks and Industrial Districts",
+          "description": "Tokyo City lets players challenge themselves in docks and industrial zones, adding a different road feel from downtown and suburban areas.",
+          "meta": "Districts"
+        },
+        {
+          "title": "Forza Horizon 6 Dense and Vertical Road Design",
+          "description": "Forza Horizon 6 emphasizes density and verticality, making Tokyo City one of the most detailed and layered environments in the game.",
+          "meta": "Road Design"
+        },
+        {
+          "title": "Forza Horizon 6 Car Enthusiast Hub",
+          "description": "Tokyo City is positioned as a major car culture hub, with Car Meets, Drag Meets, Time Attack Circuits, and open-world social driving activities.",
+          "meta": "Car Culture"
+        },
+        {
+          "title": "Forza Horizon 6 JDM and Street Driving Focus",
+          "description": "The Tokyo setting supports Forza Horizon 6 Japanese car culture, including JDM classics, Touge Battles, rare Aftermarket Cars, and authentic car stories.",
+          "meta": "JDM"
+        },
+        {
+          "title": "Forza Horizon 6 Co-op City Exploration",
+          "description": "Tokyo City can be explored solo or with friends, with multiplayer activities designed to happen naturally in the open world.",
+          "meta": "Multiplayer"
+        }
+      ]
+    },
+    "forzaHorizon6CarList": {
+      "title": "Forza Horizon 6 Car List: Confirmed Cars, Classes, Cover Cars, and Add-Ons",
+      "eyebrow": "Forza Horizon 6 Cars",
+      "subtitle": "Browse officially revealed Forza Horizon 6 cars, including cover vehicles, JDM icons, Forza Edition models, Time Attack machines, promotional cars, and car-pack additions.",
+      "intro": "Forza Horizon 6 launches with more than 550 cars to collect and customize, with the roster balanced across performance classes and a new R Class for track-focused cars. This Forza Horizon 6 car list focuses on high-interest confirmed highlights from the current official roster.",
+      "items": [
+        {
+          "make": "GR",
+          "car": "2025 GR GT Prototype",
+          "class": "S1",
+          "sourceType": "Cover car",
+          "highlight": "Video game debut and one of the two Forza Horizon 6 cover vehicles."
+        },
+        {
+          "make": "Toyota",
+          "car": "2025 Toyota Land Cruiser",
+          "class": "C",
+          "sourceType": "Cover car",
+          "highlight": "The second Forza Horizon 6 cover vehicle, representing Japan's off-road and adventure side."
+        },
+        {
+          "make": "Ferrari",
+          "car": "2017 Ferrari J50",
+          "class": "S1",
+          "sourceType": "Pre-order bonus",
+          "highlight": "Exclusive pre-tuned Forza Horizon 6 pre-order bonus inspired by Ferrari's 50 years in Japan."
+        },
+        {
+          "make": "Nissan",
+          "car": "2024 Nissan GT-R NISMO",
+          "class": "S1",
+          "sourceType": "Main roster",
+          "highlight": "Modern JDM performance icon for high-speed Forza Horizon 6 road and track builds."
+        },
+        {
+          "make": "Toyota",
+          "car": "1998 Toyota Supra RZ",
+          "class": "B",
+          "sourceType": "Main roster",
+          "highlight": "Classic Mk4 Supra for Forza Horizon 6 JDM, tuning, drag, and street-race builds."
+        },
+        {
+          "make": "Toyota",
+          "car": "1985 Toyota Sprinter Trueno GT Apex",
+          "class": "D",
+          "sourceType": "Main roster",
+          "highlight": "AE86 icon for Forza Horizon 6 touge, drift, and lightweight classic builds."
+        },
+        {
+          "make": "Toyota",
+          "car": "1985 Toyota Sprinter Trueno GT Apex Forza Edition",
+          "class": "B",
+          "sourceType": "Forza Edition",
+          "highlight": "Track-spec Forza Horizon 6 Forza Edition version with extreme modifications."
+        },
+        {
+          "make": "Subaru",
+          "car": "1994 Subaru Vivio RX-R Forza Edition",
+          "class": "S2",
+          "sourceType": "Forza Edition",
+          "highlight": "Purpose-built Forza Horizon 6 time-attack Forza Edition kei car."
+        },
+        {
+          "make": "Dodge",
+          "car": "1999 Dodge Viper GTS ACR Forza Edition",
+          "class": "A",
+          "sourceType": "VIP",
+          "highlight": "VIP Forza Horizon 6 Forza Edition with off-road-focused tuning."
+        },
+        {
+          "make": "Honda",
+          "car": "2003 Honda S2000",
+          "class": "B",
+          "sourceType": "Main roster",
+          "highlight": "JDM roadster also featured as a Forza Horizon 6 Aftermarket Car with a Rocket Bunny body kit."
+        },
+        {
+          "make": "Autozam",
+          "car": "1993 Autozam AZ-1",
+          "class": "D",
+          "sourceType": "Main roster",
+          "highlight": "Kei sports car featured as a Forza Horizon 6 Aftermarket Car with Mazdaspeed upgrades."
+        },
+        {
+          "make": "McLaren",
+          "car": "2015 McLaren 570S Coupe",
+          "class": "S1",
+          "sourceType": "Main roster",
+          "highlight": "Featured as a Forza Horizon 6 Aftermarket Car with Duke Dynamics modifications."
+        },
+        {
+          "make": "Nissan",
+          "car": "1991 Nissan Figaro",
+          "class": "D",
+          "sourceType": "Treasure Car",
+          "highlight": "One of the Forza Horizon 6 Treasure Cars found by exploring Japan."
+        },
+        {
+          "make": "Nissan",
+          "car": "1985 Nissan Safari Turbo",
+          "class": "D",
+          "sourceType": "Treasure Car",
+          "highlight": "Abandoned Japanese SUV discovered through Forza Horizon 6 Treasure Car clues."
+        },
+        {
+          "make": "Dodge",
+          "car": "1969 Dodge Charger R/T",
+          "class": "C",
+          "sourceType": "Treasure Car",
+          "highlight": "Muscle-car Forza Horizon 6 Treasure Car restored through map exploration."
+        },
+        {
+          "make": "Honda",
+          "car": "1990 Honda #19 CRX WTAC",
+          "class": "TBA",
+          "sourceType": "Time Attack Car Pack",
+          "highlight": "Dedicated Forza Horizon 6 World Time Attack Challenge-style machine."
+        },
+        {
+          "make": "Nissan",
+          "car": "1993 Nissan #32 Skyline WTAC 'Xtreme GTR'",
+          "class": "TBA",
+          "sourceType": "Time Attack Car Pack",
+          "highlight": "Track-focused Forza Horizon 6 Skyline built for Time Attack Circuits."
+        },
+        {
+          "make": "Toyota",
+          "car": "1995 Toyota J&J Motorsport Supra WTAC",
+          "class": "TBA",
+          "sourceType": "Time Attack Car Pack",
+          "highlight": "Forza Horizon 6 Supra-based time-attack car from the launch add-on pack."
+        },
+        {
+          "make": "Ferrari",
+          "car": "2025 Ferrari F80",
+          "class": "R",
+          "sourceType": "Italian Passion Car Pack",
+          "highlight": "Post-launch Forza Horizon 6 Italian Passion Car Pack hypercar."
+        },
+        {
+          "make": "Alfa Romeo",
+          "car": "2021 Alfa Romeo Giulia GTAm",
+          "class": "S1",
+          "sourceType": "Italian Passion Car Pack",
+          "highlight": "Modern Italian performance sedan from the post-launch Forza Horizon 6 car pack."
+        },
+        {
+          "make": "Toyota",
+          "car": "1965 Toyota Sports 800 Fanta Edition",
+          "class": "D",
+          "sourceType": "Promotional DLC code",
+          "highlight": "Promotional Forza Horizon 6 version of the Toyota Sports 800."
+        },
+        {
+          "make": "Peel",
+          "car": "1962 Peel P50 Trolli Edition",
+          "class": "D",
+          "sourceType": "Promotional DLC code",
+          "highlight": "Promotional Forza Horizon 6 edition of the smallest car in the list."
+        }
+      ]
+    },
+    "forzaHorizon6JdmCarsAndCustomization": {
+      "title": "Forza Horizon 6 JDM Cars, Body Kits, Forza Aero, Liveries, Rims, and Engine Swaps",
+      "eyebrow": "Forza Horizon 6 JDM & Customization",
+      "subtitle": "Build JDM classics and modern Japanese icons with expanded customization, new paint options, window liveries, Forza Aero improvements, and rare car-discovery systems.",
+      "intro": "Forza Horizon 6 leans into Japanese car culture with fan-favorite JDM classics, updated steering animations, new cosmetic tire wear, and deeper personalization. The customization flow covers body kits, aero parts, window liveries, rims, paint materials, Kei-car engine swaps, Aftermarket Cars, Treasure Cars, and Forza Edition builds.",
+      "items": [
+        {
+          "title": "Forza Horizon 6 JDM roster highlights",
+          "category": "Cars",
+          "description": "Official Japanese-brand highlights include the 2025 GR GT Prototype, 2025 Toyota Land Cruiser, 2024 Nissan GT-R NISMO, 2020 Toyota GR Supra, 1998 Toyota Supra RZ, 1992 Honda NSX-R, 1990 Mazda Savanna RX-7, 1985 Toyota Sprinter Trueno GT Apex, and 1994 Subaru Vivio RX-R.",
+          "bestFor": "Players searching for Forza Horizon 6 JDM cars, drift builds, touge cars, and Japanese garage themes."
+        },
+        {
+          "title": "Forza Horizon 6 Forza Aero upgrades",
+          "category": "Aero",
+          "description": "Forza Aero is updated so aero parts can be set up per car rather than using the same generic front and rear setup. Players can also paint elements of Forza Aero bumpers and rear wings independently, including materials, supports, and tow hooks.",
+          "bestFor": "Forza Horizon 6 track builds, clean show cars, and detailed livery projects."
+        },
+        {
+          "title": "Forza Horizon 6 body kits and aftermarket brands",
+          "category": "Body kits",
+          "description": "Select vehicles support new body kits, with aftermarket brands including Liberty Walk, Rocket Bunny, and Origin Lab. Official examples include a 2003 Honda S2000 with a Rocket Bunny body kit and a 2015 McLaren 570S Coupe with Duke Dynamics modifications.",
+          "bestFor": "Forza Horizon 6 widebody builds, street style, drift cars, and Car Meet showcases."
+        },
+        {
+          "title": "Forza Horizon 6 window liveries and new vinyls",
+          "category": "Livery Editor",
+          "description": "The Livery Editor adds the requested ability to paint liveries on windows. New pre-made in-world branding vinyls include PI Class logos and Wristband icons, with additional decals unlockable through the Collection Journal.",
+          "bestFor": "Forza Horizon 6 race replicas, time-attack liveries, window banners, and custom crew branding."
+        },
+        {
+          "title": "Forza Horizon 6 paint materials and favorites",
+          "category": "Paint",
+          "description": "The paint workflow is streamlined so players can switch between gloss, semi-gloss, matte, and metallic finishes more easily. New favorites help save colors and materials, including metal flake and candy paint options.",
+          "bestFor": "Forza Horizon 6 players who frequently tune car colorways and garage display builds."
+        },
+        {
+          "title": "Forza Horizon 6 rims and stance details",
+          "category": "Wheels",
+          "description": "Forza Horizon 6 adds more than 100 new rims and lets players install different rims on the front and rear of a car. Tire visuals have also been refreshed, with new cosmetic tire wear and updated tire patterns for all tires except off-road tires.",
+          "bestFor": "Forza Horizon 6 street builds, stance builds, drift cars, and photo-mode-ready garage setups."
+        },
+        {
+          "title": "Forza Horizon 6 kei car motorcycle engine swaps",
+          "category": "Tuning",
+          "description": "Kei cars can be overhauled with motorcycle engine swaps, opening a lightweight high-revving build path for Japan's smallest cars.",
+          "bestFor": "Forza Horizon 6 experimental builds, compact track cars, and unusual speed challenges."
+        },
+        {
+          "title": "Forza Horizon 6 Forza Edition extreme builds",
+          "category": "Special cars",
+          "description": "Forza Edition cars return with more extreme modifications. Official examples include a track-spec 1985 Toyota Sprinter, a 1994 Subaru Vivio RX-R built for time attack, and a VIP 1999 Dodge Viper GTS ACR with off-road tuning.",
+          "bestFor": "Forza Horizon 6 collectors who want special variants and high-impact garage pieces."
+        },
+        {
+          "title": "Forza Horizon 6 Aftermarket Cars",
+          "category": "Discovery",
+          "description": "Aftermarket Cars are parked around Japan and can be test-driven or bought, often at a discount. They appear near useful activities such as Festival races and Time Attack Circuits, making them a natural way to try cars that fit nearby events.",
+          "bestFor": "Forza Horizon 6 players who want to discover useful cars while exploring rather than buying everything from the Autoshow."
+        },
+        {
+          "title": "Forza Horizon 6 Treasure Cars and Barn Finds",
+          "category": "Exploration",
+          "description": "Treasure Cars are abandoned vehicles found through photo clues from Mei, while Barn Finds return through clues unlocked by collecting Stamps for the Collection Journal. Confirmed Treasure Car examples include the 1991 Nissan Figaro, 1985 Nissan Safari Turbo, and 1969 Dodge Charger R/T.",
+          "bestFor": "Forza Horizon 6 explorers, collectors, and players who enjoy map-based car hunts."
+        }
+      ]
+    },
+    "forzaHorizon6TrailerAndGameplay": {
+      "title": "Forza Horizon 6 Trailers, Tokyo Gameplay, and Official Videos",
+      "eyebrow": "Forza Horizon 6 Videos",
+      "subtitle": "Watch the official reveal, Tokyo City showcase, initial drive gameplay, and Forza channel updates for Japan, car culture, and open-world racing footage.",
+      "intro": "Forza Horizon 6 video interest centers on the Japan reveal, Tokyo City, the first gameplay drive, and official feature videos. This module groups the core videos users are most likely to search before launch.",
+      "items": [
+        {
+          "title": "Forza Horizon 6 Official Teaser Trailer | Tokyo Game Show 2025",
+          "videoType": "Reveal trailer",
+          "url": "https://www.youtube.com/watch?v=lwlw0ChiSR0",
+          "description": "The reveal trailer introduces Horizon Japan and confirms the highly requested Japan setting for Forza Horizon 6.",
+          "watchReason": "Best first video for users searching Forza Horizon 6 trailer or reveal trailer."
+        },
+        {
+          "title": "Forza Horizon 6 Official Initial Drive Gameplay",
+          "videoType": "Gameplay",
+          "url": "https://www.youtube.com/watch?v=H1qlPZMfmiU",
+          "description": "The first official gameplay drive shows the opening minutes of Forza Horizon 6, including fast-paced car switching, Japan scenery, and early festival spectacle.",
+          "watchReason": "Best video for users searching Forza Horizon 6 gameplay or first gameplay footage."
+        },
+        {
+          "title": "Forza Horizon 6 Tokyo City | Biome Showcase",
+          "videoType": "Environment showcase",
+          "url": "https://www.youtube.com/watch?v=QlTQuqLQ3vk",
+          "description": "This showcase focuses on Tokyo City, the largest urban environment ever built for a Forza Horizon game, including dense roads, verticality, districts, and city driving atmosphere.",
+          "watchReason": "Best match for Forza Horizon 6 Tokyo trailer, city map, and Japan open-world searches."
+        },
+        {
+          "title": "Forza Horizon 6 The Art of Driving",
+          "videoType": "Culture feature",
+          "url": "https://www.youtube.com/watch?v=HyjVC7fKLVg",
+          "description": "The Art of Driving series explores the Japanese artists and cultural references that shape the murals, visual identity, and car-culture atmosphere of Forza Horizon 6.",
+          "watchReason": "Useful for users interested in Forza Horizon 6 Japanese culture, murals, and artistic direction."
+        },
+        {
+          "title": "Forza Horizon 6 Official Forza YouTube Channel",
+          "videoType": "Channel",
+          "url": "https://www.youtube.com/@Forza",
+          "description": "The official channel collects Forza Horizon 6 trailers, biome showcases, garage features, car culture videos, and post-reveal updates.",
+          "watchReason": "Best ongoing source for newly published Forza Horizon 6 official gameplay clips."
+        }
+      ]
+    },
+    "forzaHorizon6BeginnerGuide": {
+      "title": "Forza Horizon 6 Beginner Guide: Tourist Start, Wristbands, Collection Journal, and Legend Island",
+      "eyebrow": "Forza Horizon 6 Beginner Guide",
+      "subtitle": "Learn how the early campaign works, how to qualify for the Horizon Festival, how Wristbands and Stamps progress, and what to prioritize when exploring Japan.",
+      "intro": "Forza Horizon 6 starts differently from previous Horizon games: you arrive in Japan as a tourist instead of a superstar. The early loop is built around proving yourself, qualifying for the Horizon Festival, earning Wristbands, collecting Stamps, and using the Collection Journal to turn exploration into steady rewards.",
+      "steps": [
+        {
+          "step": 1,
+          "title": "Forza Horizon 6 tourist start in Japan",
+          "description": "Your campaign begins as a festival tourist with no carried-over fame from previous Horizon games. Mei, an experienced Japanese car builder, and Jordy, a motorsports enthusiast, help you discover Japan and work toward joining the Horizon Festival.",
+          "tip": "Treat the Forza Horizon 6 opening as both a tutorial and a world-introduction route: learn the roads, listen to the guidance, and sample different surfaces before chasing speed."
+        },
+        {
+          "step": 2,
+          "title": "Forza Horizon 6 Horizon Qualifiers",
+          "description": "To join the Horizon Festival, complete the Horizon Qualifiers and then the Horizon Invitational. This earns your first Wristband and moves you from tourist status into the official Festival progression path.",
+          "tip": "Focus on clean driving and learning Forza Horizon 6 event types first; the campaign gradually introduces faster cars and more specific restrictions."
+        },
+        {
+          "step": 3,
+          "title": "Forza Horizon 6 Festival races",
+          "description": "Festival races are curated around specific car sets in Road, Dirt, and Cross Country events. Each new Wristband opens more events around Japan and moves the campaign toward faster car themes.",
+          "tip": "Do not rush to hypercars for Forza Horizon 6 Festival progression; official Festival events use structured restrictions."
+        },
+        {
+          "step": 4,
+          "title": "Forza Horizon 6 Wristband progression",
+          "description": "Festival Events, PR Stunts, and Skills contribute to your next Wristband. When you have enough progress, complete a Wristband Event such as a Showcase or Horizon Rush obstacle course.",
+          "tip": "Forza Horizon 6 Horizon Rush courses test speed and precision with splits, star targets, and locations such as Tokyo City Docks, Sotoyama Ski Resort, and Irokawa Space Center."
+        },
+        {
+          "step": 5,
+          "title": "Forza Horizon 6 Race Customizer",
+          "description": "After completing a Festival Event once, Race Customizer unlocks for that event. You can adjust Drivatars up to 11, season, weather, time of day, time progression, laps, Rewind, camera lock, traffic, and car restrictions.",
+          "tip": "Replay completed Forza Horizon 6 events with your own restrictions to test builds, create themed races, or play the same setup with a Convoy."
+        },
+        {
+          "step": 6,
+          "title": "Forza Horizon 6 Discover Japan route",
+          "description": "Outside the Festival path, Discover Japan focuses on earning Stamps through photos, food delivery, car collecting, Horizon Stories, Touge Battles, and night-time Street Races. This path lets you explore at your own pace.",
+          "tip": "Forza Horizon 6 Street Races and Touge Battles are useful when you want to drive cars that are not currently allowed in Festival Events."
+        },
+        {
+          "step": 7,
+          "title": "Forza Horizon 6 Collection Journal",
+          "description": "The Collection Journal tracks campaign progress across Horizon Festival and Discover Japan. It also records discoveries such as cars, houses, landmarks, mascots, and photos, then lets you redeem rewards including cars, credits, and cosmetic items.",
+          "tip": "Use the Forza Horizon 6 Collection Journal as your main checklist when you feel unsure what to do next."
+        },
+        {
+          "step": 8,
+          "title": "Forza Horizon 6 homes, garages, Barn Finds, and The Estate",
+          "description": "Collecting Stamps unlocks Player Houses with Customizable Garages, Barn Find Rumors, and The Estate, a mountain valley where you can build and decorate directly in the open world.",
+          "tip": "Prioritize Forza Horizon 6 Stamps if you care about garage display, map exploration, and long-term collection rewards."
+        },
+        {
+          "step": 9,
+          "title": "Forza Horizon 6 Legend Island",
+          "description": "Earning all 7 Festival Wristbands makes you a Horizon Legend and unlocks Legend Island, an exclusive region with the Legend Island Circuit, unique events, and the Colossus, the longest Goliath event that loops the full map on the freeway.",
+          "tip": "Forza Horizon 6 Legend Island is designed as a major campaign milestone and a strong endgame target for R Class cars."
+        }
+      ]
+    },
+    "forzaHorizon6TougeBattlesAndTimeAttack": {
+      "title": "Forza Horizon 6 Touge Battles and Time Attack",
+      "eyebrow": "Forza Horizon 6 Race Types",
+      "subtitle": "Break down Forza Horizon 6 race formats built around Japan's mountain roads, shared-world circuits, drag strips, night-time street racing, and leaderboard chasing.",
+      "intro": "Forza Horizon 6 leans heavily into Japanese car culture with Touge Battles, Time Attack Circuits, Drag Meets, Street Races, and roads inspired by famous Japanese driving locations. These activities sit alongside the Horizon Festival campaign and Discover Japan path, giving players structured races, open-world challenges, leaderboard pressure, and free-roam-friendly competition.",
+      "items": [
+        {
+          "label": "Forza Horizon 6 Touge Battles",
+          "title": "Night-time mountain pass races",
+          "content": "Forza Horizon 6 Touge Battles are night-time races down Japanese mountain passes. They are part of the Discover Japan experience and connect directly to the game's Japanese car culture theme.",
+          "playerGoal": "Master tight roads, elevation changes, and mountain-pass racing outside the stricter Horizon Festival race structure.",
+          "details": [
+            "Just Getting Started: Complete your first Touge Battle",
+            "White Ghost: Complete 5 Touge Battles"
+          ]
+        },
+        {
+          "label": "Forza Horizon 6 Time Attack Circuits",
+          "title": "Shared-world hot laps with live leaderboard pressure",
+          "content": "Forza Horizon 6 Time Attack challenges players to set the fastest lap time across grassroots circuits in the Shared World. Players start by driving through a gantry, then hot lap without loading screens while earning Credits and XP for completed laps.",
+          "playerGoal": "Set a Current Best, chase split times, compare against friends in a Convoy Leaderboard, and compete on in-world seasonal leaderboards.",
+          "details": [
+            "Another Lap Won't Hurt: Set a lap time at a Time Attack Circuit",
+            "Track Day: Set a lap time at a Time Attack Circuit while driving any Track Toy"
+          ]
+        },
+        {
+          "label": "Forza Horizon 6 Drag Meets",
+          "title": "Shared-world launch battles across three drag strips",
+          "content": "Forza Horizon 6 Drag Meets test car performance across varied drag strips with synchronized tree lights. Confirmed Drag Strip locations include Festival Site 1K, Irokawa Space Center 1/4 Mile, and Airfield 1/2 Mile.",
+          "playerGoal": "Ready up at the start grid, launch with other players, tune for acceleration and top speed, and chase Convoy or weekly in-world leaderboard times.",
+          "details": [
+            "Fresh Tire Smoke: Complete a Drag Meet",
+            "Up to 12 players per Drag Meet"
+          ]
+        },
+        {
+          "label": "Forza Horizon 6 Street Races",
+          "title": "Night-time racing for cars outside Festival restrictions",
+          "content": "Forza Horizon 6 Street Races appear within the Discover Japan path and are positioned as a place to drive cars that may not yet qualify for official Horizon Festival events.",
+          "playerGoal": "Race freely in Japan at night while progressing outside the main Wristband race structure.",
+          "details": [
+            "Discover Japan",
+            "Collection Journal Stamps",
+            "Free Roam"
+          ]
+        },
+        {
+          "label": "Forza Horizon 6 Japanese Road Inspiration",
+          "title": "C1 loop, Gingko Avenue, Mt. Haruna, and Bandai Azuma influences",
+          "content": "Forza Horizon 6 Japan features roads inspired by the C1 loop, Gingko Avenue, and mountain passes such as Mt. Haruna and Bandai Azuma. This gives the race-type mix a stronger Japan-specific identity than a generic open-world racing layout.",
+          "playerGoal": "Use the urban expressway-style roads, neon city districts, rural routes, and mountain areas to build different driving routines.",
+          "details": [
+            "Urban loops",
+            "Mountain passes",
+            "Rural roads"
+          ]
+        },
+        {
+          "label": "Forza Horizon 6 Time Attack Car Pack",
+          "title": "Eight launch cars tuned for Time Attack driving",
+          "content": "The Forza Horizon 6 Time Attack Car Pack adds 8 cars to the garage at release, built around mastering Time Attack Circuits around Japan.",
+          "playerGoal": "Use purpose-built WTAC-style cars for circuit practice, leaderboard attempts, and Time Attack-focused garage planning.",
+          "details": [
+            "1990 Honda #19 CRX WTAC",
+            "1992 Honda #21 Hardrace/JDMYard Civic WTAC",
+            "2001 Honda #33 BYP Racing Integra WTAC",
+            "2004 Honda #52 Evasive Motorsports S2000 WTAC",
+            "1990 Mitsubishi #269 Attacking the Clock Racing Minicab Time Attack",
+            "1993 Nissan #32 Skyline WTAC 'Xtreme GTR'",
+            "2000 Nissan #36 Silvia WTAC",
+            "1995 Toyota J&J Motorsport Supra WTAC"
+          ]
+        }
+      ]
+    },
+    "forzaHorizon6MultiplayerAndCrossSave": {
+      "title": "Forza Horizon 6 Multiplayer and Cross Save",
+      "eyebrow": "Forza Horizon 6 Multiplayer",
+      "subtitle": "Forza Horizon 6 supports co-op play, shared open-world activities, returning Horizon Multiplayer modes, and cross-save across PC and console versions.",
+      "intro": "Multiplayer in Forza Horizon 6 is built around seamless shared-world activities rather than waiting through loading screens for every social moment. Players can join Car Meets, complete Drag Meets and Time Attack Circuits, earn LINK Skills together, compete in Spec Racing Championships, and carry progress across the supported PC and console ecosystem.",
+      "items": [
+        {
+          "title": "Forza Horizon 6 Co-op Campaign and Convoys",
+          "description": "The Forza Horizon 6 campaign is playable solo or in co-op with friends. When replaying Festival Events, a Convoy leader can shape an event setup through Race Customizer options such as Drivatars, season, weather, time of day, laps, Rewind, camera lock, traffic, and car restrictions.",
+          "badges": [
+            "Co-op",
+            "Convoy",
+            "Race Customizer"
+          ]
+        },
+        {
+          "title": "Forza Horizon 6 Car Meets",
+          "description": "Forza Horizon 6 Car Meets return as Shared Open World spaces where players can drive past, see real live players, and join instantly without loading screens. Confirmed locations include the Horizon Festival Site, Okuibuki Parking Lot in the alpine, and Daikoku in Tokyo City, with temporary Car Meets planned for the Live Program.",
+          "badges": [
+            "Shared Open World",
+            "Daikoku",
+            "No Loading"
+          ]
+        },
+        {
+          "title": "Forza Horizon 6 LINK Skills",
+          "description": "Forza Horizon 6 LINK Skills reward players when they bank skills at the same time as another player, making tandem drifting, coordinated jumps, and group skill chains part of the shared-world progression loop.",
+          "badges": [
+            "Co-op Skills",
+            "Free Roam",
+            "Friends"
+          ]
+        },
+        {
+          "title": "Forza Horizon 6 Time Attack and Drag Meets",
+          "description": "Forza Horizon 6 Time Attack Circuits and Drag Meets are seamless open-world activities with Convoy Leaderboards and in-world leaderboards. Drag Meets support up to 12 players, while Time Attack lets any player arrive in the Shared World and chase lap times.",
+          "badges": [
+            "Time Attack",
+            "Drag Meets",
+            "Leaderboards"
+          ]
+        },
+        {
+          "title": "Forza Horizon 6 Horizon Multiplayer Modes",
+          "description": "Forza Horizon 6 includes returning Horizon Multiplayer modes such as The Eliminator and Hide & Seek, plus new Spec Racing Championships for more structured competitive racing.",
+          "badges": [
+            "The Eliminator",
+            "Hide & Seek",
+            "Spec Racing"
+          ]
+        },
+        {
+          "title": "Forza Horizon 6 Cross-play and Cross-save",
+          "description": "Forza Horizon 6 supports cross-play and cross-save between PC and console versions. Cross-save covers Xbox Series X|S, Xbox on PC, Steam, SteamOS devices, PC gaming handhelds, and the PlayStation 5 version coming later in 2026.",
+          "badges": [
+            "Cross-play",
+            "Cross-save",
+            "Steam"
+          ]
+        },
+        {
+          "title": "Forza Horizon 6 Xbox Play Anywhere",
+          "description": "Digital Forza Horizon 6 purchases through Xbox Series X|S or the Microsoft Store on PC support Xbox Play Anywhere, allowing play on Xbox console and PC with save profile and eligible DLC entitlements carried over within that ecosystem.",
+          "badges": [
+            "Xbox",
+            "PC",
+            "Play Anywhere"
+          ]
+        },
+        {
+          "title": "Forza Horizon 6 Steam and PS5 Ownership",
+          "description": "Forza Horizon 6 on Steam is a standalone product, and the PlayStation 5 version is also a standalone product. Paid downloadable content generally needs to be purchased on each platform where the player wants to access it, except where Xbox Play Anywhere entitlement rules apply.",
+          "badges": [
+            "Steam",
+            "PS5",
+            "DLC"
+          ]
+        }
+      ]
+    },
+    "forzaHorizon6TreasureCarsAndCollectionJournal": {
+      "title": "Forza Horizon 6 Treasure Cars and Collection Journal",
+      "eyebrow": "Forza Horizon 6 Collectibles",
+      "subtitle": "Use the Forza Horizon 6 Collection Journal to track cars, houses, landmarks, mascots, Stamps, photos, Barn Finds, and Treasure Cars across Japan.",
+      "intro": "The Collection Journal is the main exploration record for Forza Horizon 6. It tracks both Horizon Festival and Discover Japan progress, records what players find across Japan, stores photos attached to the Journal, and connects exploration to rewards such as cars, credits, cosmetics, Player Houses, Barn Find Rumors, and The Estate.",
+      "steps": [
+        {
+          "step": 1,
+          "title": "Reveal Forza Horizon 6 Japan as you drive",
+          "description": "Explore the map naturally instead of only following fixed icons. Forza Horizon 6 introduces a fog-of-war style map reveal, so regions and activities become part of the road trip as players discover them.",
+          "targets": [
+            "Entire map reveal",
+            "10 regions",
+            "10 landmarks"
+          ],
+          "hooks": [
+            "The Horizon Cartographer",
+            "Racking Up The Miles",
+            "Pin It!"
+          ]
+        },
+        {
+          "step": 2,
+          "title": "Earn Forza Horizon 6 Collection Journal Stamps",
+          "description": "Discover Japan focuses on earning Stamps inspired by Japan's stamp collecting culture. Players earn progress through activities such as taking photos, delivering food as a side hustle, collecting cars, and completing Horizon Stories.",
+          "targets": [
+            "Yellow Stamp",
+            "Green Stamp",
+            "Blue Stamp",
+            "Pink Stamp",
+            "Orange Stamp",
+            "Purple Stamp",
+            "Gold Stamp"
+          ],
+          "hooks": [
+            "Player Houses",
+            "Customizable Garages",
+            "Barn Find Rumors",
+            "The Estate"
+          ]
+        },
+        {
+          "step": 3,
+          "title": "Use the Forza Horizon 6 Journal as a reward hub",
+          "description": "The Collection Journal is where players redeem unique rewards for completing specific activities and challenges. Rewards include cars, credits, and cosmetic items, and Journal photos can be saved as keepsakes or replaced later with better shots.",
+          "targets": [
+            "Activity rewards",
+            "Photo entries",
+            "Cars",
+            "Credits",
+            "Cosmetics"
+          ],
+          "hooks": [
+            "Reward claims",
+            "Photo keepsakes",
+            "Collection progress"
+          ]
+        },
+        {
+          "step": 4,
+          "title": "Find Forza Horizon 6 Aftermarket Cars in the open world",
+          "description": "Aftermarket Cars are parked around Japan and can be test driven or added to the collection. Some appear near Festival Races that match campaign restrictions, while others sit near Time Attack Circuits with modifications suited for track driving.",
+          "targets": [
+            "2003 Honda S2000 with a Rocket Bunny body kit",
+            "1993 Autozam AZ-1 upgraded with Mazdaspeed parts",
+            "2015 McLaren 570S Coupe with Duke Dynamics modifications"
+          ],
+          "hooks": [
+            "Bargain Hunt: Purchase an Aftermarket Car"
+          ]
+        },
+        {
+          "step": 5,
+          "title": "Solve Forza Horizon 6 Treasure Car photo clues",
+          "description": "Mei sends photograph clues for abandoned Treasure Cars hidden through exploration. When players find a Treasure Car, they can restore it and drive it immediately or add it to the garage.",
+          "targets": [
+            "1991 Nissan Figaro",
+            "1985 Nissan Safari Turbo",
+            "1969 Dodge Charger R/T"
+          ],
+          "hooks": [
+            "A Fine Addition To My Collection: Discover and claim a Treasure Car",
+            "Treasure Hunter: Discover and claim 9 Treasure Cars"
+          ]
+        },
+        {
+          "step": 6,
+          "title": "Unlock Forza Horizon 6 Barn Find Rumors through Stamps",
+          "description": "Barn Finds return alongside Aftermarket Cars and Treasure Cars. Barn Find clues are earned as players collect Stamps for the Collection Journal.",
+          "targets": [
+            "Barn Find Rumors",
+            "Rustic cars",
+            "Stamp milestones"
+          ],
+          "hooks": [
+            "Discovery progress",
+            "Garage rewards",
+            "Collection Journal route"
+          ]
+        },
+        {
+          "step": 7,
+          "title": "Clear Forza Horizon 6 mascot, board, and regional collection goals",
+          "description": "Exploration also includes collectible mascots, bonus boards, regional activity goals, and story stars. These objectives turn free roam into a long-tail completion route after the main campaign milestones.",
+          "targets": [
+            "200 Regional Mascots",
+            "200 Bonus Boards",
+            "33 Tokyo City activities",
+            "81 Story Stars"
+          ],
+          "hooks": [
+            "Smashscot",
+            "Gotta Smash 'em All",
+            "A Few Splinters Is Nothing!",
+            "Tokyo Resident",
+            "Storyteller"
+          ]
+        }
+      ]
+    },
+    "forzaHorizon6Achievements": {
+      "title": "Forza Horizon 6 Achievements: All 57 Goals and 1,000 Gamerscore",
+      "eyebrow": "Forza Horizon 6 Achievements",
+      "subtitle": "Track every Forza Horizon 6 Steam and Xbox achievement target across Wristbands, Stamps, Touge Battles, Time Attack, Treasure Cars, Car Meets, Horizon Play, and exploration.",
+      "intro": "Forza Horizon 6 launches with a full achievement list shared across Xbox and Steam versions. The goals cover the Horizon Festival campaign, Discover Japan Stamps, Collection Journal progress, car collecting, unique events, multiplayer activities, and open-world completion.",
+      "items": [
+        {
+          "title": "Working 9 to 5",
+          "objective": "Complete your first Job",
+          "gamerscore": 10,
+          "category": "Campaign"
+        },
+        {
+          "title": "Just Getting Started",
+          "objective": "Complete your first Touge Battle",
+          "gamerscore": 10,
+          "category": "Race Type"
+        },
+        {
+          "title": "Welcome To Japan",
+          "objective": "Complete The Opening Act",
+          "gamerscore": 10,
+          "category": "Campaign"
+        },
+        {
+          "title": "First of Many",
+          "objective": "Complete your first Qualifier",
+          "gamerscore": 10,
+          "category": "Campaign"
+        },
+        {
+          "title": "Welcome To Horizon",
+          "objective": "Earn the Yellow Wristband and join the Horizon Festival",
+          "gamerscore": 10,
+          "category": "Wristbands"
+        },
+        {
+          "title": "Festival Fan",
+          "objective": "Earn the Green Horizon Festival Wristband",
+          "gamerscore": 10,
+          "category": "Wristbands"
+        },
+        {
+          "title": "Making Waves",
+          "objective": "Earn the Blue Horizon Festival Wristband",
+          "gamerscore": 10,
+          "category": "Wristbands"
+        },
+        {
+          "title": "What, Like It's Hard?",
+          "objective": "Earn the Pink Horizon Festival Wristband",
+          "gamerscore": 20,
+          "category": "Wristbands"
+        },
+        {
+          "title": "Orange You Glad You Made It?",
+          "objective": "Earn the Orange Horizon Festival Wristband",
+          "gamerscore": 20,
+          "category": "Wristbands"
+        },
+        {
+          "title": "In The Spotlight",
+          "objective": "Earn the Purple Horizon Festival Wristband",
+          "gamerscore": 30,
+          "category": "Wristbands"
+        },
+        {
+          "title": "Horizon Legend",
+          "objective": "Earn the Gold Horizon Festival Wristband and become a Horizon Legend",
+          "gamerscore": 50,
+          "category": "Wristbands"
+        },
+        {
+          "title": "Stamping Ground",
+          "objective": "Earn the Yellow Stamp in your Collection Journal",
+          "gamerscore": 10,
+          "category": "Collection Journal"
+        },
+        {
+          "title": "Seeing the Sights",
+          "objective": "Earn the Green Stamp in your Collection Journal",
+          "gamerscore": 10,
+          "category": "Collection Journal"
+        },
+        {
+          "title": "Travelling All Around",
+          "objective": "Earn the Blue Stamp in your Collection Journal",
+          "gamerscore": 10,
+          "category": "Collection Journal"
+        },
+        {
+          "title": "Making Your Own Path",
+          "objective": "Earn the Pink Stamp in your Collection Journal",
+          "gamerscore": 20,
+          "category": "Collection Journal"
+        },
+        {
+          "title": "Hey! Listen!",
+          "objective": "Earn the Orange Stamp in your Collection Journal",
+          "gamerscore": 20,
+          "category": "Collection Journal"
+        },
+        {
+          "title": "What An Adventure!",
+          "objective": "Earn the Purple Stamp in your Collection Journal",
+          "gamerscore": 30,
+          "category": "Collection Journal"
+        },
+        {
+          "title": "Master Explorer",
+          "objective": "Earn the Gold Stamp and become a Master Explorer",
+          "gamerscore": 50,
+          "category": "Collection Journal"
+        },
+        {
+          "title": "The Boss",
+          "objective": "Earn the maximum Promotion in a Job",
+          "gamerscore": 20,
+          "category": "Jobs"
+        },
+        {
+          "title": "A Fine Addition To My Collection",
+          "objective": "Discover and claim a Treasure Car",
+          "gamerscore": 10,
+          "category": "Collectibles"
+        },
+        {
+          "title": "Treasure Hunter",
+          "objective": "Discover and claim 9 Treasure Cars",
+          "gamerscore": 30,
+          "category": "Collectibles"
+        },
+        {
+          "title": "Bargain Hunt",
+          "objective": "Purchase an Aftermarket Car",
+          "gamerscore": 10,
+          "category": "Cars"
+        },
+        {
+          "title": "The Horizon Cartographer",
+          "objective": "Reveal the entire Map",
+          "gamerscore": 50,
+          "category": "Exploration"
+        },
+        {
+          "title": "Another Lap Won't Hurt",
+          "objective": "Set a lap time at a Time Attack Circuit",
+          "gamerscore": 10,
+          "category": "Time Attack"
+        },
+        {
+          "title": "Fresh Tire Smoke",
+          "objective": "Complete a Drag Meet",
+          "gamerscore": 10,
+          "category": "Drag Meets"
+        },
+        {
+          "title": "Four Swords",
+          "objective": "Complete a LINK Skill",
+          "gamerscore": 10,
+          "category": "Multiplayer"
+        },
+        {
+          "title": "Racking Up The Miles",
+          "objective": "Discover all 10 regions",
+          "gamerscore": 20,
+          "category": "Exploration"
+        },
+        {
+          "title": "Tokyo Resident",
+          "objective": "Complete 33 activities in the Tokyo City Region",
+          "gamerscore": 20,
+          "category": "Region Activities"
+        },
+        {
+          "title": "Crowd Pleaser",
+          "objective": "Earn 36 Stars from PR Stunts in the Ohtani Region",
+          "gamerscore": 20,
+          "category": "PR Stunts"
+        },
+        {
+          "title": "White Ghost",
+          "objective": "Complete 5 Touge Battles",
+          "gamerscore": 20,
+          "category": "Touge Battles"
+        },
+        {
+          "title": "Carkour!",
+          "objective": "Complete a Horizon Rush",
+          "gamerscore": 10,
+          "category": "Horizon Rush"
+        },
+        {
+          "title": "Feel The Rush",
+          "objective": "Complete 3 Horizon Rush Events",
+          "gamerscore": 20,
+          "category": "Horizon Rush"
+        },
+        {
+          "title": "Blank Slate",
+          "objective": "Purchase the Yashiki Player House",
+          "gamerscore": 10,
+          "category": "Player Houses"
+        },
+        {
+          "title": "What Are You Doing In My Estate?",
+          "objective": "Visit another player's Estate",
+          "gamerscore": 10,
+          "category": "The Estate"
+        },
+        {
+          "title": "Show Me What You've Got!",
+          "objective": "Display 3 different cars in your Garage at the same time",
+          "gamerscore": 10,
+          "category": "Garage"
+        },
+        {
+          "title": "Dedicated Tourist",
+          "objective": "Earn 3 Stars on any Day Trip Story Chapter",
+          "gamerscore": 10,
+          "category": "Stories"
+        },
+        {
+          "title": "Collector",
+          "objective": "Collect 100 different cars",
+          "gamerscore": 20,
+          "category": "Cars"
+        },
+        {
+          "title": "First Love",
+          "objective": "Purchase a car from the Autoshow",
+          "gamerscore": 10,
+          "category": "Cars"
+        },
+        {
+          "title": "Meching My Way Downtown",
+          "objective": "Complete the Mech My Day Showcase Event",
+          "gamerscore": 20,
+          "category": "Showcase Events"
+        },
+        {
+          "title": "Ascending New Heights",
+          "objective": "Complete the Flight Club Showcase Event",
+          "gamerscore": 20,
+          "category": "Showcase Events"
+        },
+        {
+          "title": "Parking All Over The World",
+          "objective": "Park at 3 different Car Meets",
+          "gamerscore": 10,
+          "category": "Car Meets"
+        },
+        {
+          "title": "A Whole New World",
+          "objective": "Drive any R Class car",
+          "gamerscore": 10,
+          "category": "Cars"
+        },
+        {
+          "title": "Ready to Rumble",
+          "objective": "Earn 10 levels in Horizon Play",
+          "gamerscore": 10,
+          "category": "Horizon Play"
+        },
+        {
+          "title": "Maxed Out",
+          "objective": "Earn 100 levels in Horizon Play",
+          "gamerscore": 30,
+          "category": "Horizon Play"
+        },
+        {
+          "title": "Even Playing Field",
+          "objective": "Complete a Race Event within a Spec Racing Championship",
+          "gamerscore": 10,
+          "category": "Multiplayer"
+        },
+        {
+          "title": "To The Moon",
+          "objective": "Earn at least 1 Star at the Irokawa Launch Danger Sign",
+          "gamerscore": 10,
+          "category": "PR Stunts"
+        },
+        {
+          "title": "All Eyes On You",
+          "objective": "Park the 2025 GR GT Prototype at a Car Meet",
+          "gamerscore": 10,
+          "category": "Car Meets"
+        },
+        {
+          "title": "Track Day",
+          "objective": "Set a lap time at a Time Attack Circuit while driving any Track Toy",
+          "gamerscore": 10,
+          "category": "Time Attack"
+        },
+        {
+          "title": "Historic Effort",
+          "objective": "Earn a Series History reward",
+          "gamerscore": 30,
+          "category": "Series History"
+        },
+        {
+          "title": "Played-List",
+          "objective": "Earn all Festival Playlist points for a season",
+          "gamerscore": 30,
+          "category": "Festival Playlist"
+        },
+        {
+          "title": "Smashscot",
+          "objective": "Smash your first Regional Mascot",
+          "gamerscore": 10,
+          "category": "Collectibles"
+        },
+        {
+          "title": "Gotta Smash 'em All",
+          "objective": "Smash 200 Regional Mascots",
+          "gamerscore": 30,
+          "category": "Collectibles"
+        },
+        {
+          "title": "A Few Splinters Is Nothing!",
+          "objective": "Smash 200 Bonus Boards",
+          "gamerscore": 30,
+          "category": "Collectibles"
+        },
+        {
+          "title": "Racing Aficionado",
+          "objective": "Win 57 Horizon Festival Race Events",
+          "gamerscore": 30,
+          "category": "Festival Races"
+        },
+        {
+          "title": "On The Board",
+          "objective": "Win your first Horizon Festival Race Event",
+          "gamerscore": 10,
+          "category": "Festival Races"
+        },
+        {
+          "title": "Pin It!",
+          "objective": "Discover 10 Landmarks",
+          "gamerscore": 10,
+          "category": "Landmarks"
+        },
+        {
+          "title": "Storyteller",
+          "objective": "Earn 81 Stars from Stories",
+          "gamerscore": 10,
+          "category": "Stories"
+        }
+      ],
+      "summary": [
+        "Forza Horizon 6 includes 57 achievements worth 1,000 Gamerscore.",
+        "Forza Horizon 6 achievement goals cover campaign, Discover Japan, Collection Journal, cars, racing, multiplayer, and exploration.",
+        "Forza Horizon 6 completion routes should balance Wristbands, Stamps, Treasure Cars, Time Attack, Car Meets, and open-world collectibles."
       ]
     }
   },
   "faq": {
-    "title": "Preguntas",
-    "titleHighlight": "frecuentes",
-    "subtitle": "Todo lo que necesitas saber sobre Lucid Blocks",
+    "title": "Forza Horizon 6 FAQ",
+    "titleHighlight": "Forza Horizon 6 Answers",
+    "subtitle": "Quick Forza Horizon 6 answers for launch date, Steam, Game Pass, Premium Early Access, and platform availability.",
     "questions": [
       {
-        "question": "¿Es Lucid Blocks un juego para un solo jugador?",
-        "answer": "Sí. Lucid Blocks es un juego exclusivamente para un solo jugador, sin planes para multijugador o cooperativo."
+        "question": "When is the Forza Horizon 6 release date?",
+        "answer": "Forza Horizon 6 launches on Xbox Series X|S and PC on May 19, 2026, with the Steam store displaying May 18, 2026 for its storefront timing."
       },
       {
-        "question": "¿Qué es el sistema Apotheosis en Lucid Blocks?",
-        "answer": "Apotheosis es el sistema de creación por fusión de forma libre de Lucid Blocks. En lugar de seguir recetas fijas, combinas materiales y descubres tus propias rutas de creación."
+        "question": "Does Forza Horizon 6 have Premium Early Access?",
+        "answer": "Yes. Forza Horizon 6 Premium Edition and Premium Upgrade owners can start up to four days early beginning May 15, 2026."
       },
       {
-        "question": "¿Dónde puedo jugar Lucid Blocks?",
-        "answer": "Lucid Blocks está disponible actualmente en Steam para Windows. El soporte para Linux y Steam Deck está disponible a través de Proton 9.0."
+        "question": "Is Forza Horizon 6 on Steam?",
+        "answer": "Yes. Forza Horizon 6 is available for Steam pre-purchase with Standard, Deluxe, and Premium Edition options."
       },
       {
-        "question": "¿Cuánto cuesta Lucid Blocks?",
-        "answer": "Lucid Blocks cuesta $9.99 en Steam."
+        "question": "Is Forza Horizon 6 on Game Pass?",
+        "answer": "Yes. Forza Horizon 6 Standard Edition is included with Game Pass Ultimate and PC Game Pass on launch day."
       },
       {
-        "question": "¿Lucid Blocks es compatible con controles?",
-        "answer": "Sí, pero no se recomienda jugar con control porque los menús no están diseñados para ello. El teclado y el mouse son la opción más fluida."
+        "question": "How much does Forza Horizon 6 cost on Steam?",
+        "answer": "Forza Horizon 6 Steam pricing lists Standard Edition at $69.99, Deluxe Edition at $99.99, and Premium Edition at $119.99."
       },
       {
-        "question": "¿Recibirá actualizaciones Lucid Blocks?",
-        "answer": "Sí. Se planean algunas actualizaciones de contenido después del lanzamiento, pero no se pretende que continúen con un calendario regular indefinido."
+        "question": "Is Forza Horizon 6 coming to PlayStation 5?",
+        "answer": "Yes. Forza Horizon 6 arrives on PlayStation 5 later in 2026 after the Xbox Series X|S and PC launch."
       }
     ]
   },
   "cta": {
-    "title": "¿Listo para explorar Lucid Blocks?",
-    "description": "¡Únete a la comunidad de Lucid Blocks en Discord para ver guías, actualizaciones y discusiones!",
-    "joinCommunity": "Únete a Discord",
-    "joinGame": "Juega en Steam"
+    "title": "Ready for Forza Horizon 6?",
+    "description": "Follow official Forza Horizon 6 channels for release timing, Steam editions, car list updates, Japan map news, and community discussions.",
+    "joinCommunity": "Join Forza Discord",
+    "joinGame": "Pre-Purchase Forza Horizon 6 on Steam"
   },
   "footer": {
-    "title": "Wiki de Lucid Blocks",
-    "description": "Tu centro completo de recursos para la fabricación, biomas, criaturas, logros y guías de supervivencia de Lucid Blocks.",
-    "resources": "Recursos",
-    "community": "Comunidad",
+    "title": "Forza Horizon 6",
+    "description": "Unofficial Forza Horizon 6 resource hub for release date, Steam editions, car list, Japan map, Tokyo City, system requirements, and trailer updates.",
+    "resources": "Resources",
+    "community": "Community",
     "legal": "Legal",
-    "discord": "Discord",
-    "twitter": "X / Twitter",
-    "steamCommunity": "Comunidad de Steam",
-    "steamStore": "Tienda de Steam",
-    "about": "Acerca de",
-    "privacy": "Política de privacidad",
-    "terms": "Términos de servicio",
-    "copyrightNotice": "Derechos de autor",
-    "copyright": "© 2026 Wiki de Lucid Blocks. No afiliada con los desarrolladores de Lucid Blocks.",
-    "disclaimer": "Sitio web de recursos no oficial creado por fans."
+    "officialSite": "Forza Horizon 6 Official Site",
+    "xboxPage": "Forza Horizon 6 on Xbox",
+    "discord": "Forza Official Discord",
+    "twitter": "Forza Forums",
+    "reddit": "r/ForzaHorizon",
+    "youtubeTrailer": "Official Teaser Trailer",
+    "steamCommunity": "Steam Community",
+    "steamStore": "Forza Horizon 6 on Steam",
+    "about": "About Forza Horizon 6",
+    "privacy": "Privacy Policy",
+    "terms": "Terms of Service",
+    "copyrightNotice": "Copyright",
+    "copyright": "© 2026 Forza Horizon 6. This unofficial fan resource is not affiliated with Playground Games, Turn 10 Studios, Xbox Game Studios, Microsoft, or Valve.",
+    "disclaimer": "Forza Horizon 6 names, marks, and assets belong to their respective owners."
   },
   "pages": {
-    "guides": {
-      "title": "Guías de Lucid Blocks",
-      "description": "Guías completas de juego, desde conceptos básicos para principiantes hasta estrategias avanzadas de Apotheosis. Domina la supervivencia y la fabricación.",
-      "metaTitle": "Guías de Lucid Blocks - Estrategias de principiante a avanzado",
-      "metaDescription": "Guías completas de Lucid Blocks que cubren consejos para principiantes, el sistema Apotheosis, estrategias de supervivencia y tácticas expertas para dominar este sandbox surrealista.",
-      "categoryLabel": "GUÍAS DEL JUEGO",
-      "whatIs": "¿Qué son las guías?",
-      "whatIsDescription": "Guías exhaustivas que cubren mecánicas de juego, estrategias de supervivencia y el sistema de fabricación Apotheosis. Aprende todo, desde los primeros pasos hasta técnicas avanzadas.",
-      "why": "¿Por qué leer las guías?",
+    "release": {
+      "title": "Forza Horizon 6 Release",
+      "description": "Forza Horizon 6 release hub for Steam unlock timing, Xbox launch details, Game Pass access, early access, beta and demo questions, and countdown planning.",
+      "metaTitle": "Forza Horizon 6 Release - Dates, Unlocks & Early Access",
+      "metaDescription": "Track Forza Horizon 6 release details across Steam, Xbox, PC, Game Pass, early access, launch timing, beta questions, demo news, and countdown planning.",
+      "categoryLabel": "FORZA HORIZON 6 RELEASE",
+      "whatIs": "What is Forza Horizon 6 Release?",
+      "whatIsDescription": "Forza Horizon 6 release pages organize launch timing, store unlocks, early access windows, Game Pass availability, beta or demo questions, and platform rollout notes.",
+      "why": "Why follow Forza Horizon 6 release updates?",
       "whySteps": {
-        "step1Title": "Aprende las mecánicas principales",
-        "step1Description": "Entiende el sistema Apotheosis y evita errores comunes de principiante",
-        "step2Title": "Progresión rápida",
-        "step2Description": "Sigue caminos probados para sobrevivir y prosperar en este mundo surrealista",
-        "step3Title": "Domina las estrategias",
-        "step3Description": "Desarrolla tácticas avanzadas para la exploración y la fabricación"
+        "step1Title": "Forza Horizon 6 Launch Timing",
+        "step1Description": "Compare official launch dates, Steam unlock timing, regional display differences, and countdown expectations before release week.",
+        "step2Title": "Forza Horizon 6 Early Access",
+        "step2Description": "Understand Premium Early Access timing, advanced access wording, and how early play fits into each purchase path.",
+        "step3Title": "Forza Horizon 6 Access Planning",
+        "step3Description": "Plan around Xbox, PC, Steam, Game Pass, beta, demo, and pre-load questions without mixing in edition benefit details."
       },
-      "featured": "Destacado y esencial",
-      "all": "Todas las guías"
+      "featured": "Featured Forza Horizon 6 Release Guides",
+      "all": "All Forza Horizon 6 Release Guides"
     },
-    "crafting": {
-      "title": "Fabricación en Lucid Blocks",
-      "description": "Domina el sistema de fusión Apotheosis con mecánicas de esencia, recetas y estrategias de fabricación para objetos poderosos.",
-      "metaTitle": "Fabricación en Lucid Blocks - Sistema Apotheosis y recetas",
-      "metaDescription": "Domina el sistema de fabricación Apotheosis de Lucid Blocks. Aprende mecánicas de esencia, recetas de fusión y estrategias para crear herramientas y armas poderosas.",
-      "categoryLabel": "SISTEMA DE FABRICACIÓN",
-      "whatIs": "¿Qué es la fabricación?",
-      "whatIsDescription": "El sistema Apotheosis es una mecánica de fusión única impulsada por esencias donde combinas hasta seis objetos para descubrir nuevas recetas. Sin menús de fabricación fijos: la experimentación es la clave.",
-      "why": "¿Por qué dominar la fabricación?",
+    "platforms": {
+      "title": "Forza Horizon 6 Platforms",
+      "description": "Forza Horizon 6 platform guides for Steam, Xbox, PC, Game Pass, PlayStation timing, crossplay, cloud gaming, and store access questions.",
+      "metaTitle": "Forza Horizon 6 Platforms - Steam, Xbox, PC & Game Pass",
+      "metaDescription": "Compare Forza Horizon 6 platform access across Steam, Xbox, PC, Game Pass, PlayStation timing, crossplay, cloud gaming, and account setup.",
+      "categoryLabel": "FORZA HORIZON 6 PLATFORMS",
+      "whatIs": "What are Forza Horizon 6 Platforms?",
+      "whatIsDescription": "Forza Horizon 6 platform pages explain where the game can be played, how Steam and Xbox access differ, how Game Pass fits in, and what to expect from cross-platform features.",
+      "why": "Why compare Forza Horizon 6 platforms?",
       "whySteps": {
-        "step1Title": "Desbloquea objetos poderosos",
-        "step1Description": "Descubre herramientas esenciales, armas y equipo de movilidad a través de la fusión",
-        "step2Title": "Entiende las esencias",
-        "step2Description": "Aprende cómo se combinan las esencias de los objetos para crear resultados predecibles",
-        "step3Title": "Optimiza recursos",
-        "step3Description": "Usa mecánicas de dilución para maximizar la producción con materiales baratos"
+        "step1Title": "Forza Horizon 6 Store Choice",
+        "step1Description": "Compare Steam, Microsoft Store, Xbox app, Xbox Series X|S, and Game Pass paths before choosing where to play.",
+        "step2Title": "Forza Horizon 6 Crossplay Planning",
+        "step2Description": "Check crossplay, cloud gaming, controller, save, and account expectations for mixed-platform groups.",
+        "step3Title": "Forza Horizon 6 Console Questions",
+        "step3Description": "Track PlayStation timing, older console questions, Switch 2 searches, and platform availability without mixing in PC specs."
       },
-      "featured": "Destacado y esencial",
-      "all": "Todas las guías de fabricación"
+      "featured": "Featured Forza Horizon 6 Platform Guides",
+      "all": "All Forza Horizon 6 Platform Guides"
     },
-    "items": {
-      "title": "Objetos de Lucid Blocks",
-      "description": "Guías detalladas de objetos que cubren herramientas, armas, equipo de movilidad y soluciones de almacenamiento con recetas de fabricación y consejos de uso.",
-      "metaTitle": "Objetos de Lucid Blocks - Guía de herramientas, armas y equipo",
-      "metaDescription": "Base de datos completa de objetos para Lucid Blocks, incluyendo herramientas, armas, equipo de movilidad y almacenamiento. Aprende a fabricar y usar cada objeto de manera efectiva.",
-      "categoryLabel": "OBJETOS Y EQUIPAMIENTO",
-      "whatIs": "¿Qué son los objetos?",
-      "whatIsDescription": "Guías exhaustivas de herramientas, armas, equipo de movilidad y objetos funcionales. Aprende recetas de fabricación, estrategias de uso y combinaciones óptimas.",
-      "why": "¿Por qué consultar las guías de objetos?",
+    "map": {
+      "title": "Forza Horizon 6 Map",
+      "description": "Forza Horizon 6 map guides for Japan, Tokyo City, map size, locations, biomes, mountain roads, landmarks, and open-world exploration.",
+      "metaTitle": "Forza Horizon 6 Map - Japan, Tokyo City & Locations",
+      "metaDescription": "Explore Forza Horizon 6 map coverage for Japan, Tokyo City, map size, biomes, mountain roads, landmarks, routes, and open-world locations.",
+      "categoryLabel": "FORZA HORIZON 6 MAP",
+      "whatIs": "What is the Forza Horizon 6 Map?",
+      "whatIsDescription": "The Forza Horizon 6 map category covers the Japan setting, Tokyo City, rural roads, mountain routes, ports, seasonal regions, landmarks, and open-world route planning.",
+      "why": "Why explore the Forza Horizon 6 map?",
       "whySteps": {
-        "step1Title": "Aprende recetas de fabricación",
-        "step1Description": "Descubre cómo fabricar herramientas y armas esenciales usando Apotheosis",
-        "step2Title": "Optimiza tu equipamiento",
-        "step2Description": "Elige los mejores objetos para tu estilo de juego y etapa de progresión",
-        "step3Title": "Mejora tu supervivencia",
-        "step3Description": "Equípate con equipo de movilidad y armas para navegar por este mundo peligroso"
+        "step1Title": "Forza Horizon 6 Japan Setting",
+        "step1Description": "Understand how Tokyo, countryside routes, mountain roads, ports, and landmarks shape the festival world.",
+        "step2Title": "Forza Horizon 6 Route Planning",
+        "step2Description": "Prepare for city drives, touge routes, Time Attack roads, scenic cruising, and collectible routes across Japan.",
+        "step3Title": "Forza Horizon 6 Map Size Context",
+        "step3Description": "Follow map size, biome variety, location names, region reveals, and full-map coverage as pages are added."
       },
-      "featured": "Destacado y esencial",
-      "all": "Todos los objetos"
+      "featured": "Featured Forza Horizon 6 Map Guides",
+      "all": "All Forza Horizon 6 Map Guides"
     },
-    "biomes": {
-      "title": "Biomas de Lucid Blocks",
-      "description": "Explora las regiones del mundo, características ambientales, ubicaciones de recursos y consejos de supervivencia para cada bioma.",
-      "metaTitle": "Biomas de Lucid Blocks - Regiones del mundo y exploración",
-      "metaDescription": "Explora los biomas de Lucid Blocks, incluyendo las Líneas Ley de Tiamana, Fog Meadow y regiones surrealistas. Encuentra recursos, evita peligros y navega por un mundo infinito.",
-      "categoryLabel": "REGIONES DEL MUNDO",
-      "whatIs": "¿Qué son los biomas?",
-      "whatIsDescription": "Guías de las diferentes regiones del mundo, características ambientales, distribución de recursos y zonas de peligro. Aprende qué esperar y cómo prepararte para cada área.",
-      "why": "¿Por qué explorar los biomas?",
+    "cars": {
+      "title": "Forza Horizon 6 Cars",
+      "description": "Forza Horizon 6 car guides for the car list, all cars, JDM brands, cover cars, new cars, Toyota, Honda, Nissan, and collection planning.",
+      "metaTitle": "Forza Horizon 6 Cars - Car List, JDM & New Cars",
+      "metaDescription": "Browse Forza Horizon 6 car coverage for the car list, JDM cars, new cars, cover cars, Toyota, Honda, Nissan, Skyline, Civic, and garage planning.",
+      "categoryLabel": "FORZA HORIZON 6 CARS",
+      "whatIs": "What are Forza Horizon 6 Cars?",
+      "whatIsDescription": "Forza Horizon 6 cars pages collect car list coverage, brand highlights, JDM favorites, cover car notes, new vehicle additions, reward cars, and garage planning topics.",
+      "why": "Why follow Forza Horizon 6 car guides?",
       "whySteps": {
-        "step1Title": "Encuentra recursos",
-        "step1Description": "Localiza materiales raros y esencias específicas de cada región",
-        "step2Title": "Evita peligros",
-        "step2Description": "Entiende los riesgos ambientales y las criaturas hostiles",
-        "step3Title": "Planifica tu exploración",
-        "step3Description": "Prepara las herramientas y el equipo adecuados para cada tipo de bioma"
+        "step1Title": "Forza Horizon 6 Car List",
+        "step1Description": "Track vehicle list pages by brand, class, role, reward source, edition bonus, and update timing.",
+        "step2Title": "Forza Horizon 6 JDM Focus",
+        "step2Description": "Follow Japanese brands such as Toyota, Honda, Nissan, Mazda, Subaru, and tuning-culture highlights tied to the Japan setting.",
+        "step3Title": "Forza Horizon 6 Garage Planning",
+        "step3Description": "Plan early collection goals around cover cars, new cars, Car Pass vehicles, reward cars, and favorite build themes."
       },
-      "featured": "Destacado y esencial",
-      "all": "Todos los biomas"
+      "featured": "Featured Forza Horizon 6 Car Guides",
+      "all": "All Forza Horizon 6 Car Guides"
     },
-    "building": {
-      "title": "Construcción en Lucid Blocks",
-      "description": "Domina las dimensiones personales Qualia, la construcción de bases, la gestión de almacenamiento y técnicas creativas de construcción.",
-      "metaTitle": "Construcción en Lucid Blocks - Qualia y construcción de bases",
-      "metaDescription": "Domina la construcción en Lucid Blocks con las dimensiones personales Qualia, construcción de bases, soluciones de almacenamiento y técnicas creativas de construcción.",
-      "categoryLabel": "CONSTRUCCIÓN Y BASES",
-      "whatIs": "¿Qué es la construcción?",
-      "whatIsDescription": "Guías sobre el sistema de dimensiones personales Qualia, construcción de bases, gestión de almacenamiento y construcción creativa. Aprende a crear tu refugio seguro en este mundo surrealista.",
-      "why": "¿Por qué construir bases?",
+    "editions": {
+      "title": "Forza Horizon 6 Editions",
+      "description": "Forza Horizon 6 edition guides for Premium Edition, pre-order details, price, Deluxe Edition, Premium Upgrade, Car Pass, VIP, and edition comparisons.",
+      "metaTitle": "Forza Horizon 6 Editions - Premium, Deluxe & Price",
+      "metaDescription": "Compare Forza Horizon 6 editions, Premium Edition, Deluxe Edition, Premium Upgrade, pre-order bonuses, price, Car Pass, VIP, and expansion access.",
+      "categoryLabel": "FORZA HORIZON 6 EDITIONS",
+      "whatIs": "What are Forza Horizon 6 Editions?",
+      "whatIsDescription": "Forza Horizon 6 editions pages explain Standard, Deluxe, Premium Edition, Premium Upgrade, Car Pass, VIP Membership, expansion access, pre-order bonuses, and price differences.",
+      "why": "Why compare Forza Horizon 6 editions?",
       "whySteps": {
-        "step1Title": "Crea espacios seguros",
-        "step1Description": "Establece bases seguras para el almacenamiento y las operaciones de fabricación",
-        "step2Title": "Gestiona tus recursos",
-        "step2Description": "Organiza tus materiales de manera eficiente con soluciones de almacenamiento",
-        "step3Title": "Desbloquea Qualia",
-        "step3Description": "Accede a dimensiones de bolsillo personales para la máxima comodidad"
+        "step1Title": "Forza Horizon 6 Price Comparison",
+        "step1Description": "Review Standard, Deluxe, Premium Edition, and Premium Upgrade pricing across store pages and launch offers.",
+        "step2Title": "Forza Horizon 6 Content Comparison",
+        "step2Description": "Compare Car Pass, VIP Membership, Welcome Pack, expansion access, pre-order bonuses, and extra car packs.",
+        "step3Title": "Forza Horizon 6 Purchase Planning",
+        "step3Description": "Choose the edition path that matches early access plans, DLC interest, Game Pass usage, and long-term garage goals."
       },
-      "featured": "Destacado y esencial",
-      "all": "Todas las guías de construcción"
+      "featured": "Featured Forza Horizon 6 Edition Guides",
+      "all": "All Forza Horizon 6 Edition Guides"
     },
-    "support": {
-      "title": "Soporte de Lucid Blocks",
-      "description": "Soporte técnico, compatibilidad de plataformas, optimización de rendimiento y solución de problemas comunes.",
-      "metaTitle": "Soporte de Lucid Blocks - Ayuda técnica y soluciones",
-      "metaDescription": "Obtén soporte técnico para Lucid Blocks, incluyendo la configuración de Steam Deck, soluciones a cierres inesperados, optimización de rendimiento y guías de compatibilidad de plataformas.",
-      "categoryLabel": "SOPORTE TÉCNICO",
-      "whatIs": "¿Qué es el soporte?",
-      "whatIsDescription": "Guías técnicas que cubren la compatibilidad de plataformas, optimización de rendimiento, soluciones a cierres inesperados y problemas comunes. Obtén ayuda con Steam Deck, preguntas sobre multijugador y ajustes.",
-      "why": "¿Por qué consultar el soporte?",
+    "specs": {
+      "title": "Forza Horizon 6 Specs",
+      "description": "Forza Horizon 6 specs guides for system requirements, PC requirements, recommended specs, minimum specs, install size, Steam Deck, and PC setup.",
+      "metaTitle": "Forza Horizon 6 Specs - PC Requirements & Game Size",
+      "metaDescription": "Check Forza Horizon 6 specs coverage for system requirements, minimum and recommended PC requirements, game size, Steam Deck, SSD, GPU, CPU, and Windows setup.",
+      "categoryLabel": "FORZA HORIZON 6 SPECS",
+      "whatIs": "What are Forza Horizon 6 Specs?",
+      "whatIsDescription": "Forza Horizon 6 specs pages focus on PC requirements, Windows version, CPU, GPU, RAM, SSD, install size, Steam Deck searches, performance expectations, and store setup notes.",
+      "why": "Why read Forza Horizon 6 specs guides?",
       "whySteps": {
-        "step1Title": "Soluciona problemas técnicos",
-        "step1Description": "Resuelve cierres inesperados, problemas de rendimiento y de compatibilidad",
-        "step2Title": "Optimiza el rendimiento",
-        "step2Description": "Configura los ajustes para obtener la mejor experiencia en tu plataforma",
-        "step3Title": "Compatibilidad de plataformas",
-        "step3Description": "Aprende sobre Steam Deck, soporte para controles y requisitos del sistema"
+        "step1Title": "Forza Horizon 6 PC Requirements",
+        "step1Description": "Compare minimum and recommended specs, Windows requirements, DirectX expectations, memory, storage, CPU, and GPU needs.",
+        "step2Title": "Forza Horizon 6 Install Planning",
+        "step2Description": "Plan around download size, SSD space, preload timing, store launcher setup, and broadband requirements.",
+        "step3Title": "Forza Horizon 6 Handheld Questions",
+        "step3Description": "Track Steam Deck, controller, portable PC, anti-tamper, and performance topics separately from gameplay guides."
       },
-      "featured": "Destacado y esencial",
-      "all": "Todos los artículos de soporte"
+      "featured": "Featured Forza Horizon 6 Spec Guides",
+      "all": "All Forza Horizon 6 Spec Guides"
+    },
+    "media": {
+      "title": "Forza Horizon 6 Media",
+      "description": "Forza Horizon 6 media guides for trailers, gameplay videos, previews, review coverage, official showcases, screenshots, and reveal updates.",
+      "metaTitle": "Forza Horizon 6 Media - Trailer, Gameplay & Previews",
+      "metaDescription": "Watch Forza Horizon 6 media coverage for trailers, gameplay, previews, review coverage, official showcases, screenshots, reveal details, and video updates.",
+      "categoryLabel": "FORZA HORIZON 6 MEDIA",
+      "whatIs": "What is Forza Horizon 6 Media?",
+      "whatIsDescription": "Forza Horizon 6 media pages organize trailers, gameplay footage, official showcases, preview coverage, screenshots, reveal moments, and video-focused updates.",
+      "why": "Why follow Forza Horizon 6 media?",
+      "whySteps": {
+        "step1Title": "Forza Horizon 6 Trailer Tracking",
+        "step1Description": "Keep reveal trailers, showcase clips, launch videos, and official footage organized by topic and timing.",
+        "step2Title": "Forza Horizon 6 Gameplay Context",
+        "step2Description": "Use gameplay videos to understand Tokyo driving, Japan roads, car meets, Time Attack, weather, and festival features.",
+        "step3Title": "Forza Horizon 6 Preview Planning",
+        "step3Description": "Collect preview, review, and showcase coverage in one category for players comparing what to watch next."
+      },
+      "featured": "Featured Forza Horizon 6 Media Guides",
+      "all": "All Forza Horizon 6 Media Guides"
     }
   }
 }
