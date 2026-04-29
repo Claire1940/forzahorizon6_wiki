@@ -1,6 +1,7 @@
 'use client'
 
 import { useEffect, Suspense, lazy } from 'react'
+import type { ReactNode } from 'react'
 import {
   ArrowRight,
   BookOpen,
@@ -45,13 +46,32 @@ const LoadingPlaceholder = ({ height = 'h-64' }: { height?: string }) => (
 interface HomePageClientProps {
   latestArticles: ContentItemWithType[]
   locale: string
+  moduleLinkMap: ModuleLinkMap
 }
 
-export default function HomePageClient({ latestArticles, locale }: HomePageClientProps) {
+interface ModuleArticleLink {
+  url: string
+  title: string
+}
+
+type ModuleLinkMap = Record<string, ModuleArticleLink | null>
+
+export default function HomePageClient({ latestArticles, locale, moduleLinkMap }: HomePageClientProps) {
   const t = useMessages() as any
   const multiplayerIcons = [Users, Home, Sparkles, Gauge, Gamepad2, Monitor, Package, Car]
   const collectionIcons = [Map, Trophy, Check, Car, Compass, Home, Route]
 
+  const moduleTitle = (moduleKey: string, title: string): ReactNode => {
+    const link = moduleLinkMap[moduleKey]
+    if (!link) return title
+
+    return (
+      <a href={link.url} title={link.title} className="inline hover:text-[hsl(var(--nav-theme-light))] transition-colors">
+        {title}
+        <ArrowRight className="ml-2 inline h-7 w-7 align-[-0.125em]" aria-hidden="true" />
+      </a>
+    )
+  }
 
   // Scroll reveal animation
   useEffect(() => {
@@ -457,7 +477,7 @@ export default function HomePageClient({ latestArticles, locale }: HomePageClien
               <span className="text-sm font-medium">{t.tools.cards[0].title}</span>
             </div>
             <h2 className="text-4xl md:text-5xl font-bold mb-4">
-              {t.modules.forzaHorizon6ReleaseDate.title}
+              {moduleTitle('forzaHorizon6ReleaseDate', t.modules.forzaHorizon6ReleaseDate.title)}
             </h2>
             <p className="text-muted-foreground text-lg max-w-3xl mx-auto">
               {t.modules.forzaHorizon6ReleaseDate.intro}
@@ -506,7 +526,7 @@ export default function HomePageClient({ latestArticles, locale }: HomePageClien
               <span className="text-sm font-medium">{t.tools.cards[1].title}</span>
             </div>
             <h2 className="text-4xl md:text-5xl font-bold mb-4">
-              {t.modules.forzaHorizon6SteamPreOrder.title}
+              {moduleTitle('forzaHorizon6SteamPreOrder', t.modules.forzaHorizon6SteamPreOrder.title)}
             </h2>
             <p className="text-muted-foreground text-lg max-w-3xl mx-auto">
               {t.modules.forzaHorizon6SteamPreOrder.intro}
@@ -539,7 +559,7 @@ export default function HomePageClient({ latestArticles, locale }: HomePageClien
               <span className="text-sm font-medium">{t.tools.cards[2].title}</span>
             </div>
             <h2 className="text-4xl md:text-5xl font-bold mb-4">
-              {t.modules.forzaHorizon6EditionsAndPrice.title}
+              {moduleTitle('forzaHorizon6EditionsAndPrice', t.modules.forzaHorizon6EditionsAndPrice.title)}
             </h2>
             <p className="text-muted-foreground text-lg max-w-3xl mx-auto">
               {t.modules.forzaHorizon6EditionsAndPrice.intro}
@@ -612,7 +632,7 @@ export default function HomePageClient({ latestArticles, locale }: HomePageClien
               <span className="text-sm font-medium">{t.tools.cards[3].title}</span>
             </div>
             <h2 className="text-4xl md:text-5xl font-bold mb-4">
-              {t.modules.forzaHorizon6GamePass.title}
+              {moduleTitle('forzaHorizon6GamePass', t.modules.forzaHorizon6GamePass.title)}
             </h2>
             <p className="text-muted-foreground text-lg max-w-3xl mx-auto">
               {t.modules.forzaHorizon6GamePass.intro}
@@ -644,7 +664,7 @@ export default function HomePageClient({ latestArticles, locale }: HomePageClien
               <span className="text-sm font-medium">{t.tools.cards[4].title}</span>
             </div>
             <h2 className="text-4xl md:text-5xl font-bold mb-4">
-              {t.modules.forzaHorizon6Ps5Release.title}
+              {moduleTitle('forzaHorizon6Ps5Release', t.modules.forzaHorizon6Ps5Release.title)}
             </h2>
             <p className="text-muted-foreground text-lg max-w-3xl mx-auto">
               {t.modules.forzaHorizon6Ps5Release.intro}
@@ -684,7 +704,7 @@ export default function HomePageClient({ latestArticles, locale }: HomePageClien
               <span className="text-sm font-medium">{t.tools.cards[5].title}</span>
             </div>
             <h2 className="text-4xl md:text-5xl font-bold mb-4">
-              {t.modules.forzaHorizon6SystemRequirements.title}
+              {moduleTitle('forzaHorizon6SystemRequirements', t.modules.forzaHorizon6SystemRequirements.title)}
             </h2>
             <p className="text-muted-foreground text-lg max-w-3xl mx-auto">
               {t.modules.forzaHorizon6SystemRequirements.intro}
@@ -744,7 +764,7 @@ export default function HomePageClient({ latestArticles, locale }: HomePageClien
               <span className="text-sm font-medium">{t.tools.cards[6].title}</span>
             </div>
             <h2 className="text-4xl md:text-5xl font-bold mb-4">
-              {t.modules.forzaHorizon6JapanMap.title}
+              {moduleTitle('forzaHorizon6JapanMap', t.modules.forzaHorizon6JapanMap.title)}
             </h2>
             <p className="text-muted-foreground text-lg max-w-3xl mx-auto">
               {t.modules.forzaHorizon6JapanMap.intro}
@@ -784,7 +804,7 @@ export default function HomePageClient({ latestArticles, locale }: HomePageClien
               <span className="text-sm font-medium">{t.tools.cards[7].title}</span>
             </div>
             <h2 className="text-4xl md:text-5xl font-bold mb-4">
-              {t.modules.forzaHorizon6TokyoCity.title}
+              {moduleTitle('forzaHorizon6TokyoCity', t.modules.forzaHorizon6TokyoCity.title)}
             </h2>
             <p className="text-muted-foreground text-lg max-w-3xl mx-auto">
               {t.modules.forzaHorizon6TokyoCity.intro}
@@ -824,7 +844,7 @@ export default function HomePageClient({ latestArticles, locale }: HomePageClien
               <span className="text-sm font-medium">{t.tools.cards[8].title}</span>
             </div>
             <h2 className="text-4xl md:text-5xl font-bold mb-4">
-              {t.modules.forzaHorizon6CarList.title}
+              {moduleTitle('forzaHorizon6CarList', t.modules.forzaHorizon6CarList.title)}
             </h2>
             <p className="text-muted-foreground text-lg max-w-3xl mx-auto mb-4">
               {t.modules.forzaHorizon6CarList.subtitle}
@@ -892,7 +912,7 @@ export default function HomePageClient({ latestArticles, locale }: HomePageClien
               <span className="text-sm font-medium">{t.tools.cards[9].title}</span>
             </div>
             <h2 className="text-4xl md:text-5xl font-bold mb-4">
-              {t.modules.forzaHorizon6JdmCarsAndCustomization.title}
+              {moduleTitle('forzaHorizon6JdmCarsAndCustomization', t.modules.forzaHorizon6JdmCarsAndCustomization.title)}
             </h2>
             <p className="text-muted-foreground text-lg max-w-3xl mx-auto mb-4">
               {t.modules.forzaHorizon6JdmCarsAndCustomization.subtitle}
@@ -939,7 +959,7 @@ export default function HomePageClient({ latestArticles, locale }: HomePageClien
               <span className="text-sm font-medium">{t.tools.cards[10].title}</span>
             </div>
             <h2 className="text-4xl md:text-5xl font-bold mb-4">
-              {t.modules.forzaHorizon6TrailerAndGameplay.title}
+              {moduleTitle('forzaHorizon6TrailerAndGameplay', t.modules.forzaHorizon6TrailerAndGameplay.title)}
             </h2>
             <p className="text-muted-foreground text-lg max-w-3xl mx-auto mb-4">
               {t.modules.forzaHorizon6TrailerAndGameplay.subtitle}
@@ -994,7 +1014,7 @@ export default function HomePageClient({ latestArticles, locale }: HomePageClien
               <span className="text-sm font-medium">{t.tools.cards[11].title}</span>
             </div>
             <h2 className="text-4xl md:text-5xl font-bold mb-4">
-              {t.modules.forzaHorizon6BeginnerGuide.title}
+              {moduleTitle('forzaHorizon6BeginnerGuide', t.modules.forzaHorizon6BeginnerGuide.title)}
             </h2>
             <p className="text-muted-foreground text-lg max-w-3xl mx-auto mb-4">
               {t.modules.forzaHorizon6BeginnerGuide.subtitle}
@@ -1037,7 +1057,7 @@ export default function HomePageClient({ latestArticles, locale }: HomePageClien
               <span className="text-sm font-medium">{t.tools.cards[12].title}</span>
             </div>
             <h2 className="text-4xl md:text-5xl font-bold mb-4">
-              {t.modules.forzaHorizon6TougeBattlesAndTimeAttack.title}
+              {moduleTitle('forzaHorizon6TougeBattlesAndTimeAttack', t.modules.forzaHorizon6TougeBattlesAndTimeAttack.title)}
             </h2>
             <p className="text-muted-foreground text-lg max-w-3xl mx-auto mb-4">
               {t.modules.forzaHorizon6TougeBattlesAndTimeAttack.subtitle}
@@ -1112,7 +1132,7 @@ export default function HomePageClient({ latestArticles, locale }: HomePageClien
               <span className="text-sm font-medium">{t.tools.cards[13].title}</span>
             </div>
             <h2 className="text-4xl md:text-5xl font-bold mb-4">
-              {t.modules.forzaHorizon6MultiplayerAndCrossSave.title}
+              {moduleTitle('forzaHorizon6MultiplayerAndCrossSave', t.modules.forzaHorizon6MultiplayerAndCrossSave.title)}
             </h2>
             <p className="text-muted-foreground text-lg max-w-3xl mx-auto mb-4">
               {t.modules.forzaHorizon6MultiplayerAndCrossSave.subtitle}
@@ -1165,7 +1185,7 @@ export default function HomePageClient({ latestArticles, locale }: HomePageClien
               <span className="text-sm font-medium">{t.tools.cards[14].title}</span>
             </div>
             <h2 className="text-4xl md:text-5xl font-bold mb-4">
-              {t.modules.forzaHorizon6TreasureCarsAndCollectionJournal.title}
+              {moduleTitle('forzaHorizon6TreasureCarsAndCollectionJournal', t.modules.forzaHorizon6TreasureCarsAndCollectionJournal.title)}
             </h2>
             <p className="text-muted-foreground text-lg max-w-3xl mx-auto mb-4">
               {t.modules.forzaHorizon6TreasureCarsAndCollectionJournal.subtitle}
@@ -1228,7 +1248,7 @@ export default function HomePageClient({ latestArticles, locale }: HomePageClien
               <span className="text-sm font-medium">{t.tools.cards[15].title}</span>
             </div>
             <h2 className="text-4xl md:text-5xl font-bold mb-4">
-              {t.modules.forzaHorizon6Achievements.title}
+              {moduleTitle('forzaHorizon6Achievements', t.modules.forzaHorizon6Achievements.title)}
             </h2>
             <p className="text-muted-foreground text-lg max-w-3xl mx-auto mb-4">
               {t.modules.forzaHorizon6Achievements.subtitle}

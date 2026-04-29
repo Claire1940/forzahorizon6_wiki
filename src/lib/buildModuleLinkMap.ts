@@ -14,46 +14,46 @@ interface ArticleWithType extends ContentItem {
 
 // Module sub-field mapping: moduleKey -> { field, nameKey }
 const MODULE_FIELDS: Record<string, { field: string; nameKey: string }> = {
-  lucidBlocksBeginnerGuide: { field: 'steps', nameKey: 'title' },
-  lucidBlocksApotheosisCrafting: { field: 'cards', nameKey: 'name' },
-  lucidBlocksToolsAndWeapons: { field: 'items', nameKey: 'name' },
-  lucidBlocksStorageAndInventory: { field: 'solutions', nameKey: 'name' },
-  lucidBlocksQualiaAndBaseBuilding: { field: 'cards', nameKey: 'name' },
-  lucidBlocksWorldRegions: { field: 'regions', nameKey: 'name' },
-  lucidBlocksCreaturesAndEnemies: { field: 'creatures', nameKey: 'name' },
-  lucidBlocksMobilityGear: { field: 'items', nameKey: 'name' },
-  lucidBlocksFarmingAndGrowth: { field: 'sections', nameKey: 'name' },
-  lucidBlocksBestEarlyUnlocks: { field: 'priorities', nameKey: 'name' },
-  lucidBlocksAchievementTracker: { field: 'groups', nameKey: 'name' },
-  lucidBlocksSingleplayerAndPlatformFAQ: { field: 'faqs', nameKey: 'question' },
-  lucidBlocksSteamDeckAndController: { field: 'faqs', nameKey: 'question' },
-  lucidBlocksSettingsAndAccessibility: { field: 'settings', nameKey: 'name' },
-  lucidBlocksUpdatesAndPatchNotes: { field: 'entries', nameKey: 'title' },
-  lucidBlocksCrashFixAndTroubleshooting: { field: 'steps', nameKey: 'title' },
+  forzaHorizon6ReleaseDate: { field: 'items', nameKey: 'label' },
+  forzaHorizon6SteamPreOrder: { field: 'steps', nameKey: 'title' },
+  forzaHorizon6EditionsAndPrice: { field: 'items', nameKey: 'edition' },
+  forzaHorizon6GamePass: { field: 'items', nameKey: 'label' },
+  forzaHorizon6Ps5Release: { field: 'items', nameKey: 'question' },
+  forzaHorizon6SystemRequirements: { field: 'items', nameKey: 'spec' },
+  forzaHorizon6JapanMap: { field: 'items', nameKey: 'question' },
+  forzaHorizon6TokyoCity: { field: 'items', nameKey: 'title' },
+  forzaHorizon6CarList: { field: 'items', nameKey: 'car' },
+  forzaHorizon6JdmCarsAndCustomization: { field: 'items', nameKey: 'title' },
+  forzaHorizon6TrailerAndGameplay: { field: 'items', nameKey: 'title' },
+  forzaHorizon6BeginnerGuide: { field: 'steps', nameKey: 'title' },
+  forzaHorizon6TougeBattlesAndTimeAttack: { field: 'items', nameKey: 'title' },
+  forzaHorizon6MultiplayerAndCrossSave: { field: 'items', nameKey: 'title' },
+  forzaHorizon6TreasureCarsAndCollectionJournal: { field: 'steps', nameKey: 'title' },
+  forzaHorizon6Achievements: { field: 'items', nameKey: 'title' },
 }
 
 // Extra semantic keywords per module to boost matching for h2 titles
 // These supplement the module title text when matching against articles
 const MODULE_EXTRA_KEYWORDS: Record<string, string[]> = {
-  lucidBlocksBeginnerGuide: ['guide', 'mastering', 'progression', 'crafting', 'starter'],
-  lucidBlocksApotheosisCrafting: ['apotheosis', 'fusion', 'essence'],
-  lucidBlocksToolsAndWeapons: ['crafting recipes', 'frost pick', 'osmium', 'azrael', 'faith wand'],
-  lucidBlocksStorageAndInventory: ['chest', 'cache cube', 'cabinet', 'storage'],
-  lucidBlocksQualiaAndBaseBuilding: ['qualia', 'clonaqualia', 'personal dimensions'],
-  lucidBlocksWorldRegions: ['tiamana', 'leyline', 'biomes', 'regions'],
-  lucidBlocksCreaturesAndEnemies: ['survival', 'combat', 'surreal creatures'],
-  lucidBlocksMobilityGear: ['bee glider', 'hookshot', 'glider', 'movement'],
-  lucidBlocksFarmingAndGrowth: ['seed', 'farming', 'growth', 'material', 'progression', 'crafting'],
-  lucidBlocksBestEarlyUnlocks: ['early', 'osmium', 'frost pick', 'starter', 'progression'],
-  lucidBlocksAchievementTracker: ['achievement', 'tiamana', 'leyline'],
-  lucidBlocksSingleplayerAndPlatformFAQ: ['multiplayer', 'platform', 'co op'],
-  lucidBlocksSteamDeckAndController: ['steam deck', 'controller', 'proton'],
-  lucidBlocksSettingsAndAccessibility: ['full screen', 'controls', 'display'],
-  lucidBlocksUpdatesAndPatchNotes: ['update', 'patch', 'fix'],
-  lucidBlocksCrashFixAndTroubleshooting: ['crash', 'vulkan', 'troubleshooting', 'full screen', 'controls', 'gameplay'],
+  forzaHorizon6ReleaseDate: ['launch date', 'early access', 'steam unlock', 'game pass', 'ps5 release', 'may 19'],
+  forzaHorizon6SteamPreOrder: ['steam', 'pre order', 'advanced access', 'ferrari j50', 'premium edition', 'pc requirements'],
+  forzaHorizon6EditionsAndPrice: ['standard edition', 'deluxe edition', 'premium edition', 'premium upgrade', 'car pass', 'vip membership'],
+  forzaHorizon6GamePass: ['game pass', 'pc game pass', 'ultimate', 'premium upgrade', 'xbox play anywhere', 'cloud gaming'],
+  forzaHorizon6Ps5Release: ['ps5', 'playstation 5', 'cross save', 'wishlist', 'dlc purchases', 'later 2026'],
+  forzaHorizon6SystemRequirements: ['pc specs', 'windows 10 22h2', 'directx 12', 'ssd', 'dlss', 'benchmark'],
+  forzaHorizon6JapanMap: ['japan map', 'tokyo city', 'japanese alps', 'c1 loop', 'gingko avenue', 'mt haruna'],
+  forzaHorizon6TokyoCity: ['tokyo city', 'urban area', 'daikoku', 'car meets', 'vertical roads', 'industrial districts'],
+  forzaHorizon6CarList: ['confirmed cars', 'car list', 'gr gt prototype', 'car classes', 'cover cars', 'car pass'],
+  forzaHorizon6JdmCarsAndCustomization: ['jdm cars', 'body kits', 'forza aero', 'liveries', 'engine swaps', 'japanese car culture'],
+  forzaHorizon6TrailerAndGameplay: ['trailer', 'gameplay', 'tokyo game show', 'official videos', 'reveal trailer', 'horizon japan'],
+  forzaHorizon6BeginnerGuide: ['beginner guide', 'tourist start', 'wristbands', 'collection journal', 'legend island', 'horizon invitational'],
+  forzaHorizon6TougeBattlesAndTimeAttack: ['touge battles', 'time attack', 'drag meets', 'street races', 'mountain passes', 'spec racing'],
+  forzaHorizon6MultiplayerAndCrossSave: ['multiplayer', 'cross save', 'cross play', 'car meets', 'convoys', 'link skills'],
+  forzaHorizon6TreasureCarsAndCollectionJournal: ['treasure cars', 'collection journal', 'barn finds', 'stamps', 'aftermarket cars', 'mascots'],
+  forzaHorizon6Achievements: ['achievements', 'gamerscore', 'wristbands', 'stamps', 'treasure cars', 'horizon legend'],
 }
 
-const FILLER_WORDS = ['lucid', 'blocks', '2026', '2025', 'complete', 'the', 'and', 'for', 'how', 'with', 'our', 'this', 'your', 'all', 'from', 'learn', 'master']
+const FILLER_WORDS = ['forza', 'horizon', '6', '2026', '2025', 'complete', 'the', 'and', 'for', 'how', 'with', 'our', 'this', 'your', 'all', 'from', 'learn', 'master']
 
 function normalize(text: string): string {
   return text
@@ -77,9 +77,9 @@ function matchScore(queryText: string, article: ArticleWithType, extraKeywords?:
 
   let score = 0
 
-  // Exact phrase match in title (stripped of "Lucid Blocks")
-  const strippedQuery = normalizedQuery.replace(/lucid blocks?\s*/g, '').trim()
-  const strippedTitle = normalizedTitle.replace(/lucid blocks?\s*/g, '').trim()
+  // Exact phrase match in title (stripped of "Forza Horizon 6")
+  const strippedQuery = normalizedQuery.replace(/forza horizon 6\s*/g, '').trim()
+  const strippedTitle = normalizedTitle.replace(/forza horizon 6\s*/g, '').trim()
   if (strippedQuery.length > 3 && strippedTitle.includes(strippedQuery)) {
     score += 100
   }
@@ -110,6 +110,7 @@ function findBestMatch(
   articles: ArticleWithType[],
   extraKeywords?: string[],
   threshold = 20,
+  pathPrefix = '',
 ): ArticleLink | null {
   let bestScore = 0
   let bestArticle: ArticleWithType | null = null
@@ -124,7 +125,7 @@ function findBestMatch(
 
   if (bestScore >= threshold && bestArticle) {
     return {
-      url: `/${bestArticle.contentType}/${bestArticle.slug}`,
+      url: `${pathPrefix}/${bestArticle.contentType}/${bestArticle.slug}`,
       title: bestArticle.frontmatter.title,
     }
   }
@@ -133,6 +134,8 @@ function findBestMatch(
 }
 
 export async function buildModuleLinkMap(locale: Language): Promise<ModuleLinkMap> {
+  const pathPrefix = locale === 'en' ? '' : `/${locale}`
+
   // 1. Load all articles across all content types
   const allArticles: ArticleWithType[] = []
   for (const contentType of CONTENT_TYPES) {
@@ -156,7 +159,7 @@ export async function buildModuleLinkMap(locale: Language): Promise<ModuleLinkMa
     const moduleTitle = moduleData.title as string
     if (moduleTitle) {
       const extraKw = MODULE_EXTRA_KEYWORDS[moduleKey] || []
-      linkMap[moduleKey] = findBestMatch(moduleTitle, allArticles, extraKw, 15)
+      linkMap[moduleKey] = findBestMatch(moduleTitle, allArticles, extraKw, 15, pathPrefix)
     }
 
     // Match sub-items
@@ -166,7 +169,7 @@ export async function buildModuleLinkMap(locale: Language): Promise<ModuleLinkMa
         const itemName = subItems[i]?.[fieldConfig.nameKey] as string
         if (itemName) {
           const key = `${moduleKey}::${fieldConfig.field}::${i}`
-          linkMap[key] = findBestMatch(itemName, allArticles)
+          linkMap[key] = findBestMatch(itemName, allArticles, undefined, 20, pathPrefix)
         }
       }
     }
