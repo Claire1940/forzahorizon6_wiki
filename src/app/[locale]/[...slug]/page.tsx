@@ -54,10 +54,6 @@ export default async function UnifiedContentPage({ params }: PageProps) {
 async function renderListPage(contentType: ContentType, locale: Language) {
   const items = await getAllContent(contentType, locale)
 
-  if (items.length === 0) {
-    notFound()
-  }
-
   // 如果只有一篇文章，直接跳转到详情页
   if (items.length === 1) {
     const singleArticle = items[0]
@@ -233,18 +229,9 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
   if (isListPage) {
     const items = await getAllContent(contentType, locale as Language)
 
-    if (items.length === 0) {
-      return {
-        title: 'Not Found',
-        robots: {
-          index: false,
-          follow: true,
-        },
-      }
-    }
-
-    const title = `${contentType.charAt(0).toUpperCase() + contentType.slice(1)} - ${SITE_NAME}`
-    const description = `Browse ${SITE_NAME} ${contentType} guides, release details, Steam information, car list updates, Japan map notes, and related resources.`
+    const t = await getTranslations(`pages.${contentType}`)
+    const title = t('metaTitle')
+    const description = t('metaDescription')
     const path = `/${contentType}`
 
     return {

@@ -10,7 +10,15 @@
       "twitterDescription": "Forza Horizon 6 guide for release date, Steam editions, car list, Japan map, Tokyo City, system requirements, early access, trailers and gameplay updates."
     }
   },
-  "nav": {},
+  "nav": {
+    "release": "Release",
+    "platforms": "Platforms",
+    "map": "Map",
+    "cars": "Cars",
+    "editions": "Editions",
+    "specs": "Specs",
+    "media": "Media"
+  },
   "common": {
     "home": "Home",
     "more": "More",
@@ -1568,125 +1576,145 @@
     "disclaimer": "Forza Horizon 6 names, marks, and assets belong to their respective owners."
   },
   "pages": {
-    "guides": {
-      "title": "Forza Horizon 6 Guides",
-      "description": "Forza Horizon 6 guides for release timing, Steam setup, editions, cars, Japan map, multiplayer, and beginner progression.",
-      "metaTitle": "Forza Horizon 6 Guides",
-      "metaDescription": "Forza Horizon 6 guides for release timing, Steam setup, editions, cars, Japan map, multiplayer, and beginner progression.",
-      "categoryLabel": "FORZA HORIZON 6 GUIDES",
-      "whatIs": "What are Forza Horizon 6 Guides?",
-      "whatIsDescription": "Forza Horizon 6 guides organize launch, platform, car, map, and gameplay details into practical pages for players preparing for Japan.",
-      "why": "Why read Forza Horizon 6 guides?",
+    "release": {
+      "title": "Forza Horizon 6 Release",
+      "description": "Forza Horizon 6 release hub for Steam unlock timing, Xbox launch details, Game Pass access, early access, beta and demo questions, and countdown planning.",
+      "metaTitle": "Forza Horizon 6 Release - Dates, Unlocks & Early Access",
+      "metaDescription": "Track Forza Horizon 6 release details across Steam, Xbox, PC, Game Pass, early access, launch timing, beta questions, demo news, and countdown planning.",
+      "categoryLabel": "FORZA HORIZON 6 RELEASE",
+      "whatIs": "What is Forza Horizon 6 Release?",
+      "whatIsDescription": "Forza Horizon 6 release pages organize launch timing, store unlocks, early access windows, Game Pass availability, beta or demo questions, and platform rollout notes.",
+      "why": "Why follow Forza Horizon 6 release updates?",
       "whySteps": {
-        "step1Title": "Forza Horizon 6 Launch Planning",
-        "step1Description": "Compare release date, Steam timing, Game Pass access, and Premium Early Access.",
-        "step2Title": "Forza Horizon 6 Purchase Choices",
-        "step2Description": "Choose between Standard, Deluxe, Premium Edition, and Premium Upgrade.",
-        "step3Title": "Forza Horizon 6 Gameplay Prep",
-        "step3Description": "Review cars, Japan regions, Tokyo City, multiplayer, and early progression."
+        "step1Title": "Forza Horizon 6 Launch Timing",
+        "step1Description": "Compare official launch dates, Steam unlock timing, regional display differences, and countdown expectations before release week.",
+        "step2Title": "Forza Horizon 6 Early Access",
+        "step2Description": "Understand Premium Early Access timing, advanced access wording, and how early play fits into each purchase path.",
+        "step3Title": "Forza Horizon 6 Access Planning",
+        "step3Description": "Plan around Xbox, PC, Steam, Game Pass, beta, demo, and pre-load questions without mixing in edition benefit details."
       },
-      "featured": "Featured Forza Horizon 6 Guides",
-      "all": "All Forza Horizon 6 Guides"
+      "featured": "Featured Forza Horizon 6 Release Guides",
+      "all": "All Forza Horizon 6 Release Guides"
     },
-    "crafting": {
-      "title": "Forza Horizon 6 Editions",
-      "description": "Forza Horizon 6 edition guides covering Standard, Deluxe, Premium Edition, Premium Upgrade, Car Pass, VIP, expansions, and Early Access.",
-      "metaTitle": "Forza Horizon 6 Editions",
-      "metaDescription": "Forza Horizon 6 edition guides covering Standard, Deluxe, Premium Edition, Premium Upgrade, Car Pass, VIP, expansions, and Early Access.",
-      "categoryLabel": "FORZA HORIZON 6 EDITIONS",
-      "whatIs": "What are Forza Horizon 6 Editions?",
-      "whatIsDescription": "Forza Horizon 6 editions define launch access, included car content, VIP membership, expansions, and Premium Early Access.",
-      "why": "Why compare Forza Horizon 6 editions?",
+    "platforms": {
+      "title": "Forza Horizon 6 Platforms",
+      "description": "Forza Horizon 6 platform guides for Steam, Xbox, PC, Game Pass, PlayStation timing, crossplay, cloud gaming, and store access questions.",
+      "metaTitle": "Forza Horizon 6 Platforms - Steam, Xbox, PC & Game Pass",
+      "metaDescription": "Compare Forza Horizon 6 platform access across Steam, Xbox, PC, Game Pass, PlayStation timing, crossplay, cloud gaming, and account setup.",
+      "categoryLabel": "FORZA HORIZON 6 PLATFORMS",
+      "whatIs": "What are Forza Horizon 6 Platforms?",
+      "whatIsDescription": "Forza Horizon 6 platform pages explain where the game can be played, how Steam and Xbox access differ, how Game Pass fits in, and what to expect from cross-platform features.",
+      "why": "Why compare Forza Horizon 6 platforms?",
       "whySteps": {
-        "step1Title": "Forza Horizon 6 Price Comparison",
-        "step1Description": "Check Standard, Deluxe, Premium Edition, and Premium Upgrade prices.",
-        "step2Title": "Forza Horizon 6 Content Comparison",
-        "step2Description": "Compare Car Pass, VIP, Welcome Pack, Time Attack Car Pack, and expansions.",
-        "step3Title": "Forza Horizon 6 Access Comparison",
-        "step3Description": "Decide whether Premium Early Access is part of your launch plan."
+        "step1Title": "Forza Horizon 6 Store Choice",
+        "step1Description": "Compare Steam, Microsoft Store, Xbox app, Xbox Series X|S, and Game Pass paths before choosing where to play.",
+        "step2Title": "Forza Horizon 6 Crossplay Planning",
+        "step2Description": "Check crossplay, cloud gaming, controller, save, and account expectations for mixed-platform groups.",
+        "step3Title": "Forza Horizon 6 Console Questions",
+        "step3Description": "Track PlayStation timing, older console questions, Switch 2 searches, and platform availability without mixing in PC specs."
       },
-      "featured": "Featured Forza Horizon 6 Edition Guides",
-      "all": "All Forza Horizon 6 Edition Guides"
+      "featured": "Featured Forza Horizon 6 Platform Guides",
+      "all": "All Forza Horizon 6 Platform Guides"
     },
-    "items": {
-      "title": "Forza Horizon 6 Cars",
-      "description": "Forza Horizon 6 car guides for confirmed cars, JDM favorites, cover cars, pre-order rewards, tuning culture, and collection updates.",
-      "metaTitle": "Forza Horizon 6 Cars",
-      "metaDescription": "Forza Horizon 6 car guides for confirmed cars, JDM favorites, cover cars, pre-order rewards, tuning culture, and collection updates.",
-      "categoryLabel": "FORZA HORIZON 6 CARS",
-      "whatIs": "What are Forza Horizon 6 Cars?",
-      "whatIsDescription": "Forza Horizon 6 cars include over 550 real-world vehicles across JDM icons, supercars, off-road builds, reward cars, and DLC additions.",
-      "why": "Why follow Forza Horizon 6 car guides?",
+    "map": {
+      "title": "Forza Horizon 6 Map",
+      "description": "Forza Horizon 6 map guides for Japan, Tokyo City, map size, locations, biomes, mountain roads, landmarks, and open-world exploration.",
+      "metaTitle": "Forza Horizon 6 Map - Japan, Tokyo City & Locations",
+      "metaDescription": "Explore Forza Horizon 6 map coverage for Japan, Tokyo City, map size, biomes, mountain roads, landmarks, routes, and open-world locations.",
+      "categoryLabel": "FORZA HORIZON 6 MAP",
+      "whatIs": "What is the Forza Horizon 6 Map?",
+      "whatIsDescription": "The Forza Horizon 6 map category covers the Japan setting, Tokyo City, rural roads, mountain routes, ports, seasonal regions, landmarks, and open-world route planning.",
+      "why": "Why explore the Forza Horizon 6 map?",
       "whySteps": {
-        "step1Title": "Forza Horizon 6 Confirmed Cars",
-        "step1Description": "Track confirmed vehicles and official car list updates.",
-        "step2Title": "Forza Horizon 6 JDM Focus",
-        "step2Description": "Find Japanese brands, Tokyo car culture, and tuning highlights.",
-        "step3Title": "Forza Horizon 6 Collection Planning",
-        "step3Description": "Plan garage goals around rewards, pre-order cars, and Car Pass additions."
-      },
-      "featured": "Featured Forza Horizon 6 Car Guides",
-      "all": "All Forza Horizon 6 Car Guides"
-    },
-    "biomes": {
-      "title": "Forza Horizon 6 Japan Map",
-      "description": "Forza Horizon 6 Japan map guides covering Tokyo City, mountain roads, rural regions, ports, seasons, and driving routes.",
-      "metaTitle": "Forza Horizon 6 Japan Map",
-      "metaDescription": "Forza Horizon 6 Japan map guides covering Tokyo City, mountain roads, rural regions, ports, seasons, and driving routes.",
-      "categoryLabel": "FORZA HORIZON 6 JAPAN MAP",
-      "whatIs": "What is the Forza Horizon 6 Japan Map?",
-      "whatIsDescription": "The Forza Horizon 6 Japan map brings together Tokyo City, rural roads, mountain passes, ports, landmarks, and changing seasonal conditions.",
-      "why": "Why explore the Forza Horizon 6 Japan map?",
-      "whySteps": {
-        "step1Title": "Forza Horizon 6 Tokyo City",
-        "step1Description": "Learn the urban driving zones, industrial roads, and city routes.",
-        "step2Title": "Forza Horizon 6 Mountain Roads",
-        "step2Description": "Plan touge, Time Attack, and scenic driving routes.",
-        "step3Title": "Forza Horizon 6 Regional Exploration",
-        "step3Description": "Track landmarks, collectibles, and event locations across Japan."
+        "step1Title": "Forza Horizon 6 Japan Setting",
+        "step1Description": "Understand how Tokyo, countryside routes, mountain roads, ports, and landmarks shape the festival world.",
+        "step2Title": "Forza Horizon 6 Route Planning",
+        "step2Description": "Prepare for city drives, touge routes, Time Attack roads, scenic cruising, and collectible routes across Japan.",
+        "step3Title": "Forza Horizon 6 Map Size Context",
+        "step3Description": "Follow map size, biome variety, location names, region reveals, and full-map coverage as pages are added."
       },
       "featured": "Featured Forza Horizon 6 Map Guides",
       "all": "All Forza Horizon 6 Map Guides"
     },
-    "building": {
-      "title": "Forza Horizon 6 Gameplay",
-      "description": "Forza Horizon 6 gameplay guides for Horizon Invitational, Wristbands, Car Meets, Time Attack, Touge Battles, and EventLab CoLab.",
-      "metaTitle": "Forza Horizon 6 Gameplay",
-      "metaDescription": "Forza Horizon 6 gameplay guides for Horizon Invitational, Wristbands, Car Meets, Time Attack, Touge Battles, and EventLab CoLab.",
-      "categoryLabel": "FORZA HORIZON 6 GAMEPLAY",
-      "whatIs": "What is Forza Horizon 6 Gameplay?",
-      "whatIsDescription": "Forza Horizon 6 gameplay blends open-world racing, festival progression, Japan car culture, multiplayer events, creative tools, and collection goals.",
-      "why": "Why read Forza Horizon 6 gameplay guides?",
+    "cars": {
+      "title": "Forza Horizon 6 Cars",
+      "description": "Forza Horizon 6 car guides for the car list, all cars, JDM brands, cover cars, new cars, Toyota, Honda, Nissan, and collection planning.",
+      "metaTitle": "Forza Horizon 6 Cars - Car List, JDM & New Cars",
+      "metaDescription": "Browse Forza Horizon 6 car coverage for the car list, JDM cars, new cars, cover cars, Toyota, Honda, Nissan, Skyline, Civic, and garage planning.",
+      "categoryLabel": "FORZA HORIZON 6 CARS",
+      "whatIs": "What are Forza Horizon 6 Cars?",
+      "whatIsDescription": "Forza Horizon 6 cars pages collect car list coverage, brand highlights, JDM favorites, cover car notes, new vehicle additions, reward cars, and garage planning topics.",
+      "why": "Why follow Forza Horizon 6 car guides?",
       "whySteps": {
-        "step1Title": "Forza Horizon 6 Progression",
-        "step1Description": "Understand Horizon Invitational, Wristbands, Collection Journal, and event flow.",
-        "step2Title": "Forza Horizon 6 Race Types",
-        "step2Description": "Learn Touge Battles, Time Attack Circuits, Drag Meets, and Street Races.",
-        "step3Title": "Forza Horizon 6 Multiplayer",
-        "step3Description": "Prepare for Car Meets, co-op, cross-play, and shared creative events."
+        "step1Title": "Forza Horizon 6 Car List",
+        "step1Description": "Track vehicle list pages by brand, class, role, reward source, edition bonus, and update timing.",
+        "step2Title": "Forza Horizon 6 JDM Focus",
+        "step2Description": "Follow Japanese brands such as Toyota, Honda, Nissan, Mazda, Subaru, and tuning-culture highlights tied to the Japan setting.",
+        "step3Title": "Forza Horizon 6 Garage Planning",
+        "step3Description": "Plan early collection goals around cover cars, new cars, Car Pass vehicles, reward cars, and favorite build themes."
       },
-      "featured": "Featured Forza Horizon 6 Gameplay Guides",
-      "all": "All Forza Horizon 6 Gameplay Guides"
+      "featured": "Featured Forza Horizon 6 Car Guides",
+      "all": "All Forza Horizon 6 Car Guides"
     },
-    "support": {
-      "title": "Forza Horizon 6 Support",
-      "description": "Forza Horizon 6 support guides for PC requirements, Steam setup, controller options, Game Pass access, cloud play, and platform questions.",
-      "metaTitle": "Forza Horizon 6 Support",
-      "metaDescription": "Forza Horizon 6 support guides for PC requirements, Steam setup, controller options, Game Pass access, cloud play, and platform questions.",
-      "categoryLabel": "FORZA HORIZON 6 SUPPORT",
-      "whatIs": "What is Forza Horizon 6 Support?",
-      "whatIsDescription": "Forza Horizon 6 support covers PC requirements, Steam features, Xbox app access, Game Pass paths, controller setup, and platform availability.",
-      "why": "Why check Forza Horizon 6 support?",
+    "editions": {
+      "title": "Forza Horizon 6 Editions",
+      "description": "Forza Horizon 6 edition guides for Premium Edition, pre-order details, price, Deluxe Edition, Premium Upgrade, Car Pass, VIP, and edition comparisons.",
+      "metaTitle": "Forza Horizon 6 Editions - Premium, Deluxe & Price",
+      "metaDescription": "Compare Forza Horizon 6 editions, Premium Edition, Deluxe Edition, Premium Upgrade, pre-order bonuses, price, Car Pass, VIP, and expansion access.",
+      "categoryLabel": "FORZA HORIZON 6 EDITIONS",
+      "whatIs": "What are Forza Horizon 6 Editions?",
+      "whatIsDescription": "Forza Horizon 6 editions pages explain Standard, Deluxe, Premium Edition, Premium Upgrade, Car Pass, VIP Membership, expansion access, pre-order bonuses, and price differences.",
+      "why": "Why compare Forza Horizon 6 editions?",
+      "whySteps": {
+        "step1Title": "Forza Horizon 6 Price Comparison",
+        "step1Description": "Review Standard, Deluxe, Premium Edition, and Premium Upgrade pricing across store pages and launch offers.",
+        "step2Title": "Forza Horizon 6 Content Comparison",
+        "step2Description": "Compare Car Pass, VIP Membership, Welcome Pack, expansion access, pre-order bonuses, and extra car packs.",
+        "step3Title": "Forza Horizon 6 Purchase Planning",
+        "step3Description": "Choose the edition path that matches early access plans, DLC interest, Game Pass usage, and long-term garage goals."
+      },
+      "featured": "Featured Forza Horizon 6 Edition Guides",
+      "all": "All Forza Horizon 6 Edition Guides"
+    },
+    "specs": {
+      "title": "Forza Horizon 6 Specs",
+      "description": "Forza Horizon 6 specs guides for system requirements, PC requirements, recommended specs, minimum specs, install size, Steam Deck, and PC setup.",
+      "metaTitle": "Forza Horizon 6 Specs - PC Requirements & Game Size",
+      "metaDescription": "Check Forza Horizon 6 specs coverage for system requirements, minimum and recommended PC requirements, game size, Steam Deck, SSD, GPU, CPU, and Windows setup.",
+      "categoryLabel": "FORZA HORIZON 6 SPECS",
+      "whatIs": "What are Forza Horizon 6 Specs?",
+      "whatIsDescription": "Forza Horizon 6 specs pages focus on PC requirements, Windows version, CPU, GPU, RAM, SSD, install size, Steam Deck searches, performance expectations, and store setup notes.",
+      "why": "Why read Forza Horizon 6 specs guides?",
       "whySteps": {
         "step1Title": "Forza Horizon 6 PC Requirements",
-        "step1Description": "Review Windows, CPU, GPU, memory, DirectX 12, broadband internet, and SSD requirements.",
-        "step2Title": "Forza Horizon 6 Platform Access",
-        "step2Description": "Compare Steam, Microsoft Store, Xbox Series X|S, Game Pass, and PlayStation 5 access.",
-        "step3Title": "Forza Horizon 6 Account Setup",
-        "step3Description": "Prepare store accounts, online features, Family Sharing, and cross-platform expectations."
+        "step1Description": "Compare minimum and recommended specs, Windows requirements, DirectX expectations, memory, storage, CPU, and GPU needs.",
+        "step2Title": "Forza Horizon 6 Install Planning",
+        "step2Description": "Plan around download size, SSD space, preload timing, store launcher setup, and broadband requirements.",
+        "step3Title": "Forza Horizon 6 Handheld Questions",
+        "step3Description": "Track Steam Deck, controller, portable PC, anti-tamper, and performance topics separately from gameplay guides."
       },
-      "featured": "Featured Forza Horizon 6 Support Guides",
-      "all": "All Forza Horizon 6 Support Guides"
+      "featured": "Featured Forza Horizon 6 Spec Guides",
+      "all": "All Forza Horizon 6 Spec Guides"
+    },
+    "media": {
+      "title": "Forza Horizon 6 Media",
+      "description": "Forza Horizon 6 media guides for trailers, gameplay videos, previews, review coverage, official showcases, screenshots, and reveal updates.",
+      "metaTitle": "Forza Horizon 6 Media - Trailer, Gameplay & Previews",
+      "metaDescription": "Watch Forza Horizon 6 media coverage for trailers, gameplay, previews, review coverage, official showcases, screenshots, reveal details, and video updates.",
+      "categoryLabel": "FORZA HORIZON 6 MEDIA",
+      "whatIs": "What is Forza Horizon 6 Media?",
+      "whatIsDescription": "Forza Horizon 6 media pages organize trailers, gameplay footage, official showcases, preview coverage, screenshots, reveal moments, and video-focused updates.",
+      "why": "Why follow Forza Horizon 6 media?",
+      "whySteps": {
+        "step1Title": "Forza Horizon 6 Trailer Tracking",
+        "step1Description": "Keep reveal trailers, showcase clips, launch videos, and official footage organized by topic and timing.",
+        "step2Title": "Forza Horizon 6 Gameplay Context",
+        "step2Description": "Use gameplay videos to understand Tokyo driving, Japan roads, car meets, Time Attack, weather, and festival features.",
+        "step3Title": "Forza Horizon 6 Preview Planning",
+        "step3Description": "Collect preview, review, and showcase coverage in one category for players comparing what to watch next."
+      },
+      "featured": "Featured Forza Horizon 6 Media Guides",
+      "all": "All Forza Horizon 6 Media Guides"
     }
   }
 }
