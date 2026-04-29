@@ -1,12 +1,17 @@
 {
-  "name": "Lucid Blocks Wiki - Crafting, Biomes & Achievements",
-  "short_name": "Lucid Blocks",
-  "description": "Lucid Blocks Wiki covers crafting, biomes, creatures, items, achievements, endings, and survival tips for the surreal voxel sandbox adventure on Steam.",
+  "name": "Forza Horizon 6 Wiki - Release Date, Cars & Steam Guide",
+  "short_name": "Forza Horizon 6",
+  "description": "Forza Horizon 6 Wiki covers the Japan map, Tokyo City, release date, Steam editions, car list, system requirements, achievements, trailers, and official updates.",
+  "id": "/",
   "start_url": "/",
+  "scope": "/",
   "display": "standalone",
   "orientation": "any",
-  "theme_color": "#1a7a7a",
-  "background_color": "#0a0a0a",
+  "theme_color": "#ec2f87",
+  "background_color": "#07111f",
+  "lang": "en",
+  "dir": "ltr",
+  "categories": ["games", "entertainment", "reference"],
   "icons": [
     {
       "src": "/android-chrome-192x192.png",
