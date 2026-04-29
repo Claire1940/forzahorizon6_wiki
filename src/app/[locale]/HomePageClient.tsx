@@ -4,14 +4,17 @@ import { useEffect, Suspense, lazy } from 'react'
 import {
   ArrowRight,
   BookOpen,
+  ChevronDown,
   Check,
   Clock,
-  ExternalLink,
   Gamepad2,
+  Home,
+  Map,
+  Monitor,
   Package,
+  Settings,
   Sparkles,
 } from 'lucide-react'
-import Link from 'next/link'
 import { useMessages } from 'next-intl'
 import { VideoFeature } from '@/components/home/VideoFeature'
 import { LatestGuidesAccordion } from '@/components/home/LatestGuidesAccordion'
@@ -158,9 +161,9 @@ export default function HomePageClient({ latestArticles, locale }: HomePageClien
       {/* Latest Updates Section */}
       <LatestGuidesAccordion articles={latestArticles} locale={locale} max={30} />
 
-      {/* Tools Grid - 4 Navigation Cards */}
+      {/* Tools Grid - 8 Navigation Cards */}
       <section className="px-4 py-20 bg-card/40">
-        <div className="container mx-auto max-w-4xl">
+        <div className="container mx-auto max-w-6xl">
           <div className="text-center mb-12 scroll-reveal">
             <h2 className="text-4xl md:text-5xl font-bold mb-4">
               {t.tools.title}
@@ -232,6 +235,70 @@ export default function HomePageClient({ latestArticles, locale }: HomePageClien
               </div>
               <h3 className="font-semibold mb-2">{t.tools.cards[3].title}</h3>
               <p className="text-sm text-muted-foreground">{t.tools.cards[3].description}</p>
+            </a>
+
+            <a
+              href="#forza-horizon-6-ps5-release"
+              onClick={(event) => {
+                event.preventDefault()
+                scrollToSection('forza-horizon-6-ps5-release')
+              }}
+              className="scroll-reveal group p-6 rounded-lg border border-border bg-card hover:border-[hsl(var(--nav-theme)/0.5)] transition-all duration-300 text-left hover:shadow-lg hover:shadow-[hsl(var(--nav-theme)/0.1)]"
+              style={{ animationDelay: '200ms' }}
+            >
+              <div className="w-12 h-12 rounded-lg mb-4 bg-[hsl(var(--nav-theme)/0.1)] flex items-center justify-center group-hover:bg-[hsl(var(--nav-theme)/0.2)] transition-colors">
+                <DynamicIcon name={t.tools.cards[4].icon} className="w-6 h-6 text-[hsl(var(--nav-theme-light))]" />
+              </div>
+              <h3 className="font-semibold mb-2">{t.tools.cards[4].title}</h3>
+              <p className="text-sm text-muted-foreground">{t.tools.cards[4].description}</p>
+            </a>
+
+            <a
+              href="#forza-horizon-6-system-requirements"
+              onClick={(event) => {
+                event.preventDefault()
+                scrollToSection('forza-horizon-6-system-requirements')
+              }}
+              className="scroll-reveal group p-6 rounded-lg border border-border bg-card hover:border-[hsl(var(--nav-theme)/0.5)] transition-all duration-300 text-left hover:shadow-lg hover:shadow-[hsl(var(--nav-theme)/0.1)]"
+              style={{ animationDelay: '250ms' }}
+            >
+              <div className="w-12 h-12 rounded-lg mb-4 bg-[hsl(var(--nav-theme)/0.1)] flex items-center justify-center group-hover:bg-[hsl(var(--nav-theme)/0.2)] transition-colors">
+                <DynamicIcon name={t.tools.cards[5].icon} className="w-6 h-6 text-[hsl(var(--nav-theme-light))]" />
+              </div>
+              <h3 className="font-semibold mb-2">{t.tools.cards[5].title}</h3>
+              <p className="text-sm text-muted-foreground">{t.tools.cards[5].description}</p>
+            </a>
+
+            <a
+              href="#forza-horizon-6-japan-map"
+              onClick={(event) => {
+                event.preventDefault()
+                scrollToSection('forza-horizon-6-japan-map')
+              }}
+              className="scroll-reveal group p-6 rounded-lg border border-border bg-card hover:border-[hsl(var(--nav-theme)/0.5)] transition-all duration-300 text-left hover:shadow-lg hover:shadow-[hsl(var(--nav-theme)/0.1)]"
+              style={{ animationDelay: '300ms' }}
+            >
+              <div className="w-12 h-12 rounded-lg mb-4 bg-[hsl(var(--nav-theme)/0.1)] flex items-center justify-center group-hover:bg-[hsl(var(--nav-theme)/0.2)] transition-colors">
+                <DynamicIcon name={t.tools.cards[6].icon} className="w-6 h-6 text-[hsl(var(--nav-theme-light))]" />
+              </div>
+              <h3 className="font-semibold mb-2">{t.tools.cards[6].title}</h3>
+              <p className="text-sm text-muted-foreground">{t.tools.cards[6].description}</p>
+            </a>
+
+            <a
+              href="#forza-horizon-6-tokyo-city"
+              onClick={(event) => {
+                event.preventDefault()
+                scrollToSection('forza-horizon-6-tokyo-city')
+              }}
+              className="scroll-reveal group p-6 rounded-lg border border-border bg-card hover:border-[hsl(var(--nav-theme)/0.5)] transition-all duration-300 text-left hover:shadow-lg hover:shadow-[hsl(var(--nav-theme)/0.1)]"
+              style={{ animationDelay: '350ms' }}
+            >
+              <div className="w-12 h-12 rounded-lg mb-4 bg-[hsl(var(--nav-theme)/0.1)] flex items-center justify-center group-hover:bg-[hsl(var(--nav-theme)/0.2)] transition-colors">
+                <DynamicIcon name={t.tools.cards[7].icon} className="w-6 h-6 text-[hsl(var(--nav-theme-light))]" />
+              </div>
+              <h3 className="font-semibold mb-2">{t.tools.cards[7].title}</h3>
+              <p className="text-sm text-muted-foreground">{t.tools.cards[7].description}</p>
             </a>
           </div>
         </div>
@@ -430,6 +497,186 @@ export default function HomePageClient({ latestArticles, locale }: HomePageClien
         </div>
       </section>
 
+      {/* Module 5: Forza Horizon 6 PS5 Release */}
+      <section id="forza-horizon-6-ps5-release" className="scroll-mt-24 px-4 py-20">
+        <div className="container mx-auto max-w-5xl">
+          <div className="text-center mb-12 scroll-reveal">
+            <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-[hsl(var(--nav-theme)/0.1)] border border-[hsl(var(--nav-theme)/0.3)] mb-5">
+              <Monitor className="w-4 h-4 text-[hsl(var(--nav-theme-light))]" />
+              <span className="text-sm font-medium">{t.tools.cards[4].title}</span>
+            </div>
+            <h2 className="text-4xl md:text-5xl font-bold mb-4">
+              {t.modules.forzaHorizon6Ps5Release.title}
+            </h2>
+            <p className="text-muted-foreground text-lg max-w-3xl mx-auto">
+              {t.modules.forzaHorizon6Ps5Release.intro}
+            </p>
+          </div>
+
+          <div className="scroll-reveal grid grid-cols-1 lg:grid-cols-2 gap-4">
+            {t.modules.forzaHorizon6Ps5Release.items.map((item: any) => (
+              <details key={item.question} className="group rounded-lg border border-border bg-card hover:border-[hsl(var(--nav-theme)/0.5)] transition-colors">
+                <summary className="flex cursor-pointer list-none items-start justify-between gap-4 p-6 [&::-webkit-details-marker]:hidden">
+                  <span className="text-lg font-bold leading-snug">{item.question}</span>
+                  <ChevronDown className="mt-1 h-5 w-5 flex-shrink-0 text-[hsl(var(--nav-theme-light))] transition-transform group-open:rotate-180" />
+                </summary>
+                <div className="px-6 pb-6">
+                  <p className="text-sm leading-relaxed text-muted-foreground mb-5">{item.answer}</p>
+                  <div className="grid grid-cols-1 gap-2">
+                    {item.highlights.map((highlight: string) => (
+                      <div key={highlight} className="flex items-start gap-2 rounded-md border border-[hsl(var(--nav-theme)/0.2)] bg-[hsl(var(--nav-theme)/0.04)] px-3 py-2">
+                        <Check className="mt-0.5 h-4 w-4 flex-shrink-0 text-[hsl(var(--nav-theme-light))]" />
+                        <span className="text-sm text-muted-foreground">{highlight}</span>
+                      </div>
+                    ))}
+                  </div>
+                </div>
+              </details>
+            ))}
+          </div>
+        </div>
+      </section>
+
+      {/* Module 6: Forza Horizon 6 System Requirements */}
+      <section id="forza-horizon-6-system-requirements" className="scroll-mt-24 px-4 py-20 bg-card/40">
+        <div className="container mx-auto max-w-6xl">
+          <div className="text-center mb-12 scroll-reveal">
+            <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-[hsl(var(--nav-theme)/0.1)] border border-[hsl(var(--nav-theme)/0.3)] mb-5">
+              <Settings className="w-4 h-4 text-[hsl(var(--nav-theme-light))]" />
+              <span className="text-sm font-medium">{t.tools.cards[5].title}</span>
+            </div>
+            <h2 className="text-4xl md:text-5xl font-bold mb-4">
+              {t.modules.forzaHorizon6SystemRequirements.title}
+            </h2>
+            <p className="text-muted-foreground text-lg max-w-3xl mx-auto">
+              {t.modules.forzaHorizon6SystemRequirements.intro}
+            </p>
+          </div>
+
+          <div className="scroll-reveal hidden overflow-hidden rounded-lg border border-border bg-card lg:block">
+            <table className="w-full border-collapse text-left">
+              <thead className="bg-[hsl(var(--nav-theme)/0.08)]">
+                <tr>
+                  <th className="px-5 py-4 text-sm font-semibold">Forza Horizon 6 PC Spec</th>
+                  <th className="px-5 py-4 text-sm font-semibold">Minimum</th>
+                  <th className="px-5 py-4 text-sm font-semibold">Recommended</th>
+                  <th className="px-5 py-4 text-sm font-semibold">Notes</th>
+                </tr>
+              </thead>
+              <tbody>
+                {t.modules.forzaHorizon6SystemRequirements.items.map((item: any) => (
+                  <tr key={item.spec} className="border-t border-border align-top">
+                    <td className="px-5 py-5 font-bold text-[hsl(var(--nav-theme-light))]">{item.spec}</td>
+                    <td className="px-5 py-5 text-sm text-muted-foreground">{item.minimum}</td>
+                    <td className="px-5 py-5 text-sm text-muted-foreground">{item.recommended}</td>
+                    <td className="px-5 py-5 text-sm text-muted-foreground">{item.notes}</td>
+                  </tr>
+                ))}
+              </tbody>
+            </table>
+          </div>
+
+          <div className="scroll-reveal grid grid-cols-1 md:grid-cols-2 gap-4 lg:hidden">
+            {t.modules.forzaHorizon6SystemRequirements.items.map((item: any) => (
+              <div key={item.spec} className="rounded-lg border border-border bg-card p-6 hover:border-[hsl(var(--nav-theme)/0.5)] transition-colors">
+                <h3 className="text-xl font-bold text-[hsl(var(--nav-theme-light))] mb-4">{item.spec}</h3>
+                <div className="space-y-4">
+                  <div>
+                    <p className="text-xs uppercase text-muted-foreground mb-1">Minimum</p>
+                    <p className="text-sm font-semibold">{item.minimum}</p>
+                  </div>
+                  <div>
+                    <p className="text-xs uppercase text-muted-foreground mb-1">Recommended</p>
+                    <p className="text-sm font-semibold">{item.recommended}</p>
+                  </div>
+                  <p className="text-sm leading-relaxed text-muted-foreground">{item.notes}</p>
+                </div>
+              </div>
+            ))}
+          </div>
+        </div>
+      </section>
+
+      {/* Module 7: Forza Horizon 6 Japan Map */}
+      <section id="forza-horizon-6-japan-map" className="scroll-mt-24 px-4 py-20">
+        <div className="container mx-auto max-w-5xl">
+          <div className="text-center mb-12 scroll-reveal">
+            <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-[hsl(var(--nav-theme)/0.1)] border border-[hsl(var(--nav-theme)/0.3)] mb-5">
+              <Map className="w-4 h-4 text-[hsl(var(--nav-theme-light))]" />
+              <span className="text-sm font-medium">{t.tools.cards[6].title}</span>
+            </div>
+            <h2 className="text-4xl md:text-5xl font-bold mb-4">
+              {t.modules.forzaHorizon6JapanMap.title}
+            </h2>
+            <p className="text-muted-foreground text-lg max-w-3xl mx-auto">
+              {t.modules.forzaHorizon6JapanMap.intro}
+            </p>
+          </div>
+
+          <div className="scroll-reveal space-y-4">
+            {t.modules.forzaHorizon6JapanMap.items.map((item: any) => (
+              <details key={item.question} className="group rounded-lg border border-border bg-card hover:border-[hsl(var(--nav-theme)/0.5)] transition-colors">
+                <summary className="flex cursor-pointer list-none items-start justify-between gap-4 p-6 [&::-webkit-details-marker]:hidden">
+                  <span className="text-lg font-bold leading-snug">{item.question}</span>
+                  <ChevronDown className="mt-1 h-5 w-5 flex-shrink-0 text-[hsl(var(--nav-theme-light))] transition-transform group-open:rotate-180" />
+                </summary>
+                <div className="px-6 pb-6">
+                  <p className="text-sm leading-relaxed text-muted-foreground mb-5">{item.answer}</p>
+                  <div className="grid grid-cols-1 md:grid-cols-2 gap-2">
+                    {item.highlights.map((highlight: string) => (
+                      <div key={highlight} className="flex items-start gap-2 rounded-md border border-[hsl(var(--nav-theme)/0.2)] bg-[hsl(var(--nav-theme)/0.04)] px-3 py-2">
+                        <Check className="mt-0.5 h-4 w-4 flex-shrink-0 text-[hsl(var(--nav-theme-light))]" />
+                        <span className="text-sm text-muted-foreground">{highlight}</span>
+                      </div>
+                    ))}
+                  </div>
+                </div>
+              </details>
+            ))}
+          </div>
+        </div>
+      </section>
+
+      {/* Module 8: Forza Horizon 6 Tokyo City */}
+      <section id="forza-horizon-6-tokyo-city" className="scroll-mt-24 px-4 py-20 bg-card/40">
+        <div className="container mx-auto max-w-6xl">
+          <div className="text-center mb-12 scroll-reveal">
+            <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-[hsl(var(--nav-theme)/0.1)] border border-[hsl(var(--nav-theme)/0.3)] mb-5">
+              <Home className="w-4 h-4 text-[hsl(var(--nav-theme-light))]" />
+              <span className="text-sm font-medium">{t.tools.cards[7].title}</span>
+            </div>
+            <h2 className="text-4xl md:text-5xl font-bold mb-4">
+              {t.modules.forzaHorizon6TokyoCity.title}
+            </h2>
+            <p className="text-muted-foreground text-lg max-w-3xl mx-auto">
+              {t.modules.forzaHorizon6TokyoCity.intro}
+            </p>
+          </div>
+
+          <div className="scroll-reveal grid grid-cols-1 md:grid-cols-2 xl:grid-cols-4 gap-4">
+            {t.modules.forzaHorizon6TokyoCity.items.map((item: any, index: number) => (
+              <div
+                key={item.title}
+                className={index === 0
+                  ? 'rounded-lg border border-[hsl(var(--nav-theme)/0.45)] bg-card p-6 hover:border-[hsl(var(--nav-theme)/0.7)] transition-colors md:col-span-2'
+                  : 'rounded-lg border border-border bg-card p-6 hover:border-[hsl(var(--nav-theme)/0.5)] transition-colors'}
+              >
+                <div className="mb-4 flex items-center justify-between gap-3">
+                  <span className="rounded-full bg-[hsl(var(--nav-theme)/0.1)] border border-[hsl(var(--nav-theme)/0.3)] px-3 py-1 text-xs font-semibold text-[hsl(var(--nav-theme-light))]">
+                    {item.meta}
+                  </span>
+                  <span className="text-sm font-bold text-[hsl(var(--nav-theme-light))]">
+                    {(index + 1).toString().padStart(2, '0')}
+                  </span>
+                </div>
+                <h3 className="text-xl font-bold mb-3">{item.title}</h3>
+                <p className="text-sm leading-relaxed text-muted-foreground">{item.description}</p>
+              </div>
+            ))}
+          </div>
+        </div>
+      </section>
+
       {/* 广告位 6: 移动端横幅 320×50 */}
       <AdBanner type="banner-320x50" adKey={process.env.NEXT_PUBLIC_AD_MOBILE_320X50} />
 
@@ -565,39 +812,11 @@ export default function HomePageClient({ latestArticles, locale }: HomePageClien
             {/* Legal - Internal Routes Only */}
             <div>
               <h4 className="font-semibold mb-4">{t.footer.legal}</h4>
-              <ul className="space-y-2 text-sm">
-                <li>
-                  <Link
-                    href="/about"
-                    className="text-muted-foreground hover:text-[hsl(var(--nav-theme-light))] transition"
-                  >
-                    {t.footer.about}
-                  </Link>
-                </li>
-                <li>
-                  <Link
-                    href="/privacy-policy"
-                    className="text-muted-foreground hover:text-[hsl(var(--nav-theme-light))] transition"
-                  >
-                    {t.footer.privacy}
-                  </Link>
-                </li>
-                <li>
-                  <Link
-                    href="/terms-of-service"
-                    className="text-muted-foreground hover:text-[hsl(var(--nav-theme-light))] transition"
-                  >
-                    {t.footer.terms}
-                  </Link>
-                </li>
-                <li>
-                  <Link
-                    href="/copyright"
-                    className="text-muted-foreground hover:text-[hsl(var(--nav-theme-light))] transition"
-                  >
-                    {t.footer.copyrightNotice}
-                  </Link>
-                </li>
+              <ul className="space-y-2 text-sm text-muted-foreground">
+                <li>{t.footer.about}</li>
+                <li>{t.footer.privacy}</li>
+                <li>{t.footer.terms}</li>
+                <li>{t.footer.copyrightNotice}</li>
               </ul>
               <p className="text-sm text-muted-foreground mt-6 mb-2">{t.footer.copyright}</p>
               <p className="text-xs text-muted-foreground">{t.footer.disclaimer}</p>

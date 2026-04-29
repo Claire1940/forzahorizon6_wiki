@@ -58,7 +58,7 @@
   "tools": {
     "title": "Forza Horizon 6 Resource Navigation",
     "titleHighlight": "Forza Horizon 6 Guide Cards",
-    "subtitle": "Jump to the Forza Horizon 6 launch, Steam, edition, and Game Pass guides on this page.",
+    "subtitle": "Jump to the Forza Horizon 6 launch, platform, PC specs, map, and Tokyo City guides on this page.",
     "cards": [
       {
         "icon": "Clock",
@@ -79,6 +79,26 @@
         "icon": "Gamepad2",
         "title": "Forza Horizon 6 Game Pass",
         "description": "Day-one Game Pass access, PC and console paths, Premium Upgrade, and Steam purchase notes."
+      },
+      {
+        "icon": "Monitor",
+        "title": "Forza Horizon 6 PS5 Release",
+        "description": "PS5 release window, wishlist status, standalone ownership, DLC access, and cross-save details."
+      },
+      {
+        "icon": "Settings",
+        "title": "Forza Horizon 6 System Requirements",
+        "description": "Minimum and recommended PC specs, SSD requirement, DirectX 12, handheld support, and visual features."
+      },
+      {
+        "icon": "Map",
+        "title": "Forza Horizon 6 Japan Map",
+        "description": "Horizon Japan regions, Tokyo City, mountain roads, seasonal biomes, and route inspirations."
+      },
+      {
+        "icon": "Home",
+        "title": "Forza Horizon 6 Tokyo City",
+        "description": "Largest urban Horizon area, downtown streets, docks, shortcuts, vertical roads, and car culture."
       }
     ]
   },
@@ -236,6 +256,249 @@
           "label": "Steam Version",
           "value": "Separate Steam Purchase",
           "description": "Forza Horizon 6 on Steam is sold as a separate storefront purchase with Standard, Deluxe, and Premium pre-purchase options."
+        }
+      ]
+    },
+    "forzaHorizon6Ps5Release": {
+      "title": "Forza Horizon 6 PS5 Release",
+      "intro": "Forza Horizon 6 is coming to PlayStation 5 later in 2026 after the Xbox Series X|S and PC launch. This platform guide covers PS5 wishlist access, launch timing, ownership, DLC purchases, and cross-save support.",
+      "items": [
+        {
+          "question": "Is Forza Horizon 6 coming to PS5?",
+          "answer": "Yes. Forza Horizon 6 has a PlayStation Store page from Microsoft Corporation, and PlayStation 5 players can add the game to their wishlist.",
+          "highlights": [
+            "Forza Horizon 6 platform: PlayStation 5",
+            "Forza Horizon 6 publisher: Microsoft Corporation",
+            "Forza Horizon 6 PS Store status: Announced"
+          ]
+        },
+        {
+          "question": "When is the Forza Horizon 6 PS5 version launching?",
+          "answer": "The Forza Horizon 6 PS5 version is planned for later in 2026. Xbox Series X|S and PC launch first on May 19, 2026, with Premium Edition early access beginning May 15.",
+          "highlights": [
+            "Forza Horizon 6 Xbox and PC launch: May 19, 2026",
+            "Forza Horizon 6 Premium early access: May 15, 2026",
+            "Forza Horizon 6 PS5 release window: Later in 2026"
+          ]
+        },
+        {
+          "question": "Can PS5 players wishlist or pre-order Forza Horizon 6?",
+          "answer": "Forza Horizon 6 PS5 players can add the game to their wishlist on the PlayStation Store. Steam, Xbox, and Microsoft Store PC versions are available for pre-order.",
+          "highlights": [
+            "Forza Horizon 6 PS5: Wishlist available",
+            "Forza Horizon 6 Steam: Pre-purchase available",
+            "Forza Horizon 6 Xbox and Microsoft Store PC: Pre-order available"
+          ]
+        },
+        {
+          "question": "Is Forza Horizon 6 PS5 included with another platform purchase?",
+          "answer": "No. Forza Horizon 6 on PS5 is a standalone product. Steam is also treated as a standalone product, while Xbox Play Anywhere covers digital Xbox console and Microsoft Store PC versions.",
+          "highlights": [
+            "Forza Horizon 6 PS5 ownership is separate",
+            "Forza Horizon 6 Steam ownership is separate",
+            "Forza Horizon 6 Xbox Play Anywhere covers Xbox console and Microsoft Store PC"
+          ]
+        },
+        {
+          "question": "Will Forza Horizon 6 support cross-play and cross-save on PS5?",
+          "answer": "Forza Horizon 6 supports cross-play and cross-save between PC and console versions, including Xbox Series X|S, Xbox on PC, Steam, SteamOS devices, PC handhelds, and the PS5 version when it arrives.",
+          "highlights": [
+            "Forza Horizon 6 cross-play: PC and console",
+            "Forza Horizon 6 cross-save: Xbox, PC, Steam, SteamOS, PC handhelds, and PS5",
+            "Forza Horizon 6 handheld progress support: Steam Deck and Xbox ROG Ally"
+          ]
+        },
+        {
+          "question": "Do Forza Horizon 6 DLC purchases carry over to PS5?",
+          "answer": "Forza Horizon 6 downloadable content such as Car Packs and Expansions must be purchased on each platform where you want to access that content. Xbox Play Anywhere-supported devices are the exception for Xbox console and Microsoft Store PC access.",
+          "highlights": [
+            "Forza Horizon 6 DLC is platform-specific",
+            "Forza Horizon 6 PS5 DLC purchases are separate",
+            "Forza Horizon 6 Xbox Play Anywhere covers supported Xbox and Microsoft Store PC devices"
+          ]
+        }
+      ]
+    },
+    "forzaHorizon6SystemRequirements": {
+      "title": "Forza Horizon 6 System Requirements",
+      "intro": "Check Forza Horizon 6 minimum and recommended PC specs for Steam, including Windows version, CPU, GPU, memory, DirectX 12, broadband internet, SSD storage, handheld support, and graphics features.",
+      "items": [
+        {
+          "spec": "Operating System",
+          "minimum": "Windows 10 22H2, version 19045 or higher",
+          "recommended": "Windows 10 22H2, version 19045 or higher",
+          "notes": "Forza Horizon 6 requires a 64-bit processor and operating system."
+        },
+        {
+          "spec": "Processor",
+          "minimum": "Intel i5-8400 or AMD Ryzen 5 1600",
+          "recommended": "Intel i5-12400F or AMD Ryzen 5 5600X",
+          "notes": "Forza Horizon 6 recommended specs target a newer mid-range CPU class for smoother open-world racing performance."
+        },
+        {
+          "spec": "Memory",
+          "minimum": "16 GB RAM",
+          "recommended": "16 GB RAM",
+          "notes": "Forza Horizon 6 lists 16 GB RAM for both minimum and recommended PC configurations."
+        },
+        {
+          "spec": "Graphics",
+          "minimum": "Nvidia GTX 1650, AMD RX 6500 XT, or Intel Arc A380",
+          "recommended": "NVIDIA RTX 3060 Ti, AMD RX 6700 XT, or Intel Arc A580",
+          "notes": "Forza Horizon 6 compatible graphics cards can use enhanced ray tracing features."
+        },
+        {
+          "spec": "DirectX",
+          "minimum": "DirectX 12",
+          "recommended": "DirectX 12",
+          "notes": "Forza Horizon 6 requires DirectX 12 on PC."
+        },
+        {
+          "spec": "Network",
+          "minimum": "Broadband Internet connection",
+          "recommended": "Broadband Internet connection",
+          "notes": "Forza Horizon 6 online features, multiplayer, and connected services require internet access."
+        },
+        {
+          "spec": "Storage",
+          "minimum": "SSD required",
+          "recommended": "SSD required",
+          "notes": "Forza Horizon 6 Steam requirements list SSD storage as required."
+        },
+        {
+          "spec": "PC Visual Features",
+          "minimum": "4K HDR, enhanced ray tracing features, high uncapped framerates, and ultrawide monitor support",
+          "recommended": "Use compatible hardware for ray-traced reflections, RTGI, high framerates, and advanced graphics settings",
+          "notes": "Forza Horizon 6 PC graphics settings can be changed without restarting the game, with live previews for many settings."
+        },
+        {
+          "spec": "Upscaling Technologies",
+          "minimum": "NVIDIA DLSS, AMD FSR, and Intel XeSS support on compatible hardware",
+          "recommended": "NVIDIA DLSS 4, AMD FSR 4 or 3, and Intel XeSS 2.1",
+          "notes": "Forza Horizon 6 supports advanced upscaling and frame generation options on compatible graphics hardware."
+        },
+        {
+          "spec": "Handheld and Cross-Save",
+          "minimum": "PC handheld support, including Steam Deck and Xbox ROG Ally",
+          "recommended": "Use cross-save to continue progress across supported PC, console, SteamOS, and handheld devices",
+          "notes": "Forza Horizon 6 supports cross-save across every platform where the game can be played."
+        },
+        {
+          "spec": "Benchmark Mode",
+          "minimum": "Supported on PC",
+          "recommended": "Use benchmark mode to test performance after changing graphics settings",
+          "notes": "Forza Horizon 6 includes a PC benchmark mode for consistent performance testing."
+        }
+      ]
+    },
+    "forzaHorizon6JapanMap": {
+      "title": "Forza Horizon 6 Japan Map",
+      "intro": "The Forza Horizon 6 Japan map is built around the contrast of urban and rural Japan, modern and traditional scenery, diverse biomes, seasonal changes, mountain roads, and world-famous route inspirations.",
+      "items": [
+        {
+          "question": "What is the Forza Horizon 6 map location?",
+          "answer": "Forza Horizon 6 takes place in Japan, bringing together scenic rural landscapes, dense urban driving, mountain roads, diverse biomes, and open-world racing routes.",
+          "highlights": [
+            "Forza Horizon 6 main setting: Japan",
+            "Forza Horizon 6 world style: Horizon-style interpretation of Japan",
+            "Forza Horizon 6 core contrast: Rural and urban, modern and traditional"
+          ]
+        },
+        {
+          "question": "How big is the Forza Horizon 6 map?",
+          "answer": "Forza Horizon 6 features the largest map in a Horizon game yet, with strong emphasis on verticality, density, diverse biomes, and seasonal driving experiences.",
+          "highlights": [
+            "Forza Horizon 6 largest Horizon map yet",
+            "Forza Horizon 6 most dense Horizon map yet",
+            "Forza Horizon 6 built for verticality and varied driving"
+          ]
+        },
+        {
+          "question": "What areas are shown in the Forza Horizon 6 full map reveal?",
+          "answer": "The Forza Horizon 6 full map reveal presents Horizon Japan from the downtown streets of Tokyo City to the snowy Japanese Alps, giving players a broad mix of city roads, mountains, and scenic exploration routes.",
+          "highlights": [
+            "Forza Horizon 6 Tokyo City",
+            "Forza Horizon 6 snowy Japanese Alps",
+            "Forza Horizon 6 mountain areas",
+            "Forza Horizon 6 rural and natural landscapes"
+          ]
+        },
+        {
+          "question": "Which real-world routes inspired the Forza Horizon 6 Japan map?",
+          "answer": "Forza Horizon 6 includes roads inspired by the C1 loop and Gingko Avenue, as well as mountain passes inspired by Mt. Haruna and Bandai Azuma.",
+          "highlights": [
+            "Forza Horizon 6 C1 loop-inspired roads",
+            "Forza Horizon 6 Gingko Avenue-inspired roads",
+            "Forza Horizon 6 Mt. Haruna-inspired mountain passes",
+            "Forza Horizon 6 Bandai Azuma-inspired mountain passes"
+          ]
+        },
+        {
+          "question": "Does the Forza Horizon 6 Japan map include seasons and biomes?",
+          "answer": "Yes. The Forza Horizon 6 Japan map includes diverse biomes and seasonality, combining urban roads, rural landscapes, mountain scenery, and natural environments across a varied open world.",
+          "highlights": [
+            "Forza Horizon 6 dynamic seasonal feel",
+            "Forza Horizon 6 urban and rural biomes",
+            "Forza Horizon 6 mountain and natural regions",
+            "Forza Horizon 6 dense city exploration"
+          ]
+        },
+        {
+          "question": "How does the Forza Horizon 6 map connect to progression?",
+          "answer": "Forza Horizon 6 players start as tourists, qualify through the Horizon Invitational, rise through faster car classes, earn Wristbands, complete the Collection Journal, and work toward Horizon Legend status.",
+          "highlights": [
+            "Forza Horizon 6 tourist starting point",
+            "Forza Horizon 6 Horizon Invitational",
+            "Forza Horizon 6 Wristband progression",
+            "Forza Horizon 6 Collection Journal",
+            "Forza Horizon 6 Legend Island access"
+          ]
+        }
+      ]
+    },
+    "forzaHorizon6TokyoCity": {
+      "title": "Forza Horizon 6 Tokyo City",
+      "intro": "Tokyo City is one of the biggest reasons players are searching for Forza Horizon 6. This city guide highlights scale, road density, districts, shortcuts, vertical driving, car culture, and open-world multiplayer activities.",
+      "items": [
+        {
+          "title": "Forza Horizon 6 Largest Urban Area",
+          "description": "Tokyo City is the largest urban environment ever featured in a Forza Horizon game and is five times larger than Forza Horizon 5's Guanajuato.",
+          "meta": "Scale"
+        },
+        {
+          "title": "Forza Horizon 6 Iconic Downtown Streets",
+          "description": "Tokyo City includes iconic downtown streets designed around neon lights, busy roads, layered scenery, and fast exploration with friends.",
+          "meta": "Downtown"
+        },
+        {
+          "title": "Forza Horizon 6 Suburbs and Shortcuts",
+          "description": "Tokyo City includes suburban roads, corners, and shortcuts built to make every route feel fun to drive and easy to explore.",
+          "meta": "Exploration"
+        },
+        {
+          "title": "Forza Horizon 6 Docks and Industrial Districts",
+          "description": "Tokyo City lets players challenge themselves in docks and industrial zones, adding a different road feel from downtown and suburban areas.",
+          "meta": "Districts"
+        },
+        {
+          "title": "Forza Horizon 6 Dense and Vertical Road Design",
+          "description": "Forza Horizon 6 emphasizes density and verticality, making Tokyo City one of the most detailed and layered environments in the game.",
+          "meta": "Road Design"
+        },
+        {
+          "title": "Forza Horizon 6 Car Enthusiast Hub",
+          "description": "Tokyo City is positioned as a major car culture hub, with Car Meets, Drag Meets, Time Attack Circuits, and open-world social driving activities.",
+          "meta": "Car Culture"
+        },
+        {
+          "title": "Forza Horizon 6 JDM and Street Driving Focus",
+          "description": "The Tokyo setting supports Forza Horizon 6 Japanese car culture, including JDM classics, Touge Battles, rare Aftermarket Cars, and authentic car stories.",
+          "meta": "JDM"
+        },
+        {
+          "title": "Forza Horizon 6 Co-op City Exploration",
+          "description": "Tokyo City can be explored solo or with friends, with multiplayer activities designed to happen naturally in the open world.",
+          "meta": "Multiplayer"
         }
       ]
     }
