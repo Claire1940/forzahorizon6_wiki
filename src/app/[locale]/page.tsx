@@ -1,5 +1,4 @@
 import { getLatestArticles } from '@/lib/getLatestArticles'
-import { buildModuleLinkMap } from '@/lib/buildModuleLinkMap'
 import type { Language } from '@/lib/content'
 import type { Metadata } from 'next'
 import { buildLanguageAlternates } from '@/lib/i18n-utils'
@@ -66,7 +65,6 @@ export default async function HomePage({ params }: PageProps) {
 
   // 服务器端获取最新文章数据
   const latestArticles = await getLatestArticles(locale as Language, 30)
-  const moduleLinkMap = await buildModuleLinkMap(locale as Language)
   const pageUrl = locale === 'en' ? SITE_URL : `${SITE_URL}/${locale}`
   const structuredData = {
     "@context": "https://schema.org",
@@ -175,7 +173,7 @@ export default async function HomePage({ params }: PageProps) {
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(structuredData) }}
       />
-      <HomePageClient latestArticles={latestArticles} moduleLinkMap={moduleLinkMap} locale={locale} />
+      <HomePageClient latestArticles={latestArticles} locale={locale} />
     </>
   )
 }
