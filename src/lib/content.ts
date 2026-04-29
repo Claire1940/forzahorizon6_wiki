@@ -1,5 +1,6 @@
 import fs from 'fs'
 import path from 'path'
+import matter from 'gray-matter'
 import { CONTENT_TYPES as CONFIG_CONTENT_TYPES } from '@/config/navigation'
 import type { Locale } from '@/i18n/routing'
 
@@ -99,7 +100,7 @@ function getSlugsFromDirectory(dir: string, basePath: string[] = []): string[] {
 
 /**
  * 获取所有内容列表（支持递归读取嵌套目录）
- * 使用动态 import 获取 MDX 文件的 metadata
+ * 从 MDX 文件 frontmatter 获取 metadata
  */
 export async function getAllContent(
   contentType: ContentType,
@@ -119,30 +120,37 @@ export async function getAllContent(
     slugs = [...new Set([...slugs, ...enSlugs])]
   }
 
-  // 使用 import 获取每个文件的 metadata
+  const readFrontmatter = (dir: string, slug: string): ContentFrontmatter | null => {
+    const realSlug = findFileBySlug(dir, slug) || slug
+    const filePath = path.join(dir, `${realSlug}.mdx`)
+
+    if (!fs.existsSync(filePath)) return null
+
+    const fileContent = fs.readFileSync(filePath, 'utf-8')
+    const { data } = matter(fileContent)
+    return data as ContentFrontmatter
+  }
+
+  // 从文件系统读取每个文件的 metadata，避免在空 content/ 目录阶段触发打包器动态导入警告
   for (const slug of slugs) {
-    try {
-      // 先尝试当前语言（反查真实文件名以处理含特殊字符的文件名）
-      const realSlug = findFileBySlug(contentDir, slug) || slug
-      const mod = await import(`../../content/${language}/${contentType}/${realSlug}.mdx`)
+    const frontmatter = readFrontmatter(contentDir, slug)
+    if (frontmatter) {
       items.push({
         slug,
-        frontmatter: mod.metadata as ContentFrontmatter,
+        frontmatter,
       })
-    } catch {
-      // Fallback 到英文
-      if (language !== 'en') {
-        try {
-          const enContentDir = path.join(process.cwd(), 'content', 'en', contentType)
-          const enRealSlug = findFileBySlug(enContentDir, slug) || slug
-          const mod = await import(`../../content/en/${contentType}/${enRealSlug}.mdx`)
-          items.push({
-            slug,
-            frontmatter: mod.metadata as ContentFrontmatter,
-          })
-        } catch {
-          // 跳过无法加载的文件
-        }
+      continue
+    }
+
+    // Fallback 到英文
+    if (language !== 'en') {
+      const enContentDir = path.join(process.cwd(), 'content', 'en', contentType)
+      const enFrontmatter = readFrontmatter(enContentDir, slug)
+      if (enFrontmatter) {
+        items.push({
+          slug,
+          frontmatter: enFrontmatter,
+        })
       }
     }
   }
@@ -214,7 +222,7 @@ export function isValidContentType(type: string): type is ContentType {
  * 验证语言是否有效
  */
 export function isValidLanguage(lang: string): lang is Language {
-  const validLanguages: Language[] = ['en', 'ru', 'pt', 'de', 'es', 'ja', 'tr', 'fr']
+  const validLanguages: Language[] = ['en', 'ja', 'es', 'de']
   return validLanguages.includes(lang as Language)
 }
 

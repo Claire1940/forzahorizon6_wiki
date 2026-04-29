@@ -9,29 +9,21 @@
   "retry_attempts": 3,
   "retry_delay": 5,
 
-  "languages": ["ru", "pt", "de", "es", "ja", "ko", "fr"],
+  "languages": ["ja", "es", "de"],
   "default_language": "en",
   "output_dir": "content/",
 
   "game_names": {
-    "en": "Lucid Blocks",
-    "ru": "Lucid Blocks",
-    "pt": "Lucid Blocks",
-    "de": "Lucid Blocks",
-    "es": "Lucid Blocks",
-    "ja": "Lucid Blocks",
-    "ko": "Lucid Blocks",
-    "fr": "Lucid Blocks"
+    "en": "Forza Horizon 6",
+    "ja": "Forza Horizon 6",
+    "es": "Forza Horizon 6",
+    "de": "Forza Horizon 6"
   },
 
   "lang_names": {
-    "ru": "Russian",
-    "pt": "Portuguese (Brazil)",
-    "de": "German",
-    "es": "Spanish (Latin America)",
     "ja": "Japanese",
-    "ko": "Korean",
-    "fr": "French"
+    "es": "Spanish",
+    "de": "German"
   },
 
   "batch_size": 20,
