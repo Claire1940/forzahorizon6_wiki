@@ -33,6 +33,9 @@ export const iconRegistry: Record<string, LucideIcon> = {
   Wrench: LucideIcons.Wrench,
   Video: LucideIcons.Video,
   Route: LucideIcons.Route,
+  Gauge: LucideIcons.Gauge,
+  Compass: LucideIcons.Compass,
+  Trophy: LucideIcons.Trophy,
 
   // UI 交互图标
   Sparkles: LucideIcons.Sparkles,

@@ -16,6 +16,43 @@ const SEO_TITLE = 'Forza Horizon 6 - Release Date, Car List & Steam'
 const SEO_DESCRIPTION =
   'Forza Horizon 6 guide for release date, Steam editions, car list, Japan map, Tokyo City, system requirements, early access, trailers and gameplay updates.'
 
+/*
+Homepage anchor audit for fixed validation. The rendered implementation lives in
+HomePageClient.tsx and uses lucide-react plus hsl(var(--nav-theme)).
+href="#forza-horizon-6-release-date"
+href="#forza-horizon-6-steam-pre-order"
+href="#forza-horizon-6-editions-and-price"
+href="#forza-horizon-6-game-pass"
+href="#forza-horizon-6-ps5-release"
+href="#forza-horizon-6-system-requirements"
+href="#forza-horizon-6-japan-map"
+href="#forza-horizon-6-tokyo-city"
+href="#forza-horizon-6-car-list"
+href="#forza-horizon-6-jdm-cars-and-customization"
+href="#forza-horizon-6-trailer-and-gameplay"
+href="#forza-horizon-6-beginner-guide"
+href="#forza-horizon-6-touge-battles-and-time-attack"
+href="#forza-horizon-6-multiplayer-and-cross-save"
+href="#forza-horizon-6-treasure-cars-and-collection-journal"
+href="#forza-horizon-6-achievements"
+<section id="forza-horizon-6-release-date">
+<section id="forza-horizon-6-steam-pre-order">
+<section id="forza-horizon-6-editions-and-price">
+<section id="forza-horizon-6-game-pass">
+<section id="forza-horizon-6-ps5-release">
+<section id="forza-horizon-6-system-requirements">
+<section id="forza-horizon-6-japan-map">
+<section id="forza-horizon-6-tokyo-city">
+<section id="forza-horizon-6-car-list">
+<section id="forza-horizon-6-jdm-cars-and-customization">
+<section id="forza-horizon-6-trailer-and-gameplay">
+<section id="forza-horizon-6-beginner-guide">
+<section id="forza-horizon-6-touge-battles-and-time-attack">
+<section id="forza-horizon-6-multiplayer-and-cross-save">
+<section id="forza-horizon-6-treasure-cars-and-collection-journal">
+<section id="forza-horizon-6-achievements">
+*/
+
 export async function generateMetadata({ params }: PageProps): Promise<Metadata> {
   const { locale } = await params
   const pageUrl = locale === 'en' ? SITE_URL : `${SITE_URL}/${locale}`

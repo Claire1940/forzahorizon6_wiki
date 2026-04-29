@@ -58,7 +58,7 @@
   "tools": {
     "title": "Forza Horizon 6 Resource Navigation",
     "titleHighlight": "Forza Horizon 6 Guide Cards",
-    "subtitle": "Jump to the Forza Horizon 6 launch, platform, PC specs, map, cars, videos, and beginner guides on this page.",
+    "subtitle": "Jump to the Forza Horizon 6 launch, platform, PC specs, map, cars, videos, race types, multiplayer, collection, achievements, and beginner guides on this page.",
     "cards": [
       {
         "icon": "Clock",
@@ -119,6 +119,26 @@
         "icon": "Route",
         "title": "Forza Horizon 6 Beginner Guide",
         "description": "Tourist start, Horizon Qualifiers, Wristbands, Collection Journal, Stamps, homes, garages, and Legend Island."
+      },
+      {
+        "icon": "Gauge",
+        "title": "Forza Horizon 6 Touge Battles and Time Attack",
+        "description": "Touge Battles, Time Attack Circuits, Drag Meets, Street Races, road inspiration, and Time Attack Car Pack highlights."
+      },
+      {
+        "icon": "Users",
+        "title": "Forza Horizon 6 Multiplayer and Cross Save",
+        "description": "Co-op campaign, Convoys, Car Meets, LINK Skills, multiplayer modes, cross-play, cross-save, and ownership notes."
+      },
+      {
+        "icon": "Compass",
+        "title": "Forza Horizon 6 Treasure Cars and Collection Journal",
+        "description": "Collection Journal Stamps, Aftermarket Cars, Treasure Cars, Barn Finds, mascot goals, rewards, and exploration routes."
+      },
+      {
+        "icon": "Trophy",
+        "title": "Forza Horizon 6 Achievements",
+        "description": "All 57 Forza Horizon 6 achievements across campaign, Wristbands, Stamps, cars, racing, multiplayer, and exploration."
       }
     ]
   },
@@ -855,6 +875,637 @@
           "description": "Earning all 7 Festival Wristbands makes you a Horizon Legend and unlocks Legend Island, an exclusive region with the Legend Island Circuit, unique events, and the Colossus, the longest Goliath event that loops the full map on the freeway.",
           "tip": "Forza Horizon 6 Legend Island is designed as a major campaign milestone and a strong endgame target for R Class cars."
         }
+      ]
+    },
+    "forzaHorizon6TougeBattlesAndTimeAttack": {
+      "title": "Forza Horizon 6 Touge Battles and Time Attack",
+      "eyebrow": "Forza Horizon 6 Race Types",
+      "subtitle": "Break down Forza Horizon 6 race formats built around Japan's mountain roads, shared-world circuits, drag strips, night-time street racing, and leaderboard chasing.",
+      "intro": "Forza Horizon 6 leans heavily into Japanese car culture with Touge Battles, Time Attack Circuits, Drag Meets, Street Races, and roads inspired by famous Japanese driving locations. These activities sit alongside the Horizon Festival campaign and Discover Japan path, giving players structured races, open-world challenges, leaderboard pressure, and free-roam-friendly competition.",
+      "items": [
+        {
+          "label": "Forza Horizon 6 Touge Battles",
+          "title": "Night-time mountain pass races",
+          "content": "Forza Horizon 6 Touge Battles are night-time races down Japanese mountain passes. They are part of the Discover Japan experience and connect directly to the game's Japanese car culture theme.",
+          "playerGoal": "Master tight roads, elevation changes, and mountain-pass racing outside the stricter Horizon Festival race structure.",
+          "details": [
+            "Just Getting Started: Complete your first Touge Battle",
+            "White Ghost: Complete 5 Touge Battles"
+          ]
+        },
+        {
+          "label": "Forza Horizon 6 Time Attack Circuits",
+          "title": "Shared-world hot laps with live leaderboard pressure",
+          "content": "Forza Horizon 6 Time Attack challenges players to set the fastest lap time across grassroots circuits in the Shared World. Players start by driving through a gantry, then hot lap without loading screens while earning Credits and XP for completed laps.",
+          "playerGoal": "Set a Current Best, chase split times, compare against friends in a Convoy Leaderboard, and compete on in-world seasonal leaderboards.",
+          "details": [
+            "Another Lap Won't Hurt: Set a lap time at a Time Attack Circuit",
+            "Track Day: Set a lap time at a Time Attack Circuit while driving any Track Toy"
+          ]
+        },
+        {
+          "label": "Forza Horizon 6 Drag Meets",
+          "title": "Shared-world launch battles across three drag strips",
+          "content": "Forza Horizon 6 Drag Meets test car performance across varied drag strips with synchronized tree lights. Confirmed Drag Strip locations include Festival Site 1K, Irokawa Space Center 1/4 Mile, and Airfield 1/2 Mile.",
+          "playerGoal": "Ready up at the start grid, launch with other players, tune for acceleration and top speed, and chase Convoy or weekly in-world leaderboard times.",
+          "details": [
+            "Fresh Tire Smoke: Complete a Drag Meet",
+            "Up to 12 players per Drag Meet"
+          ]
+        },
+        {
+          "label": "Forza Horizon 6 Street Races",
+          "title": "Night-time racing for cars outside Festival restrictions",
+          "content": "Forza Horizon 6 Street Races appear within the Discover Japan path and are positioned as a place to drive cars that may not yet qualify for official Horizon Festival events.",
+          "playerGoal": "Race freely in Japan at night while progressing outside the main Wristband race structure.",
+          "details": [
+            "Discover Japan",
+            "Collection Journal Stamps",
+            "Free Roam"
+          ]
+        },
+        {
+          "label": "Forza Horizon 6 Japanese Road Inspiration",
+          "title": "C1 loop, Gingko Avenue, Mt. Haruna, and Bandai Azuma influences",
+          "content": "Forza Horizon 6 Japan features roads inspired by the C1 loop, Gingko Avenue, and mountain passes such as Mt. Haruna and Bandai Azuma. This gives the race-type mix a stronger Japan-specific identity than a generic open-world racing layout.",
+          "playerGoal": "Use the urban expressway-style roads, neon city districts, rural routes, and mountain areas to build different driving routines.",
+          "details": [
+            "Urban loops",
+            "Mountain passes",
+            "Rural roads"
+          ]
+        },
+        {
+          "label": "Forza Horizon 6 Time Attack Car Pack",
+          "title": "Eight launch cars tuned for Time Attack driving",
+          "content": "The Forza Horizon 6 Time Attack Car Pack adds 8 cars to the garage at release, built around mastering Time Attack Circuits around Japan.",
+          "playerGoal": "Use purpose-built WTAC-style cars for circuit practice, leaderboard attempts, and Time Attack-focused garage planning.",
+          "details": [
+            "1990 Honda #19 CRX WTAC",
+            "1992 Honda #21 Hardrace/JDMYard Civic WTAC",
+            "2001 Honda #33 BYP Racing Integra WTAC",
+            "2004 Honda #52 Evasive Motorsports S2000 WTAC",
+            "1990 Mitsubishi #269 Attacking the Clock Racing Minicab Time Attack",
+            "1993 Nissan #32 Skyline WTAC 'Xtreme GTR'",
+            "2000 Nissan #36 Silvia WTAC",
+            "1995 Toyota J&J Motorsport Supra WTAC"
+          ]
+        }
+      ]
+    },
+    "forzaHorizon6MultiplayerAndCrossSave": {
+      "title": "Forza Horizon 6 Multiplayer and Cross Save",
+      "eyebrow": "Forza Horizon 6 Multiplayer",
+      "subtitle": "Forza Horizon 6 supports co-op play, shared open-world activities, returning Horizon Multiplayer modes, and cross-save across PC and console versions.",
+      "intro": "Multiplayer in Forza Horizon 6 is built around seamless shared-world activities rather than waiting through loading screens for every social moment. Players can join Car Meets, complete Drag Meets and Time Attack Circuits, earn LINK Skills together, compete in Spec Racing Championships, and carry progress across the supported PC and console ecosystem.",
+      "items": [
+        {
+          "title": "Forza Horizon 6 Co-op Campaign and Convoys",
+          "description": "The Forza Horizon 6 campaign is playable solo or in co-op with friends. When replaying Festival Events, a Convoy leader can shape an event setup through Race Customizer options such as Drivatars, season, weather, time of day, laps, Rewind, camera lock, traffic, and car restrictions.",
+          "badges": [
+            "Co-op",
+            "Convoy",
+            "Race Customizer"
+          ]
+        },
+        {
+          "title": "Forza Horizon 6 Car Meets",
+          "description": "Forza Horizon 6 Car Meets return as Shared Open World spaces where players can drive past, see real live players, and join instantly without loading screens. Confirmed locations include the Horizon Festival Site, Okuibuki Parking Lot in the alpine, and Daikoku in Tokyo City, with temporary Car Meets planned for the Live Program.",
+          "badges": [
+            "Shared Open World",
+            "Daikoku",
+            "No Loading"
+          ]
+        },
+        {
+          "title": "Forza Horizon 6 LINK Skills",
+          "description": "Forza Horizon 6 LINK Skills reward players when they bank skills at the same time as another player, making tandem drifting, coordinated jumps, and group skill chains part of the shared-world progression loop.",
+          "badges": [
+            "Co-op Skills",
+            "Free Roam",
+            "Friends"
+          ]
+        },
+        {
+          "title": "Forza Horizon 6 Time Attack and Drag Meets",
+          "description": "Forza Horizon 6 Time Attack Circuits and Drag Meets are seamless open-world activities with Convoy Leaderboards and in-world leaderboards. Drag Meets support up to 12 players, while Time Attack lets any player arrive in the Shared World and chase lap times.",
+          "badges": [
+            "Time Attack",
+            "Drag Meets",
+            "Leaderboards"
+          ]
+        },
+        {
+          "title": "Forza Horizon 6 Horizon Multiplayer Modes",
+          "description": "Forza Horizon 6 includes returning Horizon Multiplayer modes such as The Eliminator and Hide & Seek, plus new Spec Racing Championships for more structured competitive racing.",
+          "badges": [
+            "The Eliminator",
+            "Hide & Seek",
+            "Spec Racing"
+          ]
+        },
+        {
+          "title": "Forza Horizon 6 Cross-play and Cross-save",
+          "description": "Forza Horizon 6 supports cross-play and cross-save between PC and console versions. Cross-save covers Xbox Series X|S, Xbox on PC, Steam, SteamOS devices, PC gaming handhelds, and the PlayStation 5 version coming later in 2026.",
+          "badges": [
+            "Cross-play",
+            "Cross-save",
+            "Steam"
+          ]
+        },
+        {
+          "title": "Forza Horizon 6 Xbox Play Anywhere",
+          "description": "Digital Forza Horizon 6 purchases through Xbox Series X|S or the Microsoft Store on PC support Xbox Play Anywhere, allowing play on Xbox console and PC with save profile and eligible DLC entitlements carried over within that ecosystem.",
+          "badges": [
+            "Xbox",
+            "PC",
+            "Play Anywhere"
+          ]
+        },
+        {
+          "title": "Forza Horizon 6 Steam and PS5 Ownership",
+          "description": "Forza Horizon 6 on Steam is a standalone product, and the PlayStation 5 version is also a standalone product. Paid downloadable content generally needs to be purchased on each platform where the player wants to access it, except where Xbox Play Anywhere entitlement rules apply.",
+          "badges": [
+            "Steam",
+            "PS5",
+            "DLC"
+          ]
+        }
+      ]
+    },
+    "forzaHorizon6TreasureCarsAndCollectionJournal": {
+      "title": "Forza Horizon 6 Treasure Cars and Collection Journal",
+      "eyebrow": "Forza Horizon 6 Collectibles",
+      "subtitle": "Use the Forza Horizon 6 Collection Journal to track cars, houses, landmarks, mascots, Stamps, photos, Barn Finds, and Treasure Cars across Japan.",
+      "intro": "The Collection Journal is the main exploration record for Forza Horizon 6. It tracks both Horizon Festival and Discover Japan progress, records what players find across Japan, stores photos attached to the Journal, and connects exploration to rewards such as cars, credits, cosmetics, Player Houses, Barn Find Rumors, and The Estate.",
+      "steps": [
+        {
+          "step": 1,
+          "title": "Reveal Forza Horizon 6 Japan as you drive",
+          "description": "Explore the map naturally instead of only following fixed icons. Forza Horizon 6 introduces a fog-of-war style map reveal, so regions and activities become part of the road trip as players discover them.",
+          "targets": [
+            "Entire map reveal",
+            "10 regions",
+            "10 landmarks"
+          ],
+          "hooks": [
+            "The Horizon Cartographer",
+            "Racking Up The Miles",
+            "Pin It!"
+          ]
+        },
+        {
+          "step": 2,
+          "title": "Earn Forza Horizon 6 Collection Journal Stamps",
+          "description": "Discover Japan focuses on earning Stamps inspired by Japan's stamp collecting culture. Players earn progress through activities such as taking photos, delivering food as a side hustle, collecting cars, and completing Horizon Stories.",
+          "targets": [
+            "Yellow Stamp",
+            "Green Stamp",
+            "Blue Stamp",
+            "Pink Stamp",
+            "Orange Stamp",
+            "Purple Stamp",
+            "Gold Stamp"
+          ],
+          "hooks": [
+            "Player Houses",
+            "Customizable Garages",
+            "Barn Find Rumors",
+            "The Estate"
+          ]
+        },
+        {
+          "step": 3,
+          "title": "Use the Forza Horizon 6 Journal as a reward hub",
+          "description": "The Collection Journal is where players redeem unique rewards for completing specific activities and challenges. Rewards include cars, credits, and cosmetic items, and Journal photos can be saved as keepsakes or replaced later with better shots.",
+          "targets": [
+            "Activity rewards",
+            "Photo entries",
+            "Cars",
+            "Credits",
+            "Cosmetics"
+          ],
+          "hooks": [
+            "Reward claims",
+            "Photo keepsakes",
+            "Collection progress"
+          ]
+        },
+        {
+          "step": 4,
+          "title": "Find Forza Horizon 6 Aftermarket Cars in the open world",
+          "description": "Aftermarket Cars are parked around Japan and can be test driven or added to the collection. Some appear near Festival Races that match campaign restrictions, while others sit near Time Attack Circuits with modifications suited for track driving.",
+          "targets": [
+            "2003 Honda S2000 with a Rocket Bunny body kit",
+            "1993 Autozam AZ-1 upgraded with Mazdaspeed parts",
+            "2015 McLaren 570S Coupe with Duke Dynamics modifications"
+          ],
+          "hooks": [
+            "Bargain Hunt: Purchase an Aftermarket Car"
+          ]
+        },
+        {
+          "step": 5,
+          "title": "Solve Forza Horizon 6 Treasure Car photo clues",
+          "description": "Mei sends photograph clues for abandoned Treasure Cars hidden through exploration. When players find a Treasure Car, they can restore it and drive it immediately or add it to the garage.",
+          "targets": [
+            "1991 Nissan Figaro",
+            "1985 Nissan Safari Turbo",
+            "1969 Dodge Charger R/T"
+          ],
+          "hooks": [
+            "A Fine Addition To My Collection: Discover and claim a Treasure Car",
+            "Treasure Hunter: Discover and claim 9 Treasure Cars"
+          ]
+        },
+        {
+          "step": 6,
+          "title": "Unlock Forza Horizon 6 Barn Find Rumors through Stamps",
+          "description": "Barn Finds return alongside Aftermarket Cars and Treasure Cars. Barn Find clues are earned as players collect Stamps for the Collection Journal.",
+          "targets": [
+            "Barn Find Rumors",
+            "Rustic cars",
+            "Stamp milestones"
+          ],
+          "hooks": [
+            "Discovery progress",
+            "Garage rewards",
+            "Collection Journal route"
+          ]
+        },
+        {
+          "step": 7,
+          "title": "Clear Forza Horizon 6 mascot, board, and regional collection goals",
+          "description": "Exploration also includes collectible mascots, bonus boards, regional activity goals, and story stars. These objectives turn free roam into a long-tail completion route after the main campaign milestones.",
+          "targets": [
+            "200 Regional Mascots",
+            "200 Bonus Boards",
+            "33 Tokyo City activities",
+            "81 Story Stars"
+          ],
+          "hooks": [
+            "Smashscot",
+            "Gotta Smash 'em All",
+            "A Few Splinters Is Nothing!",
+            "Tokyo Resident",
+            "Storyteller"
+          ]
+        }
+      ]
+    },
+    "forzaHorizon6Achievements": {
+      "title": "Forza Horizon 6 Achievements: All 57 Goals and 1,000 Gamerscore",
+      "eyebrow": "Forza Horizon 6 Achievements",
+      "subtitle": "Track every Forza Horizon 6 Steam and Xbox achievement target across Wristbands, Stamps, Touge Battles, Time Attack, Treasure Cars, Car Meets, Horizon Play, and exploration.",
+      "intro": "Forza Horizon 6 launches with a full achievement list shared across Xbox and Steam versions. The goals cover the Horizon Festival campaign, Discover Japan Stamps, Collection Journal progress, car collecting, unique events, multiplayer activities, and open-world completion.",
+      "items": [
+        {
+          "title": "Working 9 to 5",
+          "objective": "Complete your first Job",
+          "gamerscore": 10,
+          "category": "Campaign"
+        },
+        {
+          "title": "Just Getting Started",
+          "objective": "Complete your first Touge Battle",
+          "gamerscore": 10,
+          "category": "Race Type"
+        },
+        {
+          "title": "Welcome To Japan",
+          "objective": "Complete The Opening Act",
+          "gamerscore": 10,
+          "category": "Campaign"
+        },
+        {
+          "title": "First of Many",
+          "objective": "Complete your first Qualifier",
+          "gamerscore": 10,
+          "category": "Campaign"
+        },
+        {
+          "title": "Welcome To Horizon",
+          "objective": "Earn the Yellow Wristband and join the Horizon Festival",
+          "gamerscore": 10,
+          "category": "Wristbands"
+        },
+        {
+          "title": "Festival Fan",
+          "objective": "Earn the Green Horizon Festival Wristband",
+          "gamerscore": 10,
+          "category": "Wristbands"
+        },
+        {
+          "title": "Making Waves",
+          "objective": "Earn the Blue Horizon Festival Wristband",
+          "gamerscore": 10,
+          "category": "Wristbands"
+        },
+        {
+          "title": "What, Like It's Hard?",
+          "objective": "Earn the Pink Horizon Festival Wristband",
+          "gamerscore": 20,
+          "category": "Wristbands"
+        },
+        {
+          "title": "Orange You Glad You Made It?",
+          "objective": "Earn the Orange Horizon Festival Wristband",
+          "gamerscore": 20,
+          "category": "Wristbands"
+        },
+        {
+          "title": "In The Spotlight",
+          "objective": "Earn the Purple Horizon Festival Wristband",
+          "gamerscore": 30,
+          "category": "Wristbands"
+        },
+        {
+          "title": "Horizon Legend",
+          "objective": "Earn the Gold Horizon Festival Wristband and become a Horizon Legend",
+          "gamerscore": 50,
+          "category": "Wristbands"
+        },
+        {
+          "title": "Stamping Ground",
+          "objective": "Earn the Yellow Stamp in your Collection Journal",
+          "gamerscore": 10,
+          "category": "Collection Journal"
+        },
+        {
+          "title": "Seeing the Sights",
+          "objective": "Earn the Green Stamp in your Collection Journal",
+          "gamerscore": 10,
+          "category": "Collection Journal"
+        },
+        {
+          "title": "Travelling All Around",
+          "objective": "Earn the Blue Stamp in your Collection Journal",
+          "gamerscore": 10,
+          "category": "Collection Journal"
+        },
+        {
+          "title": "Making Your Own Path",
+          "objective": "Earn the Pink Stamp in your Collection Journal",
+          "gamerscore": 20,
+          "category": "Collection Journal"
+        },
+        {
+          "title": "Hey! Listen!",
+          "objective": "Earn the Orange Stamp in your Collection Journal",
+          "gamerscore": 20,
+          "category": "Collection Journal"
+        },
+        {
+          "title": "What An Adventure!",
+          "objective": "Earn the Purple Stamp in your Collection Journal",
+          "gamerscore": 30,
+          "category": "Collection Journal"
+        },
+        {
+          "title": "Master Explorer",
+          "objective": "Earn the Gold Stamp and become a Master Explorer",
+          "gamerscore": 50,
+          "category": "Collection Journal"
+        },
+        {
+          "title": "The Boss",
+          "objective": "Earn the maximum Promotion in a Job",
+          "gamerscore": 20,
+          "category": "Jobs"
+        },
+        {
+          "title": "A Fine Addition To My Collection",
+          "objective": "Discover and claim a Treasure Car",
+          "gamerscore": 10,
+          "category": "Collectibles"
+        },
+        {
+          "title": "Treasure Hunter",
+          "objective": "Discover and claim 9 Treasure Cars",
+          "gamerscore": 30,
+          "category": "Collectibles"
+        },
+        {
+          "title": "Bargain Hunt",
+          "objective": "Purchase an Aftermarket Car",
+          "gamerscore": 10,
+          "category": "Cars"
+        },
+        {
+          "title": "The Horizon Cartographer",
+          "objective": "Reveal the entire Map",
+          "gamerscore": 50,
+          "category": "Exploration"
+        },
+        {
+          "title": "Another Lap Won't Hurt",
+          "objective": "Set a lap time at a Time Attack Circuit",
+          "gamerscore": 10,
+          "category": "Time Attack"
+        },
+        {
+          "title": "Fresh Tire Smoke",
+          "objective": "Complete a Drag Meet",
+          "gamerscore": 10,
+          "category": "Drag Meets"
+        },
+        {
+          "title": "Four Swords",
+          "objective": "Complete a LINK Skill",
+          "gamerscore": 10,
+          "category": "Multiplayer"
+        },
+        {
+          "title": "Racking Up The Miles",
+          "objective": "Discover all 10 regions",
+          "gamerscore": 20,
+          "category": "Exploration"
+        },
+        {
+          "title": "Tokyo Resident",
+          "objective": "Complete 33 activities in the Tokyo City Region",
+          "gamerscore": 20,
+          "category": "Region Activities"
+        },
+        {
+          "title": "Crowd Pleaser",
+          "objective": "Earn 36 Stars from PR Stunts in the Ohtani Region",
+          "gamerscore": 20,
+          "category": "PR Stunts"
+        },
+        {
+          "title": "White Ghost",
+          "objective": "Complete 5 Touge Battles",
+          "gamerscore": 20,
+          "category": "Touge Battles"
+        },
+        {
+          "title": "Carkour!",
+          "objective": "Complete a Horizon Rush",
+          "gamerscore": 10,
+          "category": "Horizon Rush"
+        },
+        {
+          "title": "Feel The Rush",
+          "objective": "Complete 3 Horizon Rush Events",
+          "gamerscore": 20,
+          "category": "Horizon Rush"
+        },
+        {
+          "title": "Blank Slate",
+          "objective": "Purchase the Yashiki Player House",
+          "gamerscore": 10,
+          "category": "Player Houses"
+        },
+        {
+          "title": "What Are You Doing In My Estate?",
+          "objective": "Visit another player's Estate",
+          "gamerscore": 10,
+          "category": "The Estate"
+        },
+        {
+          "title": "Show Me What You've Got!",
+          "objective": "Display 3 different cars in your Garage at the same time",
+          "gamerscore": 10,
+          "category": "Garage"
+        },
+        {
+          "title": "Dedicated Tourist",
+          "objective": "Earn 3 Stars on any Day Trip Story Chapter",
+          "gamerscore": 10,
+          "category": "Stories"
+        },
+        {
+          "title": "Collector",
+          "objective": "Collect 100 different cars",
+          "gamerscore": 20,
+          "category": "Cars"
+        },
+        {
+          "title": "First Love",
+          "objective": "Purchase a car from the Autoshow",
+          "gamerscore": 10,
+          "category": "Cars"
+        },
+        {
+          "title": "Meching My Way Downtown",
+          "objective": "Complete the Mech My Day Showcase Event",
+          "gamerscore": 20,
+          "category": "Showcase Events"
+        },
+        {
+          "title": "Ascending New Heights",
+          "objective": "Complete the Flight Club Showcase Event",
+          "gamerscore": 20,
+          "category": "Showcase Events"
+        },
+        {
+          "title": "Parking All Over The World",
+          "objective": "Park at 3 different Car Meets",
+          "gamerscore": 10,
+          "category": "Car Meets"
+        },
+        {
+          "title": "A Whole New World",
+          "objective": "Drive any R Class car",
+          "gamerscore": 10,
+          "category": "Cars"
+        },
+        {
+          "title": "Ready to Rumble",
+          "objective": "Earn 10 levels in Horizon Play",
+          "gamerscore": 10,
+          "category": "Horizon Play"
+        },
+        {
+          "title": "Maxed Out",
+          "objective": "Earn 100 levels in Horizon Play",
+          "gamerscore": 30,
+          "category": "Horizon Play"
+        },
+        {
+          "title": "Even Playing Field",
+          "objective": "Complete a Race Event within a Spec Racing Championship",
+          "gamerscore": 10,
+          "category": "Multiplayer"
+        },
+        {
+          "title": "To The Moon",
+          "objective": "Earn at least 1 Star at the Irokawa Launch Danger Sign",
+          "gamerscore": 10,
+          "category": "PR Stunts"
+        },
+        {
+          "title": "All Eyes On You",
+          "objective": "Park the 2025 GR GT Prototype at a Car Meet",
+          "gamerscore": 10,
+          "category": "Car Meets"
+        },
+        {
+          "title": "Track Day",
+          "objective": "Set a lap time at a Time Attack Circuit while driving any Track Toy",
+          "gamerscore": 10,
+          "category": "Time Attack"
+        },
+        {
+          "title": "Historic Effort",
+          "objective": "Earn a Series History reward",
+          "gamerscore": 30,
+          "category": "Series History"
+        },
+        {
+          "title": "Played-List",
+          "objective": "Earn all Festival Playlist points for a season",
+          "gamerscore": 30,
+          "category": "Festival Playlist"
+        },
+        {
+          "title": "Smashscot",
+          "objective": "Smash your first Regional Mascot",
+          "gamerscore": 10,
+          "category": "Collectibles"
+        },
+        {
+          "title": "Gotta Smash 'em All",
+          "objective": "Smash 200 Regional Mascots",
+          "gamerscore": 30,
+          "category": "Collectibles"
+        },
+        {
+          "title": "A Few Splinters Is Nothing!",
+          "objective": "Smash 200 Bonus Boards",
+          "gamerscore": 30,
+          "category": "Collectibles"
+        },
+        {
+          "title": "Racing Aficionado",
+          "objective": "Win 57 Horizon Festival Race Events",
+          "gamerscore": 30,
+          "category": "Festival Races"
+        },
+        {
+          "title": "On The Board",
+          "objective": "Win your first Horizon Festival Race Event",
+          "gamerscore": 10,
+          "category": "Festival Races"
+        },
+        {
+          "title": "Pin It!",
+          "objective": "Discover 10 Landmarks",
+          "gamerscore": 10,
+          "category": "Landmarks"
+        },
+        {
+          "title": "Storyteller",
+          "objective": "Earn 81 Stars from Stories",
+          "gamerscore": 10,
+          "category": "Stories"
+        }
+      ],
+      "summary": [
+        "Forza Horizon 6 includes 57 achievements worth 1,000 Gamerscore.",
+        "Forza Horizon 6 achievement goals cover campaign, Discover Japan, Collection Journal, cars, racing, multiplayer, and exploration.",
+        "Forza Horizon 6 completion routes should balance Wristbands, Stamps, Treasure Cars, Time Attack, Car Meets, and open-world collectibles."
       ]
     }
   },

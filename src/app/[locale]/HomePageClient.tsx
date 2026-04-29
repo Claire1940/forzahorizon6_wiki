@@ -8,6 +8,8 @@ import {
   ChevronDown,
   Check,
   Clock,
+  Compass,
+  Gauge,
   Gamepad2,
   Home,
   Map,
@@ -16,6 +18,8 @@ import {
   Route,
   Settings,
   Sparkles,
+  Trophy,
+  Users,
   Video,
   Wrench,
 } from 'lucide-react'
@@ -45,6 +49,8 @@ interface HomePageClientProps {
 
 export default function HomePageClient({ latestArticles, locale }: HomePageClientProps) {
   const t = useMessages() as any
+  const multiplayerIcons = [Users, Home, Sparkles, Gauge, Gamepad2, Monitor, Package, Car]
+  const collectionIcons = [Map, Trophy, Check, Car, Compass, Home, Route]
 
 
   // Scroll reveal animation
@@ -165,7 +171,7 @@ export default function HomePageClient({ latestArticles, locale }: HomePageClien
       {/* Latest Updates Section */}
       <LatestGuidesAccordion articles={latestArticles} locale={locale} max={30} />
 
-      {/* Tools Grid - 12 Navigation Cards */}
+      {/* Tools Grid - 16 Navigation Cards */}
       <section className="px-4 py-20 bg-card/40">
         <div className="container mx-auto max-w-6xl">
           <div className="text-center mb-12 scroll-reveal">
@@ -367,6 +373,70 @@ export default function HomePageClient({ latestArticles, locale }: HomePageClien
               </div>
               <h3 className="font-semibold mb-2">{t.tools.cards[11].title}</h3>
               <p className="text-sm text-muted-foreground">{t.tools.cards[11].description}</p>
+            </a>
+
+            <a
+              href="#forza-horizon-6-touge-battles-and-time-attack"
+              onClick={(event) => {
+                event.preventDefault()
+                scrollToSection('forza-horizon-6-touge-battles-and-time-attack')
+              }}
+              className="scroll-reveal group p-6 rounded-lg border border-border bg-card hover:border-[hsl(var(--nav-theme)/0.5)] transition-all duration-300 text-left hover:shadow-lg hover:shadow-[hsl(var(--nav-theme)/0.1)]"
+              style={{ animationDelay: '600ms' }}
+            >
+              <div className="w-12 h-12 rounded-lg mb-4 bg-[hsl(var(--nav-theme)/0.1)] flex items-center justify-center group-hover:bg-[hsl(var(--nav-theme)/0.2)] transition-colors">
+                <DynamicIcon name={t.tools.cards[12].icon} className="w-6 h-6 text-[hsl(var(--nav-theme-light))]" />
+              </div>
+              <h3 className="font-semibold mb-2">{t.tools.cards[12].title}</h3>
+              <p className="text-sm text-muted-foreground">{t.tools.cards[12].description}</p>
+            </a>
+
+            <a
+              href="#forza-horizon-6-multiplayer-and-cross-save"
+              onClick={(event) => {
+                event.preventDefault()
+                scrollToSection('forza-horizon-6-multiplayer-and-cross-save')
+              }}
+              className="scroll-reveal group p-6 rounded-lg border border-border bg-card hover:border-[hsl(var(--nav-theme)/0.5)] transition-all duration-300 text-left hover:shadow-lg hover:shadow-[hsl(var(--nav-theme)/0.1)]"
+              style={{ animationDelay: '650ms' }}
+            >
+              <div className="w-12 h-12 rounded-lg mb-4 bg-[hsl(var(--nav-theme)/0.1)] flex items-center justify-center group-hover:bg-[hsl(var(--nav-theme)/0.2)] transition-colors">
+                <DynamicIcon name={t.tools.cards[13].icon} className="w-6 h-6 text-[hsl(var(--nav-theme-light))]" />
+              </div>
+              <h3 className="font-semibold mb-2">{t.tools.cards[13].title}</h3>
+              <p className="text-sm text-muted-foreground">{t.tools.cards[13].description}</p>
+            </a>
+
+            <a
+              href="#forza-horizon-6-treasure-cars-and-collection-journal"
+              onClick={(event) => {
+                event.preventDefault()
+                scrollToSection('forza-horizon-6-treasure-cars-and-collection-journal')
+              }}
+              className="scroll-reveal group p-6 rounded-lg border border-border bg-card hover:border-[hsl(var(--nav-theme)/0.5)] transition-all duration-300 text-left hover:shadow-lg hover:shadow-[hsl(var(--nav-theme)/0.1)]"
+              style={{ animationDelay: '700ms' }}
+            >
+              <div className="w-12 h-12 rounded-lg mb-4 bg-[hsl(var(--nav-theme)/0.1)] flex items-center justify-center group-hover:bg-[hsl(var(--nav-theme)/0.2)] transition-colors">
+                <DynamicIcon name={t.tools.cards[14].icon} className="w-6 h-6 text-[hsl(var(--nav-theme-light))]" />
+              </div>
+              <h3 className="font-semibold mb-2">{t.tools.cards[14].title}</h3>
+              <p className="text-sm text-muted-foreground">{t.tools.cards[14].description}</p>
+            </a>
+
+            <a
+              href="#forza-horizon-6-achievements"
+              onClick={(event) => {
+                event.preventDefault()
+                scrollToSection('forza-horizon-6-achievements')
+              }}
+              className="scroll-reveal group p-6 rounded-lg border border-border bg-card hover:border-[hsl(var(--nav-theme)/0.5)] transition-all duration-300 text-left hover:shadow-lg hover:shadow-[hsl(var(--nav-theme)/0.1)]"
+              style={{ animationDelay: '750ms' }}
+            >
+              <div className="w-12 h-12 rounded-lg mb-4 bg-[hsl(var(--nav-theme)/0.1)] flex items-center justify-center group-hover:bg-[hsl(var(--nav-theme)/0.2)] transition-colors">
+                <DynamicIcon name={t.tools.cards[15].icon} className="w-6 h-6 text-[hsl(var(--nav-theme-light))]" />
+              </div>
+              <h3 className="font-semibold mb-2">{t.tools.cards[15].title}</h3>
+              <p className="text-sm text-muted-foreground">{t.tools.cards[15].description}</p>
             </a>
           </div>
         </div>
@@ -957,6 +1027,271 @@ export default function HomePageClient({ latestArticles, locale }: HomePageClien
 
       {/* 广告位 6: 移动端横幅 320×50 */}
       <AdBanner type="banner-320x50" adKey={process.env.NEXT_PUBLIC_AD_MOBILE_320X50} />
+
+      {/* Module 13: Forza Horizon 6 Touge Battles and Time Attack */}
+      <section id="forza-horizon-6-touge-battles-and-time-attack" className="scroll-mt-24 px-4 py-20">
+        <div className="container mx-auto max-w-6xl">
+          <div className="text-center mb-12 scroll-reveal">
+            <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-[hsl(var(--nav-theme)/0.1)] border border-[hsl(var(--nav-theme)/0.3)] mb-5">
+              <Gauge className="w-4 h-4 text-[hsl(var(--nav-theme-light))]" />
+              <span className="text-sm font-medium">{t.tools.cards[12].title}</span>
+            </div>
+            <h2 className="text-4xl md:text-5xl font-bold mb-4">
+              {t.modules.forzaHorizon6TougeBattlesAndTimeAttack.title}
+            </h2>
+            <p className="text-muted-foreground text-lg max-w-3xl mx-auto mb-4">
+              {t.modules.forzaHorizon6TougeBattlesAndTimeAttack.subtitle}
+            </p>
+            <p className="text-muted-foreground max-w-4xl mx-auto">
+              {t.modules.forzaHorizon6TougeBattlesAndTimeAttack.intro}
+            </p>
+          </div>
+
+          <div className="scroll-reveal grid grid-cols-1 lg:grid-cols-[1.3fr_0.7fr] gap-5">
+            <div className="space-y-4">
+              {t.modules.forzaHorizon6TougeBattlesAndTimeAttack.items.map((item: any, index: number) => (
+                <details
+                  key={item.label}
+                  open={index === 0}
+                  className="group rounded-lg border border-border bg-card hover:border-[hsl(var(--nav-theme)/0.5)] transition-colors"
+                >
+                  <summary className="flex cursor-pointer list-none items-start justify-between gap-4 p-6 [&::-webkit-details-marker]:hidden">
+                    <div>
+                      <span className="inline-flex rounded-full bg-[hsl(var(--nav-theme)/0.1)] border border-[hsl(var(--nav-theme)/0.3)] px-3 py-1 text-xs font-semibold text-[hsl(var(--nav-theme-light))] mb-3">
+                        {item.label}
+                      </span>
+                      <h3 className="text-xl font-bold leading-snug">{item.title}</h3>
+                    </div>
+                    <ChevronDown className="mt-2 h-5 w-5 flex-shrink-0 text-[hsl(var(--nav-theme-light))] transition-transform group-open:rotate-180" />
+                  </summary>
+                  <div className="px-6 pb-6">
+                    <p className="text-sm leading-relaxed text-muted-foreground mb-4">{item.content}</p>
+                    <div className="rounded-md border border-[hsl(var(--nav-theme)/0.2)] bg-[hsl(var(--nav-theme)/0.04)] p-4 mb-4">
+                      <p className="text-xs font-semibold uppercase text-[hsl(var(--nav-theme-light))] mb-2">Forza Horizon 6 player goal</p>
+                      <p className="text-sm leading-relaxed text-muted-foreground">{item.playerGoal}</p>
+                    </div>
+                    <div className="grid grid-cols-1 md:grid-cols-2 gap-2">
+                      {item.details.map((detail: string) => (
+                        <div key={detail} className="flex items-start gap-2 rounded-md border border-border/70 px-3 py-2">
+                          <Check className="mt-0.5 h-4 w-4 flex-shrink-0 text-[hsl(var(--nav-theme-light))]" />
+                          <span className="text-sm text-muted-foreground">{detail}</span>
+                        </div>
+                      ))}
+                    </div>
+                  </div>
+                </details>
+              ))}
+            </div>
+
+            <div className="rounded-lg border border-[hsl(var(--nav-theme)/0.35)] bg-card p-6 h-fit lg:sticky lg:top-24">
+              <div className="mb-5 flex h-12 w-12 items-center justify-center rounded-lg bg-[hsl(var(--nav-theme)/0.1)]">
+                <Gauge className="h-6 w-6 text-[hsl(var(--nav-theme-light))]" />
+              </div>
+              <h3 className="text-2xl font-bold mb-3">{t.modules.forzaHorizon6TougeBattlesAndTimeAttack.eyebrow}</h3>
+              <p className="text-sm leading-relaxed text-muted-foreground mb-5">
+                Use this Forza Horizon 6 race-type panel to compare structured Festival events with Discover Japan activities and leaderboard-driven free-roam challenges.
+              </p>
+              <div className="grid grid-cols-2 gap-3">
+                {t.modules.forzaHorizon6TougeBattlesAndTimeAttack.items.slice(0, 4).map((item: any) => (
+                  <div key={item.label} className="rounded-md border border-[hsl(var(--nav-theme)/0.2)] bg-[hsl(var(--nav-theme)/0.04)] p-3">
+                    <p className="text-xs font-semibold text-[hsl(var(--nav-theme-light))]">{item.label.replace('Forza Horizon 6 ', '')}</p>
+                  </div>
+                ))}
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* Module 14: Forza Horizon 6 Multiplayer and Cross Save */}
+      <section id="forza-horizon-6-multiplayer-and-cross-save" className="scroll-mt-24 px-4 py-20 bg-card/40">
+        <div className="container mx-auto max-w-6xl">
+          <div className="text-center mb-12 scroll-reveal">
+            <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-[hsl(var(--nav-theme)/0.1)] border border-[hsl(var(--nav-theme)/0.3)] mb-5">
+              <Users className="w-4 h-4 text-[hsl(var(--nav-theme-light))]" />
+              <span className="text-sm font-medium">{t.tools.cards[13].title}</span>
+            </div>
+            <h2 className="text-4xl md:text-5xl font-bold mb-4">
+              {t.modules.forzaHorizon6MultiplayerAndCrossSave.title}
+            </h2>
+            <p className="text-muted-foreground text-lg max-w-3xl mx-auto mb-4">
+              {t.modules.forzaHorizon6MultiplayerAndCrossSave.subtitle}
+            </p>
+            <p className="text-muted-foreground max-w-4xl mx-auto">
+              {t.modules.forzaHorizon6MultiplayerAndCrossSave.intro}
+            </p>
+          </div>
+
+          <div className="scroll-reveal grid grid-cols-1 md:grid-cols-2 xl:grid-cols-4 gap-4">
+            {t.modules.forzaHorizon6MultiplayerAndCrossSave.items.map((item: any, index: number) => {
+              const CardIcon = multiplayerIcons[index % multiplayerIcons.length]
+              return (
+                <div
+                  key={item.title}
+                  className={index === 0
+                    ? 'rounded-lg border border-[hsl(var(--nav-theme)/0.45)] bg-card p-6 hover:border-[hsl(var(--nav-theme)/0.7)] transition-colors md:col-span-2'
+                    : 'rounded-lg border border-border bg-card p-6 hover:border-[hsl(var(--nav-theme)/0.5)] transition-colors'}
+                >
+                  <div className="mb-5 flex items-start justify-between gap-3">
+                    <div className="flex h-11 w-11 flex-shrink-0 items-center justify-center rounded-lg bg-[hsl(var(--nav-theme)/0.1)]">
+                      <CardIcon className="h-5 w-5 text-[hsl(var(--nav-theme-light))]" />
+                    </div>
+                    <span className="text-sm font-bold text-[hsl(var(--nav-theme-light))]">
+                      {(index + 1).toString().padStart(2, '0')}
+                    </span>
+                  </div>
+                  <h3 className="text-xl font-bold mb-3">{item.title}</h3>
+                  <p className="text-sm leading-relaxed text-muted-foreground mb-5">{item.description}</p>
+                  <div className="flex flex-wrap gap-2">
+                    {item.badges.map((badge: string) => (
+                      <span key={badge} className="rounded-full bg-[hsl(var(--nav-theme)/0.1)] border border-[hsl(var(--nav-theme)/0.25)] px-3 py-1 text-xs font-semibold text-[hsl(var(--nav-theme-light))]">
+                        {badge}
+                      </span>
+                    ))}
+                  </div>
+                </div>
+              )
+            })}
+          </div>
+        </div>
+      </section>
+
+      {/* Module 15: Forza Horizon 6 Treasure Cars and Collection Journal */}
+      <section id="forza-horizon-6-treasure-cars-and-collection-journal" className="scroll-mt-24 px-4 py-20">
+        <div className="container mx-auto max-w-6xl">
+          <div className="text-center mb-12 scroll-reveal">
+            <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-[hsl(var(--nav-theme)/0.1)] border border-[hsl(var(--nav-theme)/0.3)] mb-5">
+              <Compass className="w-4 h-4 text-[hsl(var(--nav-theme-light))]" />
+              <span className="text-sm font-medium">{t.tools.cards[14].title}</span>
+            </div>
+            <h2 className="text-4xl md:text-5xl font-bold mb-4">
+              {t.modules.forzaHorizon6TreasureCarsAndCollectionJournal.title}
+            </h2>
+            <p className="text-muted-foreground text-lg max-w-3xl mx-auto mb-4">
+              {t.modules.forzaHorizon6TreasureCarsAndCollectionJournal.subtitle}
+            </p>
+            <p className="text-muted-foreground max-w-4xl mx-auto">
+              {t.modules.forzaHorizon6TreasureCarsAndCollectionJournal.intro}
+            </p>
+          </div>
+
+          <div className="scroll-reveal relative space-y-5">
+            <div className="absolute left-6 top-6 hidden h-[calc(100%-3rem)] w-px bg-[hsl(var(--nav-theme)/0.3)] lg:block" />
+            {t.modules.forzaHorizon6TreasureCarsAndCollectionJournal.steps.map((step: any, index: number) => {
+              const StepIcon = collectionIcons[index % collectionIcons.length]
+              return (
+                <div key={step.step} className="relative grid grid-cols-1 gap-4 rounded-lg border border-border bg-card p-6 hover:border-[hsl(var(--nav-theme)/0.5)] transition-colors lg:grid-cols-[auto_1fr_0.8fr]">
+                  <div className="z-10 flex h-12 w-12 items-center justify-center rounded-full border-2 border-[hsl(var(--nav-theme)/0.5)] bg-background">
+                    <StepIcon className="h-5 w-5 text-[hsl(var(--nav-theme-light))]" />
+                  </div>
+                  <div>
+                    <span className="text-xs font-semibold uppercase text-[hsl(var(--nav-theme-light))]">Step {step.step}</span>
+                    <h3 className="text-xl font-bold mb-2">{step.title}</h3>
+                    <p className="text-sm leading-relaxed text-muted-foreground">{step.description}</p>
+                  </div>
+                  <div className="grid grid-cols-1 gap-3">
+                    <div className="rounded-md border border-[hsl(var(--nav-theme)/0.2)] bg-[hsl(var(--nav-theme)/0.04)] p-4">
+                      <p className="text-xs font-semibold uppercase text-[hsl(var(--nav-theme-light))] mb-2">Forza Horizon 6 targets</p>
+                      <div className="flex flex-wrap gap-2">
+                        {step.targets.map((target: string) => (
+                          <span key={target} className="rounded-full border border-border px-2.5 py-1 text-xs text-muted-foreground">
+                            {target}
+                          </span>
+                        ))}
+                      </div>
+                    </div>
+                    <div className="rounded-md border border-border/70 p-4">
+                      <p className="text-xs font-semibold uppercase text-muted-foreground mb-2">Linked goals</p>
+                      <ul className="space-y-2">
+                        {step.hooks.map((hook: string) => (
+                          <li key={hook} className="flex items-start gap-2 text-sm text-muted-foreground">
+                            <Check className="mt-0.5 h-4 w-4 flex-shrink-0 text-[hsl(var(--nav-theme-light))]" />
+                            <span>{hook}</span>
+                          </li>
+                        ))}
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+              )
+            })}
+          </div>
+        </div>
+      </section>
+
+      {/* Module 16: Forza Horizon 6 Achievements */}
+      <section id="forza-horizon-6-achievements" className="scroll-mt-24 px-4 py-20 bg-card/40">
+        <div className="container mx-auto max-w-6xl">
+          <div className="text-center mb-12 scroll-reveal">
+            <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-[hsl(var(--nav-theme)/0.1)] border border-[hsl(var(--nav-theme)/0.3)] mb-5">
+              <Trophy className="w-4 h-4 text-[hsl(var(--nav-theme-light))]" />
+              <span className="text-sm font-medium">{t.tools.cards[15].title}</span>
+            </div>
+            <h2 className="text-4xl md:text-5xl font-bold mb-4">
+              {t.modules.forzaHorizon6Achievements.title}
+            </h2>
+            <p className="text-muted-foreground text-lg max-w-3xl mx-auto mb-4">
+              {t.modules.forzaHorizon6Achievements.subtitle}
+            </p>
+            <p className="text-muted-foreground max-w-4xl mx-auto">
+              {t.modules.forzaHorizon6Achievements.intro}
+            </p>
+          </div>
+
+          <div className="scroll-reveal grid grid-cols-1 md:grid-cols-3 gap-3 mb-8">
+            {t.modules.forzaHorizon6Achievements.summary.map((point: string) => (
+              <div key={point} className="flex items-start gap-3 rounded-lg border border-[hsl(var(--nav-theme)/0.25)] bg-[hsl(var(--nav-theme)/0.05)] p-4">
+                <Check className="mt-0.5 h-4 w-4 flex-shrink-0 text-[hsl(var(--nav-theme-light))]" />
+                <p className="text-sm text-muted-foreground">{point}</p>
+              </div>
+            ))}
+          </div>
+
+          <div className="scroll-reveal hidden overflow-hidden rounded-lg border border-border bg-card lg:block">
+            <table className="w-full border-collapse text-left">
+              <thead className="bg-[hsl(var(--nav-theme)/0.08)]">
+                <tr>
+                  <th className="px-5 py-4 text-sm font-semibold">Forza Horizon 6 Achievement</th>
+                  <th className="px-5 py-4 text-sm font-semibold">Objective</th>
+                  <th className="px-5 py-4 text-sm font-semibold">Category</th>
+                  <th className="px-5 py-4 text-sm font-semibold">Gamerscore</th>
+                </tr>
+              </thead>
+              <tbody>
+                {t.modules.forzaHorizon6Achievements.items.map((item: any) => (
+                  <tr key={item.title} className="border-t border-border align-top">
+                    <td className="px-5 py-4 font-bold text-[hsl(var(--nav-theme-light))]">{item.title}</td>
+                    <td className="px-5 py-4 text-sm text-muted-foreground">{item.objective}</td>
+                    <td className="px-5 py-4">
+                      <span className="inline-flex rounded-full bg-[hsl(var(--nav-theme)/0.1)] border border-[hsl(var(--nav-theme)/0.3)] px-3 py-1 text-xs font-semibold text-[hsl(var(--nav-theme-light))]">
+                        {item.category}
+                      </span>
+                    </td>
+                    <td className="px-5 py-4 text-sm font-bold">{item.gamerscore}G</td>
+                  </tr>
+                ))}
+              </tbody>
+            </table>
+          </div>
+
+          <div className="scroll-reveal grid grid-cols-1 md:grid-cols-2 gap-4 lg:hidden">
+            {t.modules.forzaHorizon6Achievements.items.map((item: any) => (
+              <div key={item.title} className="rounded-lg border border-border bg-card p-5 hover:border-[hsl(var(--nav-theme)/0.5)] transition-colors">
+                <div className="mb-3 flex items-start justify-between gap-3">
+                  <h3 className="text-lg font-bold leading-snug text-[hsl(var(--nav-theme-light))]">{item.title}</h3>
+                  <span className="rounded-full bg-[hsl(var(--nav-theme)/0.1)] border border-[hsl(var(--nav-theme)/0.3)] px-3 py-1 text-xs font-bold">
+                    {item.gamerscore}G
+                  </span>
+                </div>
+                <p className="text-sm leading-relaxed text-muted-foreground mb-3">{item.objective}</p>
+                <span className="inline-flex rounded-full border border-border px-3 py-1 text-xs text-muted-foreground">
+                  {item.category}
+                </span>
+              </div>
+            ))}
+          </div>
+        </div>
+      </section>
 
       {/* FAQ Section */}
       <Suspense fallback={<LoadingPlaceholder />}>
