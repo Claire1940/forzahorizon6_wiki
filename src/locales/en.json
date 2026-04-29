@@ -58,7 +58,7 @@
   "tools": {
     "title": "Forza Horizon 6 Resource Navigation",
     "titleHighlight": "Forza Horizon 6 Guide Cards",
-    "subtitle": "Jump to the Forza Horizon 6 launch, platform, PC specs, map, and Tokyo City guides on this page.",
+    "subtitle": "Jump to the Forza Horizon 6 launch, platform, PC specs, map, cars, videos, and beginner guides on this page.",
     "cards": [
       {
         "icon": "Clock",
@@ -99,6 +99,26 @@
         "icon": "Home",
         "title": "Forza Horizon 6 Tokyo City",
         "description": "Largest urban Horizon area, downtown streets, docks, shortcuts, vertical roads, and car culture."
+      },
+      {
+        "icon": "Car",
+        "title": "Forza Horizon 6 Car List",
+        "description": "Confirmed cars, classes, cover vehicles, JDM highlights, Treasure Cars, Forza Edition models, and add-ons."
+      },
+      {
+        "icon": "Wrench",
+        "title": "Forza Horizon 6 JDM Cars and Customization",
+        "description": "JDM roster picks, body kits, Forza Aero, window liveries, paint, rims, engine swaps, and rare car discovery."
+      },
+      {
+        "icon": "Video",
+        "title": "Forza Horizon 6 Trailer and Gameplay",
+        "description": "Official reveal, initial drive gameplay, Tokyo City showcase, culture feature, and Forza video channel."
+      },
+      {
+        "icon": "Route",
+        "title": "Forza Horizon 6 Beginner Guide",
+        "description": "Tourist start, Horizon Qualifiers, Wristbands, Collection Journal, Stamps, homes, garages, and Legend Island."
       }
     ]
   },
@@ -499,6 +519,341 @@
           "title": "Forza Horizon 6 Co-op City Exploration",
           "description": "Tokyo City can be explored solo or with friends, with multiplayer activities designed to happen naturally in the open world.",
           "meta": "Multiplayer"
+        }
+      ]
+    },
+    "forzaHorizon6CarList": {
+      "title": "Forza Horizon 6 Car List: Confirmed Cars, Classes, Cover Cars, and Add-Ons",
+      "eyebrow": "Forza Horizon 6 Cars",
+      "subtitle": "Browse officially revealed Forza Horizon 6 cars, including cover vehicles, JDM icons, Forza Edition models, Time Attack machines, promotional cars, and car-pack additions.",
+      "intro": "Forza Horizon 6 launches with more than 550 cars to collect and customize, with the roster balanced across performance classes and a new R Class for track-focused cars. This Forza Horizon 6 car list focuses on high-interest confirmed highlights from the current official roster.",
+      "items": [
+        {
+          "make": "GR",
+          "car": "2025 GR GT Prototype",
+          "class": "S1",
+          "sourceType": "Cover car",
+          "highlight": "Video game debut and one of the two Forza Horizon 6 cover vehicles."
+        },
+        {
+          "make": "Toyota",
+          "car": "2025 Toyota Land Cruiser",
+          "class": "C",
+          "sourceType": "Cover car",
+          "highlight": "The second Forza Horizon 6 cover vehicle, representing Japan's off-road and adventure side."
+        },
+        {
+          "make": "Ferrari",
+          "car": "2017 Ferrari J50",
+          "class": "S1",
+          "sourceType": "Pre-order bonus",
+          "highlight": "Exclusive pre-tuned Forza Horizon 6 pre-order bonus inspired by Ferrari's 50 years in Japan."
+        },
+        {
+          "make": "Nissan",
+          "car": "2024 Nissan GT-R NISMO",
+          "class": "S1",
+          "sourceType": "Main roster",
+          "highlight": "Modern JDM performance icon for high-speed Forza Horizon 6 road and track builds."
+        },
+        {
+          "make": "Toyota",
+          "car": "1998 Toyota Supra RZ",
+          "class": "B",
+          "sourceType": "Main roster",
+          "highlight": "Classic Mk4 Supra for Forza Horizon 6 JDM, tuning, drag, and street-race builds."
+        },
+        {
+          "make": "Toyota",
+          "car": "1985 Toyota Sprinter Trueno GT Apex",
+          "class": "D",
+          "sourceType": "Main roster",
+          "highlight": "AE86 icon for Forza Horizon 6 touge, drift, and lightweight classic builds."
+        },
+        {
+          "make": "Toyota",
+          "car": "1985 Toyota Sprinter Trueno GT Apex Forza Edition",
+          "class": "B",
+          "sourceType": "Forza Edition",
+          "highlight": "Track-spec Forza Horizon 6 Forza Edition version with extreme modifications."
+        },
+        {
+          "make": "Subaru",
+          "car": "1994 Subaru Vivio RX-R Forza Edition",
+          "class": "S2",
+          "sourceType": "Forza Edition",
+          "highlight": "Purpose-built Forza Horizon 6 time-attack Forza Edition kei car."
+        },
+        {
+          "make": "Dodge",
+          "car": "1999 Dodge Viper GTS ACR Forza Edition",
+          "class": "A",
+          "sourceType": "VIP",
+          "highlight": "VIP Forza Horizon 6 Forza Edition with off-road-focused tuning."
+        },
+        {
+          "make": "Honda",
+          "car": "2003 Honda S2000",
+          "class": "B",
+          "sourceType": "Main roster",
+          "highlight": "JDM roadster also featured as a Forza Horizon 6 Aftermarket Car with a Rocket Bunny body kit."
+        },
+        {
+          "make": "Autozam",
+          "car": "1993 Autozam AZ-1",
+          "class": "D",
+          "sourceType": "Main roster",
+          "highlight": "Kei sports car featured as a Forza Horizon 6 Aftermarket Car with Mazdaspeed upgrades."
+        },
+        {
+          "make": "McLaren",
+          "car": "2015 McLaren 570S Coupe",
+          "class": "S1",
+          "sourceType": "Main roster",
+          "highlight": "Featured as a Forza Horizon 6 Aftermarket Car with Duke Dynamics modifications."
+        },
+        {
+          "make": "Nissan",
+          "car": "1991 Nissan Figaro",
+          "class": "D",
+          "sourceType": "Treasure Car",
+          "highlight": "One of the Forza Horizon 6 Treasure Cars found by exploring Japan."
+        },
+        {
+          "make": "Nissan",
+          "car": "1985 Nissan Safari Turbo",
+          "class": "D",
+          "sourceType": "Treasure Car",
+          "highlight": "Abandoned Japanese SUV discovered through Forza Horizon 6 Treasure Car clues."
+        },
+        {
+          "make": "Dodge",
+          "car": "1969 Dodge Charger R/T",
+          "class": "C",
+          "sourceType": "Treasure Car",
+          "highlight": "Muscle-car Forza Horizon 6 Treasure Car restored through map exploration."
+        },
+        {
+          "make": "Honda",
+          "car": "1990 Honda #19 CRX WTAC",
+          "class": "TBA",
+          "sourceType": "Time Attack Car Pack",
+          "highlight": "Dedicated Forza Horizon 6 World Time Attack Challenge-style machine."
+        },
+        {
+          "make": "Nissan",
+          "car": "1993 Nissan #32 Skyline WTAC 'Xtreme GTR'",
+          "class": "TBA",
+          "sourceType": "Time Attack Car Pack",
+          "highlight": "Track-focused Forza Horizon 6 Skyline built for Time Attack Circuits."
+        },
+        {
+          "make": "Toyota",
+          "car": "1995 Toyota J&J Motorsport Supra WTAC",
+          "class": "TBA",
+          "sourceType": "Time Attack Car Pack",
+          "highlight": "Forza Horizon 6 Supra-based time-attack car from the launch add-on pack."
+        },
+        {
+          "make": "Ferrari",
+          "car": "2025 Ferrari F80",
+          "class": "R",
+          "sourceType": "Italian Passion Car Pack",
+          "highlight": "Post-launch Forza Horizon 6 Italian Passion Car Pack hypercar."
+        },
+        {
+          "make": "Alfa Romeo",
+          "car": "2021 Alfa Romeo Giulia GTAm",
+          "class": "S1",
+          "sourceType": "Italian Passion Car Pack",
+          "highlight": "Modern Italian performance sedan from the post-launch Forza Horizon 6 car pack."
+        },
+        {
+          "make": "Toyota",
+          "car": "1965 Toyota Sports 800 Fanta Edition",
+          "class": "D",
+          "sourceType": "Promotional DLC code",
+          "highlight": "Promotional Forza Horizon 6 version of the Toyota Sports 800."
+        },
+        {
+          "make": "Peel",
+          "car": "1962 Peel P50 Trolli Edition",
+          "class": "D",
+          "sourceType": "Promotional DLC code",
+          "highlight": "Promotional Forza Horizon 6 edition of the smallest car in the list."
+        }
+      ]
+    },
+    "forzaHorizon6JdmCarsAndCustomization": {
+      "title": "Forza Horizon 6 JDM Cars, Body Kits, Forza Aero, Liveries, Rims, and Engine Swaps",
+      "eyebrow": "Forza Horizon 6 JDM & Customization",
+      "subtitle": "Build JDM classics and modern Japanese icons with expanded customization, new paint options, window liveries, Forza Aero improvements, and rare car-discovery systems.",
+      "intro": "Forza Horizon 6 leans into Japanese car culture with fan-favorite JDM classics, updated steering animations, new cosmetic tire wear, and deeper personalization. The customization flow covers body kits, aero parts, window liveries, rims, paint materials, Kei-car engine swaps, Aftermarket Cars, Treasure Cars, and Forza Edition builds.",
+      "items": [
+        {
+          "title": "Forza Horizon 6 JDM roster highlights",
+          "category": "Cars",
+          "description": "Official Japanese-brand highlights include the 2025 GR GT Prototype, 2025 Toyota Land Cruiser, 2024 Nissan GT-R NISMO, 2020 Toyota GR Supra, 1998 Toyota Supra RZ, 1992 Honda NSX-R, 1990 Mazda Savanna RX-7, 1985 Toyota Sprinter Trueno GT Apex, and 1994 Subaru Vivio RX-R.",
+          "bestFor": "Players searching for Forza Horizon 6 JDM cars, drift builds, touge cars, and Japanese garage themes."
+        },
+        {
+          "title": "Forza Horizon 6 Forza Aero upgrades",
+          "category": "Aero",
+          "description": "Forza Aero is updated so aero parts can be set up per car rather than using the same generic front and rear setup. Players can also paint elements of Forza Aero bumpers and rear wings independently, including materials, supports, and tow hooks.",
+          "bestFor": "Forza Horizon 6 track builds, clean show cars, and detailed livery projects."
+        },
+        {
+          "title": "Forza Horizon 6 body kits and aftermarket brands",
+          "category": "Body kits",
+          "description": "Select vehicles support new body kits, with aftermarket brands including Liberty Walk, Rocket Bunny, and Origin Lab. Official examples include a 2003 Honda S2000 with a Rocket Bunny body kit and a 2015 McLaren 570S Coupe with Duke Dynamics modifications.",
+          "bestFor": "Forza Horizon 6 widebody builds, street style, drift cars, and Car Meet showcases."
+        },
+        {
+          "title": "Forza Horizon 6 window liveries and new vinyls",
+          "category": "Livery Editor",
+          "description": "The Livery Editor adds the requested ability to paint liveries on windows. New pre-made in-world branding vinyls include PI Class logos and Wristband icons, with additional decals unlockable through the Collection Journal.",
+          "bestFor": "Forza Horizon 6 race replicas, time-attack liveries, window banners, and custom crew branding."
+        },
+        {
+          "title": "Forza Horizon 6 paint materials and favorites",
+          "category": "Paint",
+          "description": "The paint workflow is streamlined so players can switch between gloss, semi-gloss, matte, and metallic finishes more easily. New favorites help save colors and materials, including metal flake and candy paint options.",
+          "bestFor": "Forza Horizon 6 players who frequently tune car colorways and garage display builds."
+        },
+        {
+          "title": "Forza Horizon 6 rims and stance details",
+          "category": "Wheels",
+          "description": "Forza Horizon 6 adds more than 100 new rims and lets players install different rims on the front and rear of a car. Tire visuals have also been refreshed, with new cosmetic tire wear and updated tire patterns for all tires except off-road tires.",
+          "bestFor": "Forza Horizon 6 street builds, stance builds, drift cars, and photo-mode-ready garage setups."
+        },
+        {
+          "title": "Forza Horizon 6 kei car motorcycle engine swaps",
+          "category": "Tuning",
+          "description": "Kei cars can be overhauled with motorcycle engine swaps, opening a lightweight high-revving build path for Japan's smallest cars.",
+          "bestFor": "Forza Horizon 6 experimental builds, compact track cars, and unusual speed challenges."
+        },
+        {
+          "title": "Forza Horizon 6 Forza Edition extreme builds",
+          "category": "Special cars",
+          "description": "Forza Edition cars return with more extreme modifications. Official examples include a track-spec 1985 Toyota Sprinter, a 1994 Subaru Vivio RX-R built for time attack, and a VIP 1999 Dodge Viper GTS ACR with off-road tuning.",
+          "bestFor": "Forza Horizon 6 collectors who want special variants and high-impact garage pieces."
+        },
+        {
+          "title": "Forza Horizon 6 Aftermarket Cars",
+          "category": "Discovery",
+          "description": "Aftermarket Cars are parked around Japan and can be test-driven or bought, often at a discount. They appear near useful activities such as Festival races and Time Attack Circuits, making them a natural way to try cars that fit nearby events.",
+          "bestFor": "Forza Horizon 6 players who want to discover useful cars while exploring rather than buying everything from the Autoshow."
+        },
+        {
+          "title": "Forza Horizon 6 Treasure Cars and Barn Finds",
+          "category": "Exploration",
+          "description": "Treasure Cars are abandoned vehicles found through photo clues from Mei, while Barn Finds return through clues unlocked by collecting Stamps for the Collection Journal. Confirmed Treasure Car examples include the 1991 Nissan Figaro, 1985 Nissan Safari Turbo, and 1969 Dodge Charger R/T.",
+          "bestFor": "Forza Horizon 6 explorers, collectors, and players who enjoy map-based car hunts."
+        }
+      ]
+    },
+    "forzaHorizon6TrailerAndGameplay": {
+      "title": "Forza Horizon 6 Trailers, Tokyo Gameplay, and Official Videos",
+      "eyebrow": "Forza Horizon 6 Videos",
+      "subtitle": "Watch the official reveal, Tokyo City showcase, initial drive gameplay, and Forza channel updates for Japan, car culture, and open-world racing footage.",
+      "intro": "Forza Horizon 6 video interest centers on the Japan reveal, Tokyo City, the first gameplay drive, and official feature videos. This module groups the core videos users are most likely to search before launch.",
+      "items": [
+        {
+          "title": "Forza Horizon 6 Official Teaser Trailer | Tokyo Game Show 2025",
+          "videoType": "Reveal trailer",
+          "url": "https://www.youtube.com/watch?v=lwlw0ChiSR0",
+          "description": "The reveal trailer introduces Horizon Japan and confirms the highly requested Japan setting for Forza Horizon 6.",
+          "watchReason": "Best first video for users searching Forza Horizon 6 trailer or reveal trailer."
+        },
+        {
+          "title": "Forza Horizon 6 Official Initial Drive Gameplay",
+          "videoType": "Gameplay",
+          "url": "https://www.youtube.com/watch?v=H1qlPZMfmiU",
+          "description": "The first official gameplay drive shows the opening minutes of Forza Horizon 6, including fast-paced car switching, Japan scenery, and early festival spectacle.",
+          "watchReason": "Best video for users searching Forza Horizon 6 gameplay or first gameplay footage."
+        },
+        {
+          "title": "Forza Horizon 6 Tokyo City | Biome Showcase",
+          "videoType": "Environment showcase",
+          "url": "https://www.youtube.com/watch?v=QlTQuqLQ3vk",
+          "description": "This showcase focuses on Tokyo City, the largest urban environment ever built for a Forza Horizon game, including dense roads, verticality, districts, and city driving atmosphere.",
+          "watchReason": "Best match for Forza Horizon 6 Tokyo trailer, city map, and Japan open-world searches."
+        },
+        {
+          "title": "Forza Horizon 6 The Art of Driving",
+          "videoType": "Culture feature",
+          "url": "https://www.youtube.com/watch?v=HyjVC7fKLVg",
+          "description": "The Art of Driving series explores the Japanese artists and cultural references that shape the murals, visual identity, and car-culture atmosphere of Forza Horizon 6.",
+          "watchReason": "Useful for users interested in Forza Horizon 6 Japanese culture, murals, and artistic direction."
+        },
+        {
+          "title": "Forza Horizon 6 Official Forza YouTube Channel",
+          "videoType": "Channel",
+          "url": "https://www.youtube.com/@Forza",
+          "description": "The official channel collects Forza Horizon 6 trailers, biome showcases, garage features, car culture videos, and post-reveal updates.",
+          "watchReason": "Best ongoing source for newly published Forza Horizon 6 official gameplay clips."
+        }
+      ]
+    },
+    "forzaHorizon6BeginnerGuide": {
+      "title": "Forza Horizon 6 Beginner Guide: Tourist Start, Wristbands, Collection Journal, and Legend Island",
+      "eyebrow": "Forza Horizon 6 Beginner Guide",
+      "subtitle": "Learn how the early campaign works, how to qualify for the Horizon Festival, how Wristbands and Stamps progress, and what to prioritize when exploring Japan.",
+      "intro": "Forza Horizon 6 starts differently from previous Horizon games: you arrive in Japan as a tourist instead of a superstar. The early loop is built around proving yourself, qualifying for the Horizon Festival, earning Wristbands, collecting Stamps, and using the Collection Journal to turn exploration into steady rewards.",
+      "steps": [
+        {
+          "step": 1,
+          "title": "Forza Horizon 6 tourist start in Japan",
+          "description": "Your campaign begins as a festival tourist with no carried-over fame from previous Horizon games. Mei, an experienced Japanese car builder, and Jordy, a motorsports enthusiast, help you discover Japan and work toward joining the Horizon Festival.",
+          "tip": "Treat the Forza Horizon 6 opening as both a tutorial and a world-introduction route: learn the roads, listen to the guidance, and sample different surfaces before chasing speed."
+        },
+        {
+          "step": 2,
+          "title": "Forza Horizon 6 Horizon Qualifiers",
+          "description": "To join the Horizon Festival, complete the Horizon Qualifiers and then the Horizon Invitational. This earns your first Wristband and moves you from tourist status into the official Festival progression path.",
+          "tip": "Focus on clean driving and learning Forza Horizon 6 event types first; the campaign gradually introduces faster cars and more specific restrictions."
+        },
+        {
+          "step": 3,
+          "title": "Forza Horizon 6 Festival races",
+          "description": "Festival races are curated around specific car sets in Road, Dirt, and Cross Country events. Each new Wristband opens more events around Japan and moves the campaign toward faster car themes.",
+          "tip": "Do not rush to hypercars for Forza Horizon 6 Festival progression; official Festival events use structured restrictions."
+        },
+        {
+          "step": 4,
+          "title": "Forza Horizon 6 Wristband progression",
+          "description": "Festival Events, PR Stunts, and Skills contribute to your next Wristband. When you have enough progress, complete a Wristband Event such as a Showcase or Horizon Rush obstacle course.",
+          "tip": "Forza Horizon 6 Horizon Rush courses test speed and precision with splits, star targets, and locations such as Tokyo City Docks, Sotoyama Ski Resort, and Irokawa Space Center."
+        },
+        {
+          "step": 5,
+          "title": "Forza Horizon 6 Race Customizer",
+          "description": "After completing a Festival Event once, Race Customizer unlocks for that event. You can adjust Drivatars up to 11, season, weather, time of day, time progression, laps, Rewind, camera lock, traffic, and car restrictions.",
+          "tip": "Replay completed Forza Horizon 6 events with your own restrictions to test builds, create themed races, or play the same setup with a Convoy."
+        },
+        {
+          "step": 6,
+          "title": "Forza Horizon 6 Discover Japan route",
+          "description": "Outside the Festival path, Discover Japan focuses on earning Stamps through photos, food delivery, car collecting, Horizon Stories, Touge Battles, and night-time Street Races. This path lets you explore at your own pace.",
+          "tip": "Forza Horizon 6 Street Races and Touge Battles are useful when you want to drive cars that are not currently allowed in Festival Events."
+        },
+        {
+          "step": 7,
+          "title": "Forza Horizon 6 Collection Journal",
+          "description": "The Collection Journal tracks campaign progress across Horizon Festival and Discover Japan. It also records discoveries such as cars, houses, landmarks, mascots, and photos, then lets you redeem rewards including cars, credits, and cosmetic items.",
+          "tip": "Use the Forza Horizon 6 Collection Journal as your main checklist when you feel unsure what to do next."
+        },
+        {
+          "step": 8,
+          "title": "Forza Horizon 6 homes, garages, Barn Finds, and The Estate",
+          "description": "Collecting Stamps unlocks Player Houses with Customizable Garages, Barn Find Rumors, and The Estate, a mountain valley where you can build and decorate directly in the open world.",
+          "tip": "Prioritize Forza Horizon 6 Stamps if you care about garage display, map exploration, and long-term collection rewards."
+        },
+        {
+          "step": 9,
+          "title": "Forza Horizon 6 Legend Island",
+          "description": "Earning all 7 Festival Wristbands makes you a Horizon Legend and unlocks Legend Island, an exclusive region with the Legend Island Circuit, unique events, and the Colossus, the longest Goliath event that loops the full map on the freeway.",
+          "tip": "Forza Horizon 6 Legend Island is designed as a major campaign milestone and a strong endgame target for R Class cars."
         }
       ]
     }

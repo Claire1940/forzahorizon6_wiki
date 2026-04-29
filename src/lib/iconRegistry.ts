@@ -29,6 +29,10 @@ export const iconRegistry: Record<string, LucideIcon> = {
   TrendingUp: LucideIcons.TrendingUp,
   Monitor: LucideIcons.Monitor,
   Map: LucideIcons.Map,
+  Car: LucideIcons.Car,
+  Wrench: LucideIcons.Wrench,
+  Video: LucideIcons.Video,
+  Route: LucideIcons.Route,
 
   // UI 交互图标
   Sparkles: LucideIcons.Sparkles,

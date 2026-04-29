@@ -4,6 +4,7 @@ import { useEffect, Suspense, lazy } from 'react'
 import {
   ArrowRight,
   BookOpen,
+  Car,
   ChevronDown,
   Check,
   Clock,
@@ -12,8 +13,11 @@ import {
   Map,
   Monitor,
   Package,
+  Route,
   Settings,
   Sparkles,
+  Video,
+  Wrench,
 } from 'lucide-react'
 import { useMessages } from 'next-intl'
 import { VideoFeature } from '@/components/home/VideoFeature'
@@ -161,7 +165,7 @@ export default function HomePageClient({ latestArticles, locale }: HomePageClien
       {/* Latest Updates Section */}
       <LatestGuidesAccordion articles={latestArticles} locale={locale} max={30} />
 
-      {/* Tools Grid - 8 Navigation Cards */}
+      {/* Tools Grid - 12 Navigation Cards */}
       <section className="px-4 py-20 bg-card/40">
         <div className="container mx-auto max-w-6xl">
           <div className="text-center mb-12 scroll-reveal">
@@ -299,6 +303,70 @@ export default function HomePageClient({ latestArticles, locale }: HomePageClien
               </div>
               <h3 className="font-semibold mb-2">{t.tools.cards[7].title}</h3>
               <p className="text-sm text-muted-foreground">{t.tools.cards[7].description}</p>
+            </a>
+
+            <a
+              href="#forza-horizon-6-car-list"
+              onClick={(event) => {
+                event.preventDefault()
+                scrollToSection('forza-horizon-6-car-list')
+              }}
+              className="scroll-reveal group p-6 rounded-lg border border-border bg-card hover:border-[hsl(var(--nav-theme)/0.5)] transition-all duration-300 text-left hover:shadow-lg hover:shadow-[hsl(var(--nav-theme)/0.1)]"
+              style={{ animationDelay: '400ms' }}
+            >
+              <div className="w-12 h-12 rounded-lg mb-4 bg-[hsl(var(--nav-theme)/0.1)] flex items-center justify-center group-hover:bg-[hsl(var(--nav-theme)/0.2)] transition-colors">
+                <DynamicIcon name={t.tools.cards[8].icon} className="w-6 h-6 text-[hsl(var(--nav-theme-light))]" />
+              </div>
+              <h3 className="font-semibold mb-2">{t.tools.cards[8].title}</h3>
+              <p className="text-sm text-muted-foreground">{t.tools.cards[8].description}</p>
+            </a>
+
+            <a
+              href="#forza-horizon-6-jdm-cars-and-customization"
+              onClick={(event) => {
+                event.preventDefault()
+                scrollToSection('forza-horizon-6-jdm-cars-and-customization')
+              }}
+              className="scroll-reveal group p-6 rounded-lg border border-border bg-card hover:border-[hsl(var(--nav-theme)/0.5)] transition-all duration-300 text-left hover:shadow-lg hover:shadow-[hsl(var(--nav-theme)/0.1)]"
+              style={{ animationDelay: '450ms' }}
+            >
+              <div className="w-12 h-12 rounded-lg mb-4 bg-[hsl(var(--nav-theme)/0.1)] flex items-center justify-center group-hover:bg-[hsl(var(--nav-theme)/0.2)] transition-colors">
+                <DynamicIcon name={t.tools.cards[9].icon} className="w-6 h-6 text-[hsl(var(--nav-theme-light))]" />
+              </div>
+              <h3 className="font-semibold mb-2">{t.tools.cards[9].title}</h3>
+              <p className="text-sm text-muted-foreground">{t.tools.cards[9].description}</p>
+            </a>
+
+            <a
+              href="#forza-horizon-6-trailer-and-gameplay"
+              onClick={(event) => {
+                event.preventDefault()
+                scrollToSection('forza-horizon-6-trailer-and-gameplay')
+              }}
+              className="scroll-reveal group p-6 rounded-lg border border-border bg-card hover:border-[hsl(var(--nav-theme)/0.5)] transition-all duration-300 text-left hover:shadow-lg hover:shadow-[hsl(var(--nav-theme)/0.1)]"
+              style={{ animationDelay: '500ms' }}
+            >
+              <div className="w-12 h-12 rounded-lg mb-4 bg-[hsl(var(--nav-theme)/0.1)] flex items-center justify-center group-hover:bg-[hsl(var(--nav-theme)/0.2)] transition-colors">
+                <DynamicIcon name={t.tools.cards[10].icon} className="w-6 h-6 text-[hsl(var(--nav-theme-light))]" />
+              </div>
+              <h3 className="font-semibold mb-2">{t.tools.cards[10].title}</h3>
+              <p className="text-sm text-muted-foreground">{t.tools.cards[10].description}</p>
+            </a>
+
+            <a
+              href="#forza-horizon-6-beginner-guide"
+              onClick={(event) => {
+                event.preventDefault()
+                scrollToSection('forza-horizon-6-beginner-guide')
+              }}
+              className="scroll-reveal group p-6 rounded-lg border border-border bg-card hover:border-[hsl(var(--nav-theme)/0.5)] transition-all duration-300 text-left hover:shadow-lg hover:shadow-[hsl(var(--nav-theme)/0.1)]"
+              style={{ animationDelay: '550ms' }}
+            >
+              <div className="w-12 h-12 rounded-lg mb-4 bg-[hsl(var(--nav-theme)/0.1)] flex items-center justify-center group-hover:bg-[hsl(var(--nav-theme)/0.2)] transition-colors">
+                <DynamicIcon name={t.tools.cards[11].icon} className="w-6 h-6 text-[hsl(var(--nav-theme-light))]" />
+              </div>
+              <h3 className="font-semibold mb-2">{t.tools.cards[11].title}</h3>
+              <p className="text-sm text-muted-foreground">{t.tools.cards[11].description}</p>
             </a>
           </div>
         </div>
@@ -671,6 +739,216 @@ export default function HomePageClient({ latestArticles, locale }: HomePageClien
                 </div>
                 <h3 className="text-xl font-bold mb-3">{item.title}</h3>
                 <p className="text-sm leading-relaxed text-muted-foreground">{item.description}</p>
+              </div>
+            ))}
+          </div>
+        </div>
+      </section>
+
+      {/* Module 9: Forza Horizon 6 Car List */}
+      <section id="forza-horizon-6-car-list" className="scroll-mt-24 px-4 py-20">
+        <div className="container mx-auto max-w-6xl">
+          <div className="text-center mb-12 scroll-reveal">
+            <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-[hsl(var(--nav-theme)/0.1)] border border-[hsl(var(--nav-theme)/0.3)] mb-5">
+              <Car className="w-4 h-4 text-[hsl(var(--nav-theme-light))]" />
+              <span className="text-sm font-medium">{t.tools.cards[8].title}</span>
+            </div>
+            <h2 className="text-4xl md:text-5xl font-bold mb-4">
+              {t.modules.forzaHorizon6CarList.title}
+            </h2>
+            <p className="text-muted-foreground text-lg max-w-3xl mx-auto mb-4">
+              {t.modules.forzaHorizon6CarList.subtitle}
+            </p>
+            <p className="text-muted-foreground max-w-4xl mx-auto">
+              {t.modules.forzaHorizon6CarList.intro}
+            </p>
+          </div>
+
+          <div className="scroll-reveal hidden overflow-hidden rounded-lg border border-border bg-card lg:block">
+            <table className="w-full border-collapse text-left">
+              <thead className="bg-[hsl(var(--nav-theme)/0.08)]">
+                <tr>
+                  <th className="px-5 py-4 text-sm font-semibold">Forza Horizon 6 Make</th>
+                  <th className="px-5 py-4 text-sm font-semibold">Car</th>
+                  <th className="px-5 py-4 text-sm font-semibold">Class</th>
+                  <th className="px-5 py-4 text-sm font-semibold">Source Type</th>
+                  <th className="px-5 py-4 text-sm font-semibold">Highlight</th>
+                </tr>
+              </thead>
+              <tbody>
+                {t.modules.forzaHorizon6CarList.items.map((item: any) => (
+                  <tr key={`${item.make}-${item.car}`} className="border-t border-border align-top">
+                    <td className="px-5 py-5 font-bold text-[hsl(var(--nav-theme-light))]">{item.make}</td>
+                    <td className="px-5 py-5 font-semibold">{item.car}</td>
+                    <td className="px-5 py-5">
+                      <span className="inline-flex rounded-full bg-[hsl(var(--nav-theme)/0.1)] border border-[hsl(var(--nav-theme)/0.3)] px-3 py-1 text-xs font-bold text-[hsl(var(--nav-theme-light))]">
+                        {item.class}
+                      </span>
+                    </td>
+                    <td className="px-5 py-5 text-sm text-muted-foreground">{item.sourceType}</td>
+                    <td className="px-5 py-5 text-sm text-muted-foreground">{item.highlight}</td>
+                  </tr>
+                ))}
+              </tbody>
+            </table>
+          </div>
+
+          <div className="scroll-reveal grid grid-cols-1 md:grid-cols-2 gap-4 lg:hidden">
+            {t.modules.forzaHorizon6CarList.items.map((item: any) => (
+              <div key={`${item.make}-${item.car}`} className="rounded-lg border border-border bg-card p-6 hover:border-[hsl(var(--nav-theme)/0.5)] transition-colors">
+                <div className="flex items-start justify-between gap-3 mb-4">
+                  <div>
+                    <p className="text-sm font-semibold text-[hsl(var(--nav-theme-light))] mb-1">{item.make}</p>
+                    <h3 className="text-xl font-bold leading-snug">{item.car}</h3>
+                  </div>
+                  <span className="rounded-full bg-[hsl(var(--nav-theme)/0.1)] border border-[hsl(var(--nav-theme)/0.3)] px-3 py-1 text-xs font-bold text-[hsl(var(--nav-theme-light))]">
+                    {item.class}
+                  </span>
+                </div>
+                <p className="text-xs uppercase tracking-wide text-muted-foreground mb-3">{item.sourceType}</p>
+                <p className="text-sm leading-relaxed text-muted-foreground">{item.highlight}</p>
+              </div>
+            ))}
+          </div>
+        </div>
+      </section>
+
+      {/* Module 10: Forza Horizon 6 JDM Cars and Customization */}
+      <section id="forza-horizon-6-jdm-cars-and-customization" className="scroll-mt-24 px-4 py-20 bg-card/40">
+        <div className="container mx-auto max-w-6xl">
+          <div className="text-center mb-12 scroll-reveal">
+            <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-[hsl(var(--nav-theme)/0.1)] border border-[hsl(var(--nav-theme)/0.3)] mb-5">
+              <Wrench className="w-4 h-4 text-[hsl(var(--nav-theme-light))]" />
+              <span className="text-sm font-medium">{t.tools.cards[9].title}</span>
+            </div>
+            <h2 className="text-4xl md:text-5xl font-bold mb-4">
+              {t.modules.forzaHorizon6JdmCarsAndCustomization.title}
+            </h2>
+            <p className="text-muted-foreground text-lg max-w-3xl mx-auto mb-4">
+              {t.modules.forzaHorizon6JdmCarsAndCustomization.subtitle}
+            </p>
+            <p className="text-muted-foreground max-w-4xl mx-auto">
+              {t.modules.forzaHorizon6JdmCarsAndCustomization.intro}
+            </p>
+          </div>
+
+          <div className="scroll-reveal grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-4">
+            {t.modules.forzaHorizon6JdmCarsAndCustomization.items.map((item: any, index: number) => (
+              <div
+                key={item.title}
+                className={index === 0
+                  ? 'rounded-lg border border-[hsl(var(--nav-theme)/0.45)] bg-card p-6 hover:border-[hsl(var(--nav-theme)/0.7)] transition-colors md:col-span-2'
+                  : 'rounded-lg border border-border bg-card p-6 hover:border-[hsl(var(--nav-theme)/0.5)] transition-colors'}
+              >
+                <div className="mb-4 flex items-center justify-between gap-3">
+                  <span className="rounded-full bg-[hsl(var(--nav-theme)/0.1)] border border-[hsl(var(--nav-theme)/0.3)] px-3 py-1 text-xs font-semibold text-[hsl(var(--nav-theme-light))]">
+                    {item.category}
+                  </span>
+                  <span className="text-sm font-bold text-[hsl(var(--nav-theme-light))]">
+                    {(index + 1).toString().padStart(2, '0')}
+                  </span>
+                </div>
+                <h3 className="text-xl font-bold mb-3">{item.title}</h3>
+                <p className="text-sm leading-relaxed text-muted-foreground mb-5">{item.description}</p>
+                <div className="rounded-md border border-[hsl(var(--nav-theme)/0.2)] bg-[hsl(var(--nav-theme)/0.04)] p-4">
+                  <p className="text-xs font-semibold uppercase tracking-wide text-[hsl(var(--nav-theme-light))] mb-2">Best for</p>
+                  <p className="text-sm leading-relaxed text-muted-foreground">{item.bestFor}</p>
+                </div>
+              </div>
+            ))}
+          </div>
+        </div>
+      </section>
+
+      {/* Module 11: Forza Horizon 6 Trailer and Gameplay */}
+      <section id="forza-horizon-6-trailer-and-gameplay" className="scroll-mt-24 px-4 py-20">
+        <div className="container mx-auto max-w-6xl">
+          <div className="text-center mb-12 scroll-reveal">
+            <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-[hsl(var(--nav-theme)/0.1)] border border-[hsl(var(--nav-theme)/0.3)] mb-5">
+              <Video className="w-4 h-4 text-[hsl(var(--nav-theme-light))]" />
+              <span className="text-sm font-medium">{t.tools.cards[10].title}</span>
+            </div>
+            <h2 className="text-4xl md:text-5xl font-bold mb-4">
+              {t.modules.forzaHorizon6TrailerAndGameplay.title}
+            </h2>
+            <p className="text-muted-foreground text-lg max-w-3xl mx-auto mb-4">
+              {t.modules.forzaHorizon6TrailerAndGameplay.subtitle}
+            </p>
+            <p className="text-muted-foreground max-w-4xl mx-auto">
+              {t.modules.forzaHorizon6TrailerAndGameplay.intro}
+            </p>
+          </div>
+
+          <div className="scroll-reveal grid grid-cols-1 md:grid-cols-2 gap-4">
+            {t.modules.forzaHorizon6TrailerAndGameplay.items.map((item: any, index: number) => (
+              <div
+                key={item.url}
+                className={index === 0
+                  ? 'rounded-lg border border-[hsl(var(--nav-theme)/0.45)] bg-card p-6 hover:border-[hsl(var(--nav-theme)/0.7)] transition-colors md:col-span-2'
+                  : 'rounded-lg border border-border bg-card p-6 hover:border-[hsl(var(--nav-theme)/0.5)] transition-colors'}
+              >
+                <div className="mb-5 flex flex-col gap-3 sm:flex-row sm:items-start sm:justify-between">
+                  <div>
+                    <span className="inline-flex rounded-full bg-[hsl(var(--nav-theme)/0.1)] border border-[hsl(var(--nav-theme)/0.3)] px-3 py-1 text-xs font-semibold text-[hsl(var(--nav-theme-light))] mb-4">
+                      {item.videoType}
+                    </span>
+                    <h3 className="text-xl font-bold leading-snug">{item.title}</h3>
+                  </div>
+                  <a
+                    href={item.url}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="inline-flex w-fit items-center gap-2 rounded-lg border border-[hsl(var(--nav-theme)/0.35)] px-4 py-2 text-sm font-semibold text-[hsl(var(--nav-theme-light))] hover:bg-[hsl(var(--nav-theme)/0.1)] transition-colors"
+                  >
+                    Watch
+                    <ArrowRight className="h-4 w-4" />
+                  </a>
+                </div>
+                <p className="text-sm leading-relaxed text-muted-foreground mb-4">{item.description}</p>
+                <div className="flex items-start gap-2 rounded-md border border-[hsl(var(--nav-theme)/0.2)] bg-[hsl(var(--nav-theme)/0.04)] px-4 py-3">
+                  <Check className="mt-0.5 h-4 w-4 flex-shrink-0 text-[hsl(var(--nav-theme-light))]" />
+                  <p className="text-sm leading-relaxed text-muted-foreground">{item.watchReason}</p>
+                </div>
+              </div>
+            ))}
+          </div>
+        </div>
+      </section>
+
+      {/* Module 12: Forza Horizon 6 Beginner Guide */}
+      <section id="forza-horizon-6-beginner-guide" className="scroll-mt-24 px-4 py-20 bg-card/40">
+        <div className="container mx-auto max-w-5xl">
+          <div className="text-center mb-12 scroll-reveal">
+            <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-[hsl(var(--nav-theme)/0.1)] border border-[hsl(var(--nav-theme)/0.3)] mb-5">
+              <Route className="w-4 h-4 text-[hsl(var(--nav-theme-light))]" />
+              <span className="text-sm font-medium">{t.tools.cards[11].title}</span>
+            </div>
+            <h2 className="text-4xl md:text-5xl font-bold mb-4">
+              {t.modules.forzaHorizon6BeginnerGuide.title}
+            </h2>
+            <p className="text-muted-foreground text-lg max-w-3xl mx-auto mb-4">
+              {t.modules.forzaHorizon6BeginnerGuide.subtitle}
+            </p>
+            <p className="text-muted-foreground max-w-4xl mx-auto">
+              {t.modules.forzaHorizon6BeginnerGuide.intro}
+            </p>
+          </div>
+
+          <div className="scroll-reveal relative space-y-5">
+            <div className="absolute left-6 top-6 hidden h-[calc(100%-3rem)] w-px bg-[hsl(var(--nav-theme)/0.3)] md:block" />
+            {t.modules.forzaHorizon6BeginnerGuide.steps.map((step: any) => (
+              <div key={step.step} className="relative flex gap-4 rounded-lg border border-border bg-card p-6 hover:border-[hsl(var(--nav-theme)/0.5)] transition-colors">
+                <div className="z-10 flex h-12 w-12 flex-shrink-0 items-center justify-center rounded-full border-2 border-[hsl(var(--nav-theme)/0.5)] bg-background text-lg font-bold text-[hsl(var(--nav-theme-light))]">
+                  {step.step}
+                </div>
+                <div>
+                  <h3 className="text-xl font-bold mb-2">{step.title}</h3>
+                  <p className="text-sm leading-relaxed text-muted-foreground mb-4">{step.description}</p>
+                  <div className="flex items-start gap-2 rounded-md border border-[hsl(var(--nav-theme)/0.2)] bg-[hsl(var(--nav-theme)/0.04)] px-4 py-3">
+                    <Check className="mt-0.5 h-4 w-4 flex-shrink-0 text-[hsl(var(--nav-theme-light))]" />
+                    <p className="text-sm leading-relaxed text-muted-foreground">{step.tip}</p>
+                  </div>
+                </div>
               </div>
             ))}
           </div>
