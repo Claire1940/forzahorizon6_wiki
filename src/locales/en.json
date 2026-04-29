@@ -34,27 +34,27 @@
     "articlesComingSoon": "Articles coming soon"
   },
   "hero": {
-    "badge": "Surreal Voxel Survival Sandbox",
-    "title": "Lucid Blocks Wiki",
-    "description": "Explore dreamlike biomes, fuse items with Apotheosis, build freely, and survive strange creatures in this surreal open-world sandbox on Steam.",
-    "getFreeCodesCTA": "Explore Crafting Guide",
-    "playOnSteamCTA": "Play on Steam",
+    "badge": "Open-World Racing in Japan",
+    "title": "Forza Horizon 6",
+    "description": "Explore Japan in Forza Horizon 6 with over 550 real-world cars, Tokyo City, JDM culture, Steam editions, early access, and official release updates.",
+    "getFreeCodesCTA": "Visit Forza Horizon 6 Official Site",
+    "playOnSteamCTA": "Pre-Purchase Forza Horizon 6 on Steam",
     "stats": {
       "stat1": {
-        "value": "1,325",
-        "label": "Players Online"
+        "value": "550+",
+        "label": "Real-World Cars"
       },
       "stat2": {
-        "value": "1,986",
-        "label": "Peak CCU"
+        "value": "May 18, 2026",
+        "label": "Steam Release"
       },
       "stat3": {
-        "value": "97%",
-        "label": "Positive Reviews"
+        "value": "$69.99",
+        "label": "Steam Base Price"
       },
       "stat4": {
-        "value": "Mar 12, 2026",
-        "label": "Release Date"
+        "value": "4 Days",
+        "label": "Premium Early Access"
       }
     }
   },
@@ -785,27 +785,31 @@
     ]
   },
   "cta": {
-    "title": "Ready to Explore Lucid Blocks?",
-    "description": "Join the Lucid Blocks community on Discord for guides, updates, and discussions!",
-    "joinCommunity": "Join Discord",
-    "joinGame": "Play on Steam"
+    "title": "Ready for Forza Horizon 6?",
+    "description": "Follow official Forza Horizon 6 channels for release timing, Steam editions, car list updates, Japan map news, and community discussions.",
+    "joinCommunity": "Join Forza Discord",
+    "joinGame": "Pre-Purchase Forza Horizon 6 on Steam"
   },
   "footer": {
-    "title": "Lucid Blocks Wiki",
-    "description": "Your complete resource hub for Lucid Blocks crafting, biomes, creatures, achievements, and survival guides.",
+    "title": "Forza Horizon 6",
+    "description": "Unofficial Forza Horizon 6 resource hub for release date, Steam editions, car list, Japan map, Tokyo City, system requirements, and trailer updates.",
     "resources": "Resources",
     "community": "Community",
     "legal": "Legal",
-    "discord": "Discord",
-    "twitter": "X / Twitter",
+    "officialSite": "Forza Horizon 6 Official Site",
+    "xboxPage": "Forza Horizon 6 on Xbox",
+    "discord": "Forza Official Discord",
+    "twitter": "Forza Forums",
+    "reddit": "r/ForzaHorizon",
+    "youtubeTrailer": "Official Teaser Trailer",
     "steamCommunity": "Steam Community",
-    "steamStore": "Steam Store",
+    "steamStore": "Forza Horizon 6 on Steam",
     "about": "About",
     "privacy": "Privacy Policy",
     "terms": "Terms of Service",
     "copyrightNotice": "Copyright",
-    "copyright": "© 2026 Lucid Blocks Wiki. Not affiliated with the developers of Lucid Blocks.",
-    "disclaimer": "Unofficial fan-made resource website."
+    "copyright": "© 2026 Forza Horizon 6. This unofficial fan resource is not affiliated with Playground Games, Turn 10 Studios, Xbox Game Studios, Microsoft, or Valve.",
+    "disclaimer": "Forza Horizon 6 names, marks, and assets belong to their respective owners."
   },
   "pages": {
     "guides": {
