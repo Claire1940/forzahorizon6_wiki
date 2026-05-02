@@ -1,0 +1,172 @@
+export const metadata = {
+  title: "Forza Horizon 6 pc: Requisitos del Sistema, Ajustes y Guía de Rendimiento 2026",
+  description: "Una guía completa de Forza Horizon 6 pc que cubre especificaciones, ajustes gráficos, reescalado, trazado de rayos y objetivos de FPS estables para cada nivel de hardware en 2026.",
+  category: "Guía",
+  image: "https://placehold.co/800x400/1f3b73/fff?text=Forza+Horizon+6+PC+Guide",
+  date: "2026-05-02",
+  author: "Equipo de Forza Wiki"
+}
+
+Si estás planificando tu configuración para **Forza Horizon 6 pc**, ahora es el momento ideal para ajustar tu hardware y tu estrategia de configuración. Los primeros objetivos de rendimiento sugieren que **Forza Horizon 6 pc** apunta a una gran accesibilidad, desde tarjetas de la era GTX hasta sistemas 4K de gama alta con trazado de rayos. Es una excelente noticia para quienes valoran tanto la consistencia de fotogramas como la calidad de imagen. En esta guía obtendrás un desglose práctico de los requisitos en PC, los ajustes ideales por nivel de GPU y cómo usar DLSS, FSR y XeSS sin sacrificar la capacidad de respuesta. También tendrás una lista de preparación para el lanzamiento sobre almacenamiento, RAM, controles, dispositivos portátiles y pantallas ultrapanorámicas, para que puedas empezar desde el primer día con menos sorpresas.
+
+## Requisitos de Forza Horizon 6 pc de un vistazo
+
+Lo más importante que debes entender es que este juego parece apuntar a **60 FPS** en múltiples preajustes, no solo a un rendimiento “jugable”. Eso es una señal sólida de buena optimización.
+
+| Nivel de preajuste | CPU objetivo | GPU objetivo | RAM | Almacenamiento | Resolución / Objetivo |
+|---|---|---|---|---|---|
+| **Mínimo** | i5-8400 / Ryzen 5 5600 | GTX 1650 | **16 GB** | SSD | **1080p Bajo, ~60 FPS** |
+| **Recomendado** | i5-12400F / Ryzen 5 5600X | RTX 3060 Ti / RX 6700 XT / Arc A580 | **16 GB** | SSD | **1440p Alto, 60+ FPS** |
+| **Extremo** | i7-12700K / Ryzen 7 7700X | RTX 4070 Ti / RX 7900 XT | **24 GB** | **SSD NVMe** | **4K Extremo, 60+ FPS** |
+| **Extremo RT** | i7-12700K / Ryzen 7 7700X | RTX 5070 Ti / RX 9070 XT | **32 GB** | **SSD NVMe** | **4K Reescalado + RT, 60+ FPS** |
+
+Dos puntos destacados para jugadores de **Forza Horizon 6 pc**:
+1. Una base GTX 1650 en 2026 es inusualmente accesible.
+2. El salto a 24 GB y 32 GB de RAM en preajustes altos sugiere un uso de memoria más exigente cuando se activan recursos extremos y trazado de rayos.
+
+> **⚠️ Advertencia:** Si solo tienes 16 GB de RAM, evita los ajustes máximos de texturas durante sesiones largas en GPUs con 8 GB de VRAM. Puede que no haya cierres, pero sí bajadas graduales de rendimiento por desbordamiento de memoria.
+
+<div style={{position: "relative", paddingBottom: "56.25%", height: 0, margin: "2rem 0", borderRadius: "0.5rem", overflow: "hidden"}}>
+  <iframe
+    style={{position: "absolute", top: 0, left: 0, width: "100%", height: "100%"}}
+    src="https://www.youtube.com/embed/8RzMgKJ1hbQ"
+    title="Forza Horizon 6 - FULL System Requirements are Out! Looking GOOD!!!"
+    frameBorder="0"
+    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+    allowFullScreen
+  ></iframe>
+</div>
+
+## Mejores ajustes gráficos para Forza Horizon 6 pc por nivel de hardware
+
+No necesitas poner todo al máximo para conseguir un resultado visual premium. Los juegos de carreras se benefician más de una cadencia de fotogramas estable, movimiento limpio y buen detalle a distancia que de uno o dos ajustes ultra.
+
+### Preajustes iniciales recomendados
+
+| Nivel de hardware | Preajuste inicial | Primeros ajustes | Por qué funciona |
+|---|---|---|---|
+| **Entrada (clase GTX 1650 / RX 580)** | Bajo | Sube texturas a Medio solo si la VRAM lo permite | Mantiene estables los 1% lows a 1080p |
+| **Gama media (RTX 3060 Ti / RX 6700 XT / Arc A580)** | Alto | Sombras en Medio, reflejos en Alto | Mejor consistencia en escenas urbanas/climáticas densas |
+| **Gama media-alta (RTX 4070 Ti / RX 7900 XT)** | Extremo | Baja primero extras de público/estilo RT si hace falta | Conserva imágenes nítidas en 4K |
+| **Gama alta RT (RTX 5070 Ti / RX 9070 XT)** | Extremo RT | Ajusta el modo de reescalado antes de bajar RT | Mejor equilibrio entre imagen + FPS |
+
+En **Forza Horizon 6 pc**, prioriza esto en orden:
+1. **Cadencia de fotogramas y 1% lows**
+2. **Calidad de texturas acorde a la VRAM**
+3. **Ajuste del modo de reescalado**
+4. **Intensidad del trazado de rayos**
+
+> **💡 Consejo:** Si tu FPS promedio está bien pero conducir aún se siente brusco, baja primero los ajustes que cargan la CPU (densidad de tráfico, complejidad geométrica, detalle de multitudes) antes de tocar la calidad de texturas.
+
+## DLSS 4, FSR 4, XeSS 2.1 y estrategia de Frame Generation
+
+El reescalado moderno es central en la experiencia de **Forza Horizon 6 pc**, sobre todo en 1440p y 4K. El objetivo no es una “resolución falsa”; el objetivo es mejor claridad de movimiento con una latencia jugable.
+
+| Función | Mejor caso de uso | Familias de GPU | Consejo práctico |
+|---|---|---|---|
+| **DLSS Super Resolution** | 1440p/4K sin RT y con RT | Tarjetas RTX | Empieza con **Quality**; pasa a Balanced si hace falta |
+| **DLSS Frame Generation / MFG** | Pantallas de alta tasa de refresco | Serie RTX 40/50 | Úsalo cuando el FPS base ya sea decente |
+| **FSR 4 / alternativa FSR 3** | AMD + compatibilidad más amplia | Radeon + APUs compatibles | Prioriza primero AA nativo + FSR Quality |
+| **XeSS 2.1** | Ruta de optimización para Intel Arc | GPUs Arc | Gran opción para serie Arc A en 1440p |
+
+Para carreras en 4K, el reescalado suele verse mejor de lo esperado porque la resolución de salida sigue siendo alta y los datos temporales son ricos en escenas de movimiento hacia adelante.
+
+### Preajustes prácticos de reescalado
+
+| Resolución objetivo | Primera opción | Segunda opción | Notas |
+|---|---|---|---|
+| **1080p** | Nativo / AA estilo DLAA | Quality del reescalador | Usa reescalado solo si estás limitado por GPU |
+| **1440p** | Modo Quality | Modo Balanced | Mejor punto dulce entre visuales/rendimiento |
+| **4K sin RT** | Quality o Balanced | Performance solo si hace falta | Performance puede suavizar detalle lejano |
+| **4K RT** | Balanced/Performance | + Frame Generation | Prioriza primero una sensación fluida de 60+ |
+
+## Ray Tracing en Forza Horizon 6 pc: qué activar primero
+
+El trazado de rayos incluye la calidad de reflejos y el comportamiento de la iluminación global. En juegos de carreras, los reflejos se ven de inmediato en carreteras mojadas, pintura de coches y cristales urbanos, así que las mejoras pueden ser relevantes.
+
+Sin embargo, RT sigue siendo costoso. En **Forza Horizon 6 pc**, usa esta secuencia:
+
+1. Activa RT en el preajuste base.
+2. Mide FPS y consistencia del frame time.
+3. Ajusta primero el modo de reescalado.
+4. Reduce después el nivel de calidad de RT.
+5. Toca al final los ajustes raster principales.
+
+| Escenario | Movimiento sugerido | Resultado esperado |
+|---|---|---|
+| FPS cae por debajo del objetivo en lluvia/ciudad | Reescalador: Quality → Balanced | Buena recuperación de FPS, suavidad leve |
+| 1% lows inestables con RT activado | Baja un nivel los reflejos RT | Movimiento de cámara más suave |
+| El input se siente retrasado con FG | Desactiva FG, mantén reescalado SR | Mejor respuesta de control |
+| VRAM cerca del límite | Baja un paso el pool de texturas | Evita tirones en sesiones largas |
+
+Muchos jugadores probablemente preferirán **4K RT reescalado** en lugar de RT nativo en 4K porque la calidad de movimiento se mantiene fuerte y el rendimiento queda en un rango más saludable.
+
+## Almacenamiento, RAM, portátiles de juego y configuración de periféricos
+
+Aquí es donde muchos lanzamientos fallan: los usuarios cumplen con la GPU, pero ignoran el comportamiento del almacenamiento y la memoria. En **Forza Horizon 6 pc**, el nivel de almacenamiento importa más en ajustes extremos de lo que muchos esperan.
+
+| Componente | Comodidad mínima | Mejor para 2026 | Por qué |
+|---|---|---|---|
+| **RAM del sistema** | 16 GB | 32 GB | Más margen para RT + apps en segundo plano |
+| **Almacenamiento** | SSD SATA | NVMe Gen3/Gen4 | Carga de recursos más rápida en zonas densas |
+| **VRAM** | 8 GB | 12 GB+ | Calidad de texturas más estable en 1440p+ |
+| **Clase de CPU** | 6C/12T | 8C+ para gama alta | Ayuda con consistencia en altas tasas de refresco |
+
+Si juegas en hardware portátil (clase Steam Deck o ROG Ally), la mejor ruta es:
+- Resolución interna 720p/900p
+- Texturas en Medio
+- Reescalado Balanced
+- Objetivo de frames bloqueado para consistencia
+
+Para usuarios de volante, espera soporte amplio. Empieza configurando:
+- Linealidad de dirección neutral
+- Zona muerta más baja
+- Perfiles separados para coches de carretera y off-road
+
+> **💡 Consejo:** Crea dos perfiles: “Paseo Visual” y “Carrera Competitiva”. Uno prioriza calidad de imagen; el otro prioriza latencia y 1% lows limpios.
+
+Para actualizaciones oficiales de la franquicia, notas de parche y detalles de plataformas, sigue el [centro oficial de noticias de Forza](https://forza.net/news).
+
+## Flujo de optimización para el día de lanzamiento de Forza Horizon 6 pc
+
+Sigue esta lista una vez que el juego esté instalado. Ahorra tiempo y evita cambios aleatorios de ajustes que dificultan la solución de problemas.
+
+| Paso | Acción | Objetivo |
+|---|---|---|
+| **1** | Actualiza el driver de GPU y el chipset | Estabilidad base |
+| **2** | Instala en SSD/NVMe, verifica archivos del juego | Reducir riesgo de tirones |
+| **3** | Ejecuta una vez el benchmark integrado | Capturar métricas base |
+| **4** | Define FPS objetivo (60/90/120) | Ajustar hacia un objetivo claro |
+| **5** | Ajusta el modo de reescalado | Recuperar FPS con mínima pérdida de calidad |
+| **6** | Ajusta texturas según VRAM | Evitar comportamiento por desbordamiento de memoria |
+| **7** | Prueba 20 minutos de mundo libre | Detectar caídas en sesiones largas |
+| **8** | Guarda un preajuste de perfil | Reversión rápida tras parches |
+
+### Mapa rápido de solución de problemas
+
+| Problema | Causa más probable | Solución |
+|---|---|---|
+| Microstutter después de 20–30 min | Presión de VRAM | Baja texturas, reinicia la sesión |
+| Buen FPS promedio, mala sensación | Mala cadencia de fotogramas | Limita FPS ligeramente por debajo del refresco máximo |
+| Imagen borrosa en 4K | Modo de reescalado agresivo | Cambia de Performance → Balanced/Quality |
+| Picos altos de CPU en zonas densas | Ajustes limitados por CPU | Reduce multitudes/complejidad geométrica |
+
+Si **Forza Horizon 6 pc** mantiene el comportamiento de frame-time suave por el que se conoce la saga, la mayoría de jugadores debería poder encontrar una configuración estable rápidamente con ajustes disciplinados.
+
+## FAQ
+
+**P: ¿Se espera que Forza Horizon 6 pc funcione bien en GPUs antiguas como GTX 1650?**
+
+R: En ajustes bajos y 1080p, esa clase de GPU está orientada a objetivos cercanos a 60 FPS. Debes priorizar una cadencia de fotogramas estable y mantener ajustes de texturas conservadores en sesiones largas.
+
+**P: ¿Cuál es la mejor resolución para hardware de gama media en Forza Horizon 6 pc?**
+
+R: Para tarjetas clase RTX 3060 Ti, RX 6700 XT y Arc A580, 1440p Alto es un punto de partida sólido. Luego ajusta sombras y reflejos antes de bajar ajustes de calidad importantes.
+
+**P: ¿Debería usar ray tracing en Forza Horizon 6 pc o dejarlo desactivado?**
+
+R: Usa RT si tu GPU puede mantener tu FPS preferido después de ajustar el reescalado. Si la respuesta de control se siente más blanda, reduce primero la calidad de RT o desactiva la generación de fotogramas.
+
+**P: ¿De verdad necesito NVMe y 32 GB de RAM para Forza Horizon 6 pc?**
+
+R: No para todos los preajustes. Pero para visuales extremas, trazado de rayos y sesiones largas, NVMe + 32 GB de RAM ofrece más margen y una consistencia más suave en 2026.

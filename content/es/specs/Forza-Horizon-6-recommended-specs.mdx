@@ -1,0 +1,149 @@
+export const metadata = {
+  title: "Especificaciones recomendadas de Forza Horizon 6: guía de rendimiento en PC para 2026",
+  description: "Revisa las especificaciones recomendadas de Forza Horizon 6, los objetivos de PC de mínimo a extremo y consejos prácticos de actualización para FPS estables en 1080p, 1440p y 4K en 2026.",
+  category: "Guía",
+  image: "https://placehold.co/800x400/1d4ed8/fff?text=Forza+Horizon+6+Specs",
+  date: "2026-05-02",
+  author: "Equipo de Forza Wiki"
+}
+
+Si estás preparando tu configuración antes del lanzamiento, entender las **especificaciones recomendadas de Forza Horizon 6** es la forma más rápida de evitar sorpresas de rendimiento. La tabla oficial ofrece objetivos útiles, pero la mayoría de los jugadores aún necesita contexto: qué significan esos niveles en hardware real, cuánta RAM necesitas de verdad y si el reescalado cambia la decisión de compra. En esta guía, voy a desglosar las **especificaciones recomendadas de Forza Horizon 6** en términos sencillos para que puedas comparar tu PC actual con metas de rendimiento realistas para 2026. También verás rutas de actualización para 1080p, 1440p y 4K, además de una estrategia de ajustes para trazado de rayos, tipo de SSD y límites de VRAM. Si estás decidiendo entre “jugar ya” y “actualizar primero”, esta es la lista que debes seguir.
+
+## Especificaciones recomendadas de Forza Horizon 6 de un vistazo
+
+Los niveles oficiales de requisitos son más detallados que en entregas anteriores porque definen preset, resolución y objetivo de tasa de fotogramas. Eso te da una mejor base para planificar.
+
+| Nivel | Objetivo | CPU | GPU | RAM | Almacenamiento |
+|---|---|---|---|---|---|
+| **Mínimo** | **1080p Bajo, ~60 FPS** | Ryzen 5 5600 / i5-8400 | GTX 1650 / RX 6500 XT / Arc A380 | **16GB** | SSD |
+| **Recomendado** | **1440p Alto, 60+ FPS** | Ryzen 5 7600 / i5-10400 | RTX 3060 Ti / RX 6700 XT / Arc A580 | **16GB** | SSD |
+| **Extremo** | **4K Extremo, 60+ FPS** | Ryzen 7 7800X3D / i7-12700 | RTX 4070 Ti / RX 7900 XT | **24GB** | **SSD NVMe** |
+| **Extremo RT** | **4K Reescalado + RT, 60+ FPS** | Ryzen 7 7800X3D / i7-12700 | RTX 5070 Ti / RX 9070 XT | **32GB** | **SSD NVMe** |
+
+> **Importante:** “60+ FPS” normalmente sugiere margen por encima de promedios estrictos de 60, no un mínimo bloqueado en cada escena.
+
+Una conclusión clave: el salto de GPU entre mínimo y recomendado es importante, porque el objetivo pasa de 1080p Bajo a 1440p Alto. Eso implica tanto más resolución como más calidad visual.
+
+## Qué cambió frente a expectativas anteriores de Horizon
+
+Sobre el papel, esta entrega parece más escalable de lo que mucha gente esperaba. Los mínimos de GPU se mantienen cerca de clases de rendimiento de entrada de la generación anterior, pero las recomendaciones de CPU, RAM y almacenamiento suben.
+
+| Componente | Expectativa de la era Horizon anterior | Dirección de Horizon 6 | Significado práctico |
+|---|---|---|---|
+| **Base de GPU** | Clase GTX 970 / RX 470 | Clase GTX 1650 / A380 / RX 6500 XT | Clase de entrada similar, aún asequible |
+| **RAM del sistema** | 8GB figuraban antes en tablas antiguas | **Base de 16GB** | El streaming moderno de mundo abierto prefiere más memoria |
+| **Base de CPU** | Chips antiguos de cuatro núcleos o pocos núcleos | Clase más nueva de gama media con 6 núcleos | Mejor consistencia en frame-time |
+| **Almacenamiento** | HDD tolerado en la era anterior | SSD mínimo, NVMe para el nivel superior | Streaming de recursos más rápido y menos tirones |
+
+Este patrón es común en los juegos de PC de 2026: la calidad gráfica puede escalarse hacia abajo, pero la densidad del mundo, la simulación y la presión del streaming elevan los requisitos de CPU/memoria/almacenamiento.
+
+Si quieres detalles oficiales de tienda e información de plataformas de lanzamiento, consulta el [sitio oficial de la franquicia Forza](https://forza.net/).
+
+## Cómo ubicar tu PC en el nivel correcto (sin adivinar)
+
+La mayoría de jugadores no tiene exactamente las piezas listadas. Usa este método para estimar en qué nivel cae tu equipo.
+
+### Flujo de comparación paso a paso
+
+| Paso | Qué revisar | Por qué importa |
+|---|---|---|
+| **1** | Empieza por la clase de tu GPU | La GPU determina primero el techo de resolución/preset |
+| **2** | Verifica generación y cantidad de núcleos de la CPU | Evita tirones y malos 1% lows |
+| **3** | Confirma capacidad y velocidad de RAM | El streaming de mundo abierto y apps en segundo plano necesitan margen |
+| **4** | Revisa el tipo de SSD | Un SSD SATA suele bastar; NVMe ayuda al streaming de nivel alto |
+| **5** | Planifica el modo de reescalado | DLSS/FSR/XeSS pueden recuperar muchos FPS a resoluciones altas |
+
+### Guía rápida de interpretación
+
+- Si tu GPU está cerca de una **RTX 3060 Ti / RX 6700 XT**, apuntas al nivel de **especificaciones recomendadas de Forza Horizon 6** en 1440p Alto.
+- Si tu CPU es bastante más antigua que i5-8400/Ryzen 5 5600, espera caídas por lado de CPU incluso si la GPU parece suficiente.
+- Si solo tienes 16GB de RAM pero apuntas a 4K Extremo, vigila de cerca el uso de memoria antes de asumir que el problema es la GPU.
+
+> **Consejo:** Optimiza en este orden: escala de resolución → sombras/reflejos → funciones RT → densidad de vegetación/público. Normalmente esto conserva calidad de imagen mientras recupera frame-times más suaves.
+
+## Estrategia práctica de ajustes para FPS estables
+
+El juego es compatible con los principales paquetes de reescalado (DLSS, FSR, XeSS), opciones de trazado de rayos y herramientas de benchmark. Eso es útil porque puedes ajustar según tu objetivo exacto de FPS en lugar de copiar el preset de otra persona.
+
+<div style={{position: "relative", paddingBottom: "56.25%", height: 0, margin: "2rem 0", borderRadius: "0.5rem", overflow: "hidden"}}>
+  <iframe
+    style={{position: "absolute", top: 0, left: 0, width: "100%", height: "100%"}}
+    src="https://www.youtube.com/embed/Kep3cCZAiXU"
+    title="Análisis de requisitos del sistema para Forza Horizon 6 en PC"
+    frameBorder="0"
+    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+    allowFullScreen
+  ></iframe>
+</div>
+
+### Presets de ajuste recomendados por resolución
+
+| Objetivo de resolución | Preset inicial | Reescalado | Ajuste RT | Ideal para |
+|---|---|---|---|---|
+| **1080p** | Mezcla Medio/Alto | Calidad o Desactivado | Desactivado o Bajo | GPUs antiguas de gama media |
+| **1440p** | Alto | Calidad | Solo RT selectivo | La mayoría de jugadores en el nivel recomendado |
+| **4K** | Mezcla Alto/Extremo | Equilibrado/Calidad | Primero RT Off, luego probar | GPUs de gama alta que buscan 60+ |
+| **4K RT** | Extremo RT | Equilibrado/Rendimiento | Activado | Sistemas premium con buena refrigeración |
+
+### Opciones de alto impacto para tocar primero
+
+| Ajuste | Impacto en FPS | Impacto visual | Acción sugerida |
+|---|---|---|---|
+| **GI/Reflejos con trazado de rayos** | Alto | Alto en escenas nocturnas o mojadas | Actívalo solo si tienes margen de GPU |
+| **Calidad de sombras** | Medio-Alto | Medio | Baja un nivel antes de recortar texturas |
+| **Volumétricos** | Medio | Medio-Alto | Medio suele verse muy parecido a Alto |
+| **Calidad de texturas** | Depende de VRAM | Alto | Mantenla alta si la VRAM lo permite |
+| **Densidad de público/tráfico** | Limitado por CPU | Bajo-Medio | Bájala si los 1% lows son inestables |
+
+Para muchos sistemas, el punto ideal es 1440p Alto con reescalado en calidad, y luego activar RT de forma selectiva en lugar de encender todas las opciones RT a la vez.
+
+## Prioridades de actualización según las especificaciones recomendadas de Forza Horizon 6
+
+Si solo puedes actualizar una pieza, elige según tu cuello de botella, no por preferencia de marca.
+
+| Escenario | Primera actualización | Segunda actualización | Por qué |
+|---|---|---|---|
+| **Estás por debajo del mínimo** | GPU a gama de entrada/media moderna | SSD si sigues en HDD | Mayor mejora inmediata de jugabilidad |
+| **Llegas a 1080p pero quieres 1440p Alto** | GPU a clase 3060 Ti+/6700 XT+ | Renovación de plataforma CPU | Coincide con el objetivo del nivel recomendado |
+| **Quieres 4K sin RT** | GPU a clase 4070 Ti/7900 XT | RAM a 24GB+ | Alta carga de píxeles + presión de memoria |
+| **Quieres 4K RT** | GPU a clase 5070 Ti/9070 XT | RAM a 32GB, NVMe | RT más recursos en alta resolución exige mucho |
+
+### Lógica de compra con presupuesto (2026)
+
+1. Prioriza **frame-time consistente** por encima de capturas de FPS pico.
+2. No gastes de más en RT si sueles correr de día y valoras la respuesta.
+3. Considera 16GB como punto de entrada; para multitarea + overlays + pestañas del navegador, más capacidad ayuda.
+4. Si tu biblioteca incluye varios mundos abiertos exigentes, una mejora de CPU a nivel de plataforma puede envejecer mejor que un salto estrecho de GPU.
+
+> **Advertencia:** Pasar de HDD a SSD suele transformar el ritmo en mundos abiertos. Aunque el FPS promedio se vea bien, los tirones al desplazarte pueden persistir en unidades más lentas.
+
+## Malentendidos comunes sobre las tablas de requisitos
+
+Las tablas de requisitos son orientación, no garantías estrictas. Estos son los errores más comunes al interpretar las **especificaciones recomendadas de Forza Horizon 6**.
+
+| Mito | Realidad |
+|---|---|
+| “Recomendado significa ajustes al máximo.” | Normalmente significa un objetivo específico (aquí 1440p Alto alrededor de 60+), no todos los deslizadores al máximo. |
+| “Si mi GPU coincide, ya está.” | CPU, RAM y almacenamiento aún pueden limitar la estabilidad, especialmente en zonas densas. |
+| “El reescalado es resolución falsa, así que evítalo.” | Los modos de calidad pueden verse excelentes en movimiento y mejorar mucho la jugabilidad. |
+| “24GB/32GB de RAM significa que 16GB es inutilizable.” | No necesariamente. Significa que los niveles superiores probablemente se benefician de más margen, sobre todo en 4K. |
+
+Al probar, usa pasadas de benchmark repetibles y luego valida en condiciones de tráfico/clima en mundo abierto. Eso detecta picos de frame-time mejor que una sola pasada corta de benchmark.
+
+## FAQ
+
+**Q: ¿Cuáles son las especificaciones recomendadas de Forza Horizon 6 para la mayoría de jugadores en 2026?**
+
+A: La base de las **especificaciones recomendadas de Forza Horizon 6** apunta a 1440p Alto a 60+ FPS con GPUs como RTX 3060 Ti o RX 6700 XT, una CPU moderna de gama media, 16GB de RAM y un SSD.
+
+**Q: ¿Puedo jugar con 16GB de RAM si quiero ajustes altos?**
+
+A: Sí, 16GB encaja con el nivel recomendado. Para 4K Extremo y multitarea pesada, subir a 24GB o 32GB puede mejorar la consistencia y reducir la presión de memoria en segundo plano.
+
+**Q: ¿NVMe es obligatorio, o un SSD SATA sigue estando bien?**
+
+A: NVMe aparece en los niveles más altos, especialmente en los objetivos Extremos. Un SSD SATA aún puede funcionar, pero NVMe puede ayudar con streaming más rápido y menos retrasos de carga de recursos en escenas exigentes.
+
+**Q: ¿Igualar las especificaciones recomendadas de Forza Horizon 6 garantiza 60 FPS bloqueados en todas partes?**
+
+A: No está garantizado. Las tablas de requisitos indican objetivos probables bajo condiciones de prueba. La complejidad de la escena, ajustes RT, versiones de drivers y apps en segundo plano aún pueden causar caídas, así que ajusta la configuración para 1% lows estables.
