@@ -64,6 +64,63 @@ export type ContentType = typeof CONTENT_TYPES[number]
 // 支持的语言（使用 routing.ts 中的 Locale 类型）
 export type Language = Locale
 
+function extractExportedMetadata(fileContent: string): ContentFrontmatter | null {
+  const marker = fileContent.match(/export\s+const\s+metadata\s*=/)
+  if (!marker || marker.index === undefined) return null
+
+  const start = fileContent.indexOf('{', marker.index)
+  if (start === -1) return null
+
+  let depth = 0
+  let quote: '"' | "'" | '`' | null = null
+  let escaped = false
+
+  for (let i = start; i < fileContent.length; i++) {
+    const char = fileContent[i]
+
+    if (quote) {
+      if (escaped) {
+        escaped = false
+      } else if (char === '\\') {
+        escaped = true
+      } else if (char === quote) {
+        quote = null
+      }
+      continue
+    }
+
+    if (char === '"' || char === "'" || char === '`') {
+      quote = char
+      continue
+    }
+
+    if (char === '{') depth++
+    if (char === '}') depth--
+
+    if (depth === 0) {
+      const objectLiteral = fileContent.slice(start, i + 1)
+      const metadata: Partial<ContentFrontmatter> = {}
+      const propertyPattern = /([A-Za-z_$][\w$]*)\s*:\s*(["'`])((?:\\.|(?!\2)[\s\S])*)\2/g
+      const metadataKeys = new Set(['title', 'description', 'category', 'image', 'date', 'lastModified', 'author', 'themeColor', 'backgroundText', 'rarity', 'type', 'code'])
+
+      for (const match of objectLiteral.matchAll(propertyPattern)) {
+        const key = match[1] as keyof ContentFrontmatter
+        if (!metadataKeys.has(key)) continue
+
+        metadata[key] = match[3]
+          .replace(/\\n/g, '\n')
+          .replace(/\\r/g, '\r')
+          .replace(/\\t/g, '\t')
+          .replace(/\\(["'`\\])/g, '$1')
+      }
+
+      return metadata.title && metadata.description ? metadata as ContentFrontmatter : null
+    }
+  }
+
+  return null
+}
+
 // 内容项接口
 export interface ContentItem {
   slug: string
@@ -127,6 +184,9 @@ export async function getAllContent(
     if (!fs.existsSync(filePath)) return null
 
     const fileContent = fs.readFileSync(filePath, 'utf-8')
+    const exportedMetadata = extractExportedMetadata(fileContent)
+    if (exportedMetadata) return exportedMetadata
+
     const { data } = matter(fileContent)
     return data as ContentFrontmatter
   }
