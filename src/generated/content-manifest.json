@@ -1,0 +1,1378 @@
+{
+  "de": {
+    "cars": [
+      {
+        "slug": "Forza-Horizon-6-all-cars",
+        "file": "Forza-Horizon-6-all-cars"
+      },
+      {
+        "slug": "Forza-Horizon-6-barn-finds",
+        "file": "Forza-Horizon-6-barn-finds"
+      },
+      {
+        "slug": "Forza-Horizon-6-car-lineup",
+        "file": "Forza-Horizon-6-car-lineup"
+      },
+      {
+        "slug": "Forza-Horizon-6-car-list",
+        "file": "Forza-Horizon-6-car-list"
+      },
+      {
+        "slug": "Forza-Horizon-6-cars",
+        "file": "Forza-Horizon-6-cars"
+      },
+      {
+        "slug": "Forza-Horizon-6-customization",
+        "file": "Forza-Horizon-6-customization"
+      },
+      {
+        "slug": "Forza-Horizon-6-ferrari",
+        "file": "Forza-Horizon-6-ferrari"
+      },
+      {
+        "slug": "Forza-Horizon-6-honda-civic",
+        "file": "Forza-Horizon-6-honda-civic"
+      },
+      {
+        "slug": "Forza-Horizon-6-jdm-cars",
+        "file": "Forza-Horizon-6-jdm-cars"
+      },
+      {
+        "slug": "Forza-Horizon-6-miata",
+        "file": "Forza-Horizon-6-miata"
+      },
+      {
+        "slug": "Forza-Horizon-6-motorcycles",
+        "file": "Forza-Horizon-6-motorcycles"
+      },
+      {
+        "slug": "Forza-Horizon-6-new-cars",
+        "file": "Forza-Horizon-6-new-cars"
+      },
+      {
+        "slug": "Forza-Horizon-6-nissan-silvia",
+        "file": "Forza-Horizon-6-nissan-silvia"
+      },
+      {
+        "slug": "Forza-Horizon-6-tuning",
+        "file": "Forza-Horizon-6-tuning"
+      }
+    ],
+    "editions": [
+      {
+        "slug": "Forza-Horizon-6-DLC",
+        "file": "Forza-Horizon-6-DLC"
+      },
+      {
+        "slug": "Forza-Horizon-6-car-pass",
+        "file": "Forza-Horizon-6-car-pass"
+      },
+      {
+        "slug": "Forza-Horizon-6-deluxe-edition",
+        "file": "Forza-Horizon-6-deluxe-edition"
+      },
+      {
+        "slug": "Forza-Horizon-6-deluxe-vs-premium",
+        "file": "Forza-Horizon-6-deluxe-vs-premium"
+      },
+      {
+        "slug": "Forza-Horizon-6-editions",
+        "file": "Forza-Horizon-6-editions"
+      },
+      {
+        "slug": "Forza-Horizon-6-loyalty-rewards",
+        "file": "Forza-Horizon-6-loyalty-rewards"
+      },
+      {
+        "slug": "Forza-Horizon-6-pre-order-bonus",
+        "file": "Forza-Horizon-6-pre-order-bonus"
+      },
+      {
+        "slug": "Forza-Horizon-6-pre-order",
+        "file": "Forza-Horizon-6-pre-order"
+      },
+      {
+        "slug": "Forza-Horizon-6-premium-edition",
+        "file": "Forza-Horizon-6-premium-edition"
+      },
+      {
+        "slug": "Forza-Horizon-6-premium-upgrade",
+        "file": "Forza-Horizon-6-premium-upgrade"
+      },
+      {
+        "slug": "Forza-Horizon-6-price",
+        "file": "Forza-Horizon-6-price"
+      },
+      {
+        "slug": "Forza-Horizon-6-standard-edition",
+        "file": "Forza-Horizon-6-standard-edition"
+      },
+      {
+        "slug": "Forza-Horizon-6-steelbook",
+        "file": "Forza-Horizon-6-steelbook"
+      },
+      {
+        "slug": "Forza-Horizon-6-vip-membership",
+        "file": "Forza-Horizon-6-vip-membership"
+      },
+      {
+        "slug": "forza-horizon-6-collector-edition",
+        "file": "forza-horizon-6-collector-edition"
+      },
+      {
+        "slug": "forza-horizon-6-expansions",
+        "file": "forza-horizon-6-expansions"
+      }
+    ],
+    "map": [
+      {
+        "slug": "Forza-Horizon-6-full-map",
+        "file": "Forza-Horizon-6-full-map"
+      },
+      {
+        "slug": "Forza-Horizon-6-houses",
+        "file": "Forza-Horizon-6-houses"
+      },
+      {
+        "slug": "Forza-Horizon-6-japan",
+        "file": "Forza-Horizon-6-japan"
+      },
+      {
+        "slug": "Forza-Horizon-6-location",
+        "file": "Forza-Horizon-6-location"
+      },
+      {
+        "slug": "Forza-Horizon-6-map-size",
+        "file": "Forza-Horizon-6-map-size"
+      },
+      {
+        "slug": "Forza-Horizon-6-map",
+        "file": "Forza-Horizon-6-map"
+      },
+      {
+        "slug": "Forza-Horizon-6-tokyo",
+        "file": "Forza-Horizon-6-tokyo"
+      },
+      {
+        "slug": "forza-horizon-6-map-size-comparison",
+        "file": "forza-horizon-6-map-size-comparison"
+      },
+      {
+        "slug": "forza-horizon-6-open-world",
+        "file": "forza-horizon-6-open-world"
+      }
+    ],
+    "media": [
+      {
+        "slug": "Forza-Horizon-6-Xbox-showcase",
+        "file": "Forza-Horizon-6-Xbox-showcase"
+      },
+      {
+        "slug": "Forza-Horizon-6-eliminator",
+        "file": "Forza-Horizon-6-eliminator"
+      },
+      {
+        "slug": "Forza-Horizon-6-new-features",
+        "file": "Forza-Horizon-6-new-features"
+      },
+      {
+        "slug": "Forza-Horizon-6-preview",
+        "file": "Forza-Horizon-6-preview"
+      },
+      {
+        "slug": "Forza-Horizon-6-review",
+        "file": "Forza-Horizon-6-review"
+      },
+      {
+        "slug": "Forza-Horizon-6-trailer",
+        "file": "Forza-Horizon-6-trailer"
+      },
+      {
+        "slug": "forza-horizon-6-gameplay-reveal",
+        "file": "forza-horizon-6-gameplay-reveal"
+      }
+    ],
+    "platforms": [
+      {
+        "slug": "Forza-Horizon-6-cloud-gaming",
+        "file": "Forza-Horizon-6-cloud-gaming"
+      },
+      {
+        "slug": "Forza-Horizon-6-crossplay",
+        "file": "Forza-Horizon-6-crossplay"
+      },
+      {
+        "slug": "Forza-Horizon-6-game-pass",
+        "file": "Forza-Horizon-6-game-pass"
+      },
+      {
+        "slug": "Forza-Horizon-6-pc",
+        "file": "Forza-Horizon-6-pc"
+      },
+      {
+        "slug": "Forza-Horizon-6-ps4",
+        "file": "Forza-Horizon-6-ps4"
+      },
+      {
+        "slug": "Forza-Horizon-6-ps5",
+        "file": "Forza-Horizon-6-ps5"
+      },
+      {
+        "slug": "Forza-Horizon-6-switch-2",
+        "file": "Forza-Horizon-6-switch-2"
+      },
+      {
+        "slug": "Forza-Horizon-6-xbox-one",
+        "file": "Forza-Horizon-6-xbox-one"
+      },
+      {
+        "slug": "Forza-Horizon-6-xbox",
+        "file": "Forza-Horizon-6-xbox"
+      },
+      {
+        "slug": "forza-horizon-6-compatibility",
+        "file": "forza-horizon-6-compatibility"
+      },
+      {
+        "slug": "forza-horizon-6-cross-platform",
+        "file": "forza-horizon-6-cross-platform"
+      },
+      {
+        "slug": "forza-horizon-6-cross-save",
+        "file": "forza-horizon-6-cross-save"
+      }
+    ],
+    "release": [
+      {
+        "slug": "Forza-Horizon-6-countdown",
+        "file": "Forza-Horizon-6-countdown"
+      },
+      {
+        "slug": "Forza-Horizon-6-early-access",
+        "file": "Forza-Horizon-6-early-access"
+      },
+      {
+        "slug": "Forza-Horizon-6-launch-date",
+        "file": "Forza-Horizon-6-launch-date"
+      },
+      {
+        "slug": "Forza-Horizon-6-release-date",
+        "file": "Forza-Horizon-6-release-date"
+      },
+      {
+        "slug": "Forza-Horizon-6-release-time",
+        "file": "Forza-Horizon-6-release-time"
+      },
+      {
+        "slug": "Forza-Horizon-6-release",
+        "file": "Forza-Horizon-6-release"
+      },
+      {
+        "slug": "forza-horizon-6-announcement",
+        "file": "forza-horizon-6-announcement"
+      },
+      {
+        "slug": "forza-horizon-6-pre-load",
+        "file": "forza-horizon-6-pre-load"
+      }
+    ],
+    "specs": [
+      {
+        "slug": "Forza-Horizon-6-controller",
+        "file": "Forza-Horizon-6-controller"
+      },
+      {
+        "slug": "Forza-Horizon-6-game-size",
+        "file": "Forza-Horizon-6-game-size"
+      },
+      {
+        "slug": "Forza-Horizon-6-graphics",
+        "file": "Forza-Horizon-6-graphics"
+      },
+      {
+        "slug": "Forza-Horizon-6-minimum-requirements",
+        "file": "Forza-Horizon-6-minimum-requirements"
+      },
+      {
+        "slug": "Forza-Horizon-6-pc-requirements",
+        "file": "Forza-Horizon-6-pc-requirements"
+      },
+      {
+        "slug": "Forza-Horizon-6-recommended-specs",
+        "file": "Forza-Horizon-6-recommended-specs"
+      },
+      {
+        "slug": "Forza-Horizon-6-requirements",
+        "file": "Forza-Horizon-6-requirements"
+      },
+      {
+        "slug": "Forza-Horizon-6-size",
+        "file": "Forza-Horizon-6-size"
+      },
+      {
+        "slug": "Forza-Horizon-6-specs",
+        "file": "Forza-Horizon-6-specs"
+      },
+      {
+        "slug": "Forza-Horizon-6-steam-deck",
+        "file": "Forza-Horizon-6-steam-deck"
+      },
+      {
+        "slug": "Forza-Horizon-6-system-requirements",
+        "file": "Forza-Horizon-6-system-requirements"
+      },
+      {
+        "slug": "Forza-Horizon-6-wheel-support",
+        "file": "Forza-Horizon-6-wheel-support"
+      },
+      {
+        "slug": "forza-horizon-6-install-size-pc",
+        "file": "forza-horizon-6-install-size-pc"
+      },
+      {
+        "slug": "forza-horizon-6-pc-config",
+        "file": "forza-horizon-6-pc-config"
+      },
+      {
+        "slug": "forza-horizon-6-space-requirements",
+        "file": "forza-horizon-6-space-requirements"
+      },
+      {
+        "slug": "forza-horizon-6-system-requirements-ssd",
+        "file": "forza-horizon-6-system-requirements-ssd"
+      }
+    ]
+  },
+  "en": {
+    "cars": [
+      {
+        "slug": "Forza-Horizon-6-all-cars",
+        "file": "Forza-Horizon-6-all-cars"
+      },
+      {
+        "slug": "Forza-Horizon-6-barn-finds",
+        "file": "Forza-Horizon-6-barn-finds"
+      },
+      {
+        "slug": "Forza-Horizon-6-car-lineup",
+        "file": "Forza-Horizon-6-car-lineup"
+      },
+      {
+        "slug": "Forza-Horizon-6-car-list",
+        "file": "Forza-Horizon-6-car-list"
+      },
+      {
+        "slug": "Forza-Horizon-6-cars",
+        "file": "Forza-Horizon-6-cars"
+      },
+      {
+        "slug": "Forza-Horizon-6-customization",
+        "file": "Forza-Horizon-6-customization"
+      },
+      {
+        "slug": "Forza-Horizon-6-ferrari",
+        "file": "Forza-Horizon-6-ferrari"
+      },
+      {
+        "slug": "Forza-Horizon-6-honda-civic",
+        "file": "Forza-Horizon-6-honda-civic"
+      },
+      {
+        "slug": "Forza-Horizon-6-jdm-cars",
+        "file": "Forza-Horizon-6-jdm-cars"
+      },
+      {
+        "slug": "Forza-Horizon-6-miata",
+        "file": "Forza-Horizon-6-miata"
+      },
+      {
+        "slug": "Forza-Horizon-6-motorcycles",
+        "file": "Forza-Horizon-6-motorcycles"
+      },
+      {
+        "slug": "Forza-Horizon-6-new-cars",
+        "file": "Forza-Horizon-6-new-cars"
+      },
+      {
+        "slug": "Forza-Horizon-6-nissan-silvia",
+        "file": "Forza-Horizon-6-nissan-silvia"
+      },
+      {
+        "slug": "Forza-Horizon-6-tuning",
+        "file": "Forza-Horizon-6-tuning"
+      }
+    ],
+    "editions": [
+      {
+        "slug": "Forza-Horizon-6-DLC",
+        "file": "Forza-Horizon-6-DLC"
+      },
+      {
+        "slug": "Forza-Horizon-6-car-pass",
+        "file": "Forza-Horizon-6-car-pass"
+      },
+      {
+        "slug": "Forza-Horizon-6-deluxe-edition",
+        "file": "Forza-Horizon-6-deluxe-edition"
+      },
+      {
+        "slug": "Forza-Horizon-6-deluxe-vs-premium",
+        "file": "Forza-Horizon-6-deluxe-vs-premium"
+      },
+      {
+        "slug": "Forza-Horizon-6-editions",
+        "file": "Forza-Horizon-6-editions"
+      },
+      {
+        "slug": "Forza-Horizon-6-loyalty-rewards",
+        "file": "Forza-Horizon-6-loyalty-rewards"
+      },
+      {
+        "slug": "Forza-Horizon-6-pre-order-bonus",
+        "file": "Forza-Horizon-6-pre-order-bonus"
+      },
+      {
+        "slug": "Forza-Horizon-6-pre-order",
+        "file": "Forza-Horizon-6-pre-order"
+      },
+      {
+        "slug": "Forza-Horizon-6-premium-edition",
+        "file": "Forza-Horizon-6-premium-edition"
+      },
+      {
+        "slug": "Forza-Horizon-6-premium-upgrade",
+        "file": "Forza-Horizon-6-premium-upgrade"
+      },
+      {
+        "slug": "Forza-Horizon-6-price",
+        "file": "Forza-Horizon-6-price"
+      },
+      {
+        "slug": "Forza-Horizon-6-standard-edition",
+        "file": "Forza-Horizon-6-standard-edition"
+      },
+      {
+        "slug": "Forza-Horizon-6-steelbook",
+        "file": "Forza-Horizon-6-steelbook"
+      },
+      {
+        "slug": "Forza-Horizon-6-vip-membership",
+        "file": "Forza-Horizon-6-vip-membership"
+      },
+      {
+        "slug": "forza-horizon-6-collector-edition",
+        "file": "forza-horizon-6-collector-edition"
+      },
+      {
+        "slug": "forza-horizon-6-expansions",
+        "file": "forza-horizon-6-expansions"
+      }
+    ],
+    "map": [
+      {
+        "slug": "Forza-Horizon-6-full-map",
+        "file": "Forza-Horizon-6-full-map"
+      },
+      {
+        "slug": "Forza-Horizon-6-houses",
+        "file": "Forza-Horizon-6-houses"
+      },
+      {
+        "slug": "Forza-Horizon-6-japan",
+        "file": "Forza-Horizon-6-japan"
+      },
+      {
+        "slug": "Forza-Horizon-6-location",
+        "file": "Forza-Horizon-6-location"
+      },
+      {
+        "slug": "Forza-Horizon-6-map-size",
+        "file": "Forza-Horizon-6-map-size"
+      },
+      {
+        "slug": "Forza-Horizon-6-map",
+        "file": "Forza-Horizon-6-map"
+      },
+      {
+        "slug": "Forza-Horizon-6-tokyo",
+        "file": "Forza-Horizon-6-tokyo"
+      },
+      {
+        "slug": "forza-horizon-6-map-size-comparison",
+        "file": "forza-horizon-6-map-size-comparison"
+      },
+      {
+        "slug": "forza-horizon-6-open-world",
+        "file": "forza-horizon-6-open-world"
+      }
+    ],
+    "media": [
+      {
+        "slug": "Forza-Horizon-6-Xbox-showcase",
+        "file": "Forza-Horizon-6-Xbox-showcase"
+      },
+      {
+        "slug": "Forza-Horizon-6-eliminator",
+        "file": "Forza-Horizon-6-eliminator"
+      },
+      {
+        "slug": "Forza-Horizon-6-new-features",
+        "file": "Forza-Horizon-6-new-features"
+      },
+      {
+        "slug": "Forza-Horizon-6-preview",
+        "file": "Forza-Horizon-6-preview"
+      },
+      {
+        "slug": "Forza-Horizon-6-review",
+        "file": "Forza-Horizon-6-review"
+      },
+      {
+        "slug": "Forza-Horizon-6-trailer",
+        "file": "Forza-Horizon-6-trailer"
+      },
+      {
+        "slug": "forza-horizon-6-gameplay-reveal",
+        "file": "forza-horizon-6-gameplay-reveal"
+      }
+    ],
+    "platforms": [
+      {
+        "slug": "Forza-Horizon-6-cloud-gaming",
+        "file": "Forza-Horizon-6-cloud-gaming"
+      },
+      {
+        "slug": "Forza-Horizon-6-crossplay",
+        "file": "Forza-Horizon-6-crossplay"
+      },
+      {
+        "slug": "Forza-Horizon-6-game-pass",
+        "file": "Forza-Horizon-6-game-pass"
+      },
+      {
+        "slug": "Forza-Horizon-6-pc",
+        "file": "Forza-Horizon-6-pc"
+      },
+      {
+        "slug": "Forza-Horizon-6-ps4",
+        "file": "Forza-Horizon-6-ps4"
+      },
+      {
+        "slug": "Forza-Horizon-6-ps5",
+        "file": "Forza-Horizon-6-ps5"
+      },
+      {
+        "slug": "Forza-Horizon-6-switch-2",
+        "file": "Forza-Horizon-6-switch-2"
+      },
+      {
+        "slug": "Forza-Horizon-6-xbox-one",
+        "file": "Forza-Horizon-6-xbox-one"
+      },
+      {
+        "slug": "Forza-Horizon-6-xbox",
+        "file": "Forza-Horizon-6-xbox"
+      },
+      {
+        "slug": "forza-horizon-6-compatibility",
+        "file": "forza-horizon-6-compatibility"
+      },
+      {
+        "slug": "forza-horizon-6-cross-platform",
+        "file": "forza-horizon-6-cross-platform"
+      },
+      {
+        "slug": "forza-horizon-6-cross-save",
+        "file": "forza-horizon-6-cross-save"
+      }
+    ],
+    "release": [
+      {
+        "slug": "Forza-Horizon-6-countdown",
+        "file": "Forza-Horizon-6-countdown"
+      },
+      {
+        "slug": "Forza-Horizon-6-early-access",
+        "file": "Forza-Horizon-6-early-access"
+      },
+      {
+        "slug": "Forza-Horizon-6-launch-date",
+        "file": "Forza-Horizon-6-launch-date"
+      },
+      {
+        "slug": "Forza-Horizon-6-release-date",
+        "file": "Forza-Horizon-6-release-date"
+      },
+      {
+        "slug": "Forza-Horizon-6-release-time",
+        "file": "Forza-Horizon-6-release-time"
+      },
+      {
+        "slug": "Forza-Horizon-6-release",
+        "file": "Forza-Horizon-6-release"
+      },
+      {
+        "slug": "forza-horizon-6-announcement",
+        "file": "forza-horizon-6-announcement"
+      },
+      {
+        "slug": "forza-horizon-6-pre-load",
+        "file": "forza-horizon-6-pre-load"
+      }
+    ],
+    "specs": [
+      {
+        "slug": "Forza-Horizon-6-controller",
+        "file": "Forza-Horizon-6-controller"
+      },
+      {
+        "slug": "Forza-Horizon-6-game-size",
+        "file": "Forza-Horizon-6-game-size"
+      },
+      {
+        "slug": "Forza-Horizon-6-graphics",
+        "file": "Forza-Horizon-6-graphics"
+      },
+      {
+        "slug": "Forza-Horizon-6-minimum-requirements",
+        "file": "Forza-Horizon-6-minimum-requirements"
+      },
+      {
+        "slug": "Forza-Horizon-6-pc-requirements",
+        "file": "Forza-Horizon-6-pc-requirements"
+      },
+      {
+        "slug": "Forza-Horizon-6-recommended-specs",
+        "file": "Forza-Horizon-6-recommended-specs"
+      },
+      {
+        "slug": "Forza-Horizon-6-requirements",
+        "file": "Forza-Horizon-6-requirements"
+      },
+      {
+        "slug": "Forza-Horizon-6-size",
+        "file": "Forza-Horizon-6-size"
+      },
+      {
+        "slug": "Forza-Horizon-6-specs",
+        "file": "Forza-Horizon-6-specs"
+      },
+      {
+        "slug": "Forza-Horizon-6-steam-deck",
+        "file": "Forza-Horizon-6-steam-deck"
+      },
+      {
+        "slug": "Forza-Horizon-6-system-requirements",
+        "file": "Forza-Horizon-6-system-requirements"
+      },
+      {
+        "slug": "Forza-Horizon-6-wheel-support",
+        "file": "Forza-Horizon-6-wheel-support"
+      },
+      {
+        "slug": "forza-horizon-6-install-size-pc",
+        "file": "forza-horizon-6-install-size-pc"
+      },
+      {
+        "slug": "forza-horizon-6-pc-config",
+        "file": "forza-horizon-6-pc-config"
+      },
+      {
+        "slug": "forza-horizon-6-space-requirements",
+        "file": "forza-horizon-6-space-requirements"
+      },
+      {
+        "slug": "forza-horizon-6-system-requirements-ssd",
+        "file": "forza-horizon-6-system-requirements-ssd"
+      }
+    ]
+  },
+  "es": {
+    "cars": [
+      {
+        "slug": "Forza-Horizon-6-all-cars",
+        "file": "Forza-Horizon-6-all-cars"
+      },
+      {
+        "slug": "Forza-Horizon-6-barn-finds",
+        "file": "Forza-Horizon-6-barn-finds"
+      },
+      {
+        "slug": "Forza-Horizon-6-car-lineup",
+        "file": "Forza-Horizon-6-car-lineup"
+      },
+      {
+        "slug": "Forza-Horizon-6-car-list",
+        "file": "Forza-Horizon-6-car-list"
+      },
+      {
+        "slug": "Forza-Horizon-6-cars",
+        "file": "Forza-Horizon-6-cars"
+      },
+      {
+        "slug": "Forza-Horizon-6-customization",
+        "file": "Forza-Horizon-6-customization"
+      },
+      {
+        "slug": "Forza-Horizon-6-ferrari",
+        "file": "Forza-Horizon-6-ferrari"
+      },
+      {
+        "slug": "Forza-Horizon-6-honda-civic",
+        "file": "Forza-Horizon-6-honda-civic"
+      },
+      {
+        "slug": "Forza-Horizon-6-jdm-cars",
+        "file": "Forza-Horizon-6-jdm-cars"
+      },
+      {
+        "slug": "Forza-Horizon-6-miata",
+        "file": "Forza-Horizon-6-miata"
+      },
+      {
+        "slug": "Forza-Horizon-6-motorcycles",
+        "file": "Forza-Horizon-6-motorcycles"
+      },
+      {
+        "slug": "Forza-Horizon-6-new-cars",
+        "file": "Forza-Horizon-6-new-cars"
+      },
+      {
+        "slug": "Forza-Horizon-6-nissan-silvia",
+        "file": "Forza-Horizon-6-nissan-silvia"
+      },
+      {
+        "slug": "Forza-Horizon-6-tuning",
+        "file": "Forza-Horizon-6-tuning"
+      }
+    ],
+    "editions": [
+      {
+        "slug": "Forza-Horizon-6-DLC",
+        "file": "Forza-Horizon-6-DLC"
+      },
+      {
+        "slug": "Forza-Horizon-6-car-pass",
+        "file": "Forza-Horizon-6-car-pass"
+      },
+      {
+        "slug": "Forza-Horizon-6-deluxe-edition",
+        "file": "Forza-Horizon-6-deluxe-edition"
+      },
+      {
+        "slug": "Forza-Horizon-6-deluxe-vs-premium",
+        "file": "Forza-Horizon-6-deluxe-vs-premium"
+      },
+      {
+        "slug": "Forza-Horizon-6-editions",
+        "file": "Forza-Horizon-6-editions"
+      },
+      {
+        "slug": "Forza-Horizon-6-loyalty-rewards",
+        "file": "Forza-Horizon-6-loyalty-rewards"
+      },
+      {
+        "slug": "Forza-Horizon-6-pre-order-bonus",
+        "file": "Forza-Horizon-6-pre-order-bonus"
+      },
+      {
+        "slug": "Forza-Horizon-6-pre-order",
+        "file": "Forza-Horizon-6-pre-order"
+      },
+      {
+        "slug": "Forza-Horizon-6-premium-edition",
+        "file": "Forza-Horizon-6-premium-edition"
+      },
+      {
+        "slug": "Forza-Horizon-6-premium-upgrade",
+        "file": "Forza-Horizon-6-premium-upgrade"
+      },
+      {
+        "slug": "Forza-Horizon-6-price",
+        "file": "Forza-Horizon-6-price"
+      },
+      {
+        "slug": "Forza-Horizon-6-standard-edition",
+        "file": "Forza-Horizon-6-standard-edition"
+      },
+      {
+        "slug": "Forza-Horizon-6-steelbook",
+        "file": "Forza-Horizon-6-steelbook"
+      },
+      {
+        "slug": "Forza-Horizon-6-vip-membership",
+        "file": "Forza-Horizon-6-vip-membership"
+      },
+      {
+        "slug": "forza-horizon-6-collector-edition",
+        "file": "forza-horizon-6-collector-edition"
+      },
+      {
+        "slug": "forza-horizon-6-expansions",
+        "file": "forza-horizon-6-expansions"
+      }
+    ],
+    "map": [
+      {
+        "slug": "Forza-Horizon-6-full-map",
+        "file": "Forza-Horizon-6-full-map"
+      },
+      {
+        "slug": "Forza-Horizon-6-houses",
+        "file": "Forza-Horizon-6-houses"
+      },
+      {
+        "slug": "Forza-Horizon-6-japan",
+        "file": "Forza-Horizon-6-japan"
+      },
+      {
+        "slug": "Forza-Horizon-6-location",
+        "file": "Forza-Horizon-6-location"
+      },
+      {
+        "slug": "Forza-Horizon-6-map-size",
+        "file": "Forza-Horizon-6-map-size"
+      },
+      {
+        "slug": "Forza-Horizon-6-map",
+        "file": "Forza-Horizon-6-map"
+      },
+      {
+        "slug": "Forza-Horizon-6-tokyo",
+        "file": "Forza-Horizon-6-tokyo"
+      },
+      {
+        "slug": "forza-horizon-6-map-size-comparison",
+        "file": "forza-horizon-6-map-size-comparison"
+      },
+      {
+        "slug": "forza-horizon-6-open-world",
+        "file": "forza-horizon-6-open-world"
+      }
+    ],
+    "media": [
+      {
+        "slug": "Forza-Horizon-6-Xbox-showcase",
+        "file": "Forza-Horizon-6-Xbox-showcase"
+      },
+      {
+        "slug": "Forza-Horizon-6-eliminator",
+        "file": "Forza-Horizon-6-eliminator"
+      },
+      {
+        "slug": "Forza-Horizon-6-new-features",
+        "file": "Forza-Horizon-6-new-features"
+      },
+      {
+        "slug": "Forza-Horizon-6-preview",
+        "file": "Forza-Horizon-6-preview"
+      },
+      {
+        "slug": "Forza-Horizon-6-review",
+        "file": "Forza-Horizon-6-review"
+      },
+      {
+        "slug": "Forza-Horizon-6-trailer",
+        "file": "Forza-Horizon-6-trailer"
+      },
+      {
+        "slug": "forza-horizon-6-gameplay-reveal",
+        "file": "forza-horizon-6-gameplay-reveal"
+      }
+    ],
+    "platforms": [
+      {
+        "slug": "Forza-Horizon-6-cloud-gaming",
+        "file": "Forza-Horizon-6-cloud-gaming"
+      },
+      {
+        "slug": "Forza-Horizon-6-crossplay",
+        "file": "Forza-Horizon-6-crossplay"
+      },
+      {
+        "slug": "Forza-Horizon-6-game-pass",
+        "file": "Forza-Horizon-6-game-pass"
+      },
+      {
+        "slug": "Forza-Horizon-6-pc",
+        "file": "Forza-Horizon-6-pc"
+      },
+      {
+        "slug": "Forza-Horizon-6-ps4",
+        "file": "Forza-Horizon-6-ps4"
+      },
+      {
+        "slug": "Forza-Horizon-6-ps5",
+        "file": "Forza-Horizon-6-ps5"
+      },
+      {
+        "slug": "Forza-Horizon-6-switch-2",
+        "file": "Forza-Horizon-6-switch-2"
+      },
+      {
+        "slug": "Forza-Horizon-6-xbox-one",
+        "file": "Forza-Horizon-6-xbox-one"
+      },
+      {
+        "slug": "Forza-Horizon-6-xbox",
+        "file": "Forza-Horizon-6-xbox"
+      },
+      {
+        "slug": "forza-horizon-6-compatibility",
+        "file": "forza-horizon-6-compatibility"
+      },
+      {
+        "slug": "forza-horizon-6-cross-platform",
+        "file": "forza-horizon-6-cross-platform"
+      },
+      {
+        "slug": "forza-horizon-6-cross-save",
+        "file": "forza-horizon-6-cross-save"
+      }
+    ],
+    "release": [
+      {
+        "slug": "Forza-Horizon-6-countdown",
+        "file": "Forza-Horizon-6-countdown"
+      },
+      {
+        "slug": "Forza-Horizon-6-early-access",
+        "file": "Forza-Horizon-6-early-access"
+      },
+      {
+        "slug": "Forza-Horizon-6-launch-date",
+        "file": "Forza-Horizon-6-launch-date"
+      },
+      {
+        "slug": "Forza-Horizon-6-release-date",
+        "file": "Forza-Horizon-6-release-date"
+      },
+      {
+        "slug": "Forza-Horizon-6-release-time",
+        "file": "Forza-Horizon-6-release-time"
+      },
+      {
+        "slug": "Forza-Horizon-6-release",
+        "file": "Forza-Horizon-6-release"
+      },
+      {
+        "slug": "forza-horizon-6-announcement",
+        "file": "forza-horizon-6-announcement"
+      },
+      {
+        "slug": "forza-horizon-6-pre-load",
+        "file": "forza-horizon-6-pre-load"
+      }
+    ],
+    "specs": [
+      {
+        "slug": "Forza-Horizon-6-controller",
+        "file": "Forza-Horizon-6-controller"
+      },
+      {
+        "slug": "Forza-Horizon-6-game-size",
+        "file": "Forza-Horizon-6-game-size"
+      },
+      {
+        "slug": "Forza-Horizon-6-graphics",
+        "file": "Forza-Horizon-6-graphics"
+      },
+      {
+        "slug": "Forza-Horizon-6-minimum-requirements",
+        "file": "Forza-Horizon-6-minimum-requirements"
+      },
+      {
+        "slug": "Forza-Horizon-6-pc-requirements",
+        "file": "Forza-Horizon-6-pc-requirements"
+      },
+      {
+        "slug": "Forza-Horizon-6-recommended-specs",
+        "file": "Forza-Horizon-6-recommended-specs"
+      },
+      {
+        "slug": "Forza-Horizon-6-requirements",
+        "file": "Forza-Horizon-6-requirements"
+      },
+      {
+        "slug": "Forza-Horizon-6-size",
+        "file": "Forza-Horizon-6-size"
+      },
+      {
+        "slug": "Forza-Horizon-6-specs",
+        "file": "Forza-Horizon-6-specs"
+      },
+      {
+        "slug": "Forza-Horizon-6-steam-deck",
+        "file": "Forza-Horizon-6-steam-deck"
+      },
+      {
+        "slug": "Forza-Horizon-6-system-requirements",
+        "file": "Forza-Horizon-6-system-requirements"
+      },
+      {
+        "slug": "Forza-Horizon-6-wheel-support",
+        "file": "Forza-Horizon-6-wheel-support"
+      },
+      {
+        "slug": "forza-horizon-6-install-size-pc",
+        "file": "forza-horizon-6-install-size-pc"
+      },
+      {
+        "slug": "forza-horizon-6-pc-config",
+        "file": "forza-horizon-6-pc-config"
+      },
+      {
+        "slug": "forza-horizon-6-space-requirements",
+        "file": "forza-horizon-6-space-requirements"
+      },
+      {
+        "slug": "forza-horizon-6-system-requirements-ssd",
+        "file": "forza-horizon-6-system-requirements-ssd"
+      }
+    ]
+  },
+  "ja": {
+    "cars": [
+      {
+        "slug": "Forza-Horizon-6-all-cars",
+        "file": "Forza-Horizon-6-all-cars"
+      },
+      {
+        "slug": "Forza-Horizon-6-barn-finds",
+        "file": "Forza-Horizon-6-barn-finds"
+      },
+      {
+        "slug": "Forza-Horizon-6-car-lineup",
+        "file": "Forza-Horizon-6-car-lineup"
+      },
+      {
+        "slug": "Forza-Horizon-6-car-list",
+        "file": "Forza-Horizon-6-car-list"
+      },
+      {
+        "slug": "Forza-Horizon-6-cars",
+        "file": "Forza-Horizon-6-cars"
+      },
+      {
+        "slug": "Forza-Horizon-6-customization",
+        "file": "Forza-Horizon-6-customization"
+      },
+      {
+        "slug": "Forza-Horizon-6-ferrari",
+        "file": "Forza-Horizon-6-ferrari"
+      },
+      {
+        "slug": "Forza-Horizon-6-honda-civic",
+        "file": "Forza-Horizon-6-honda-civic"
+      },
+      {
+        "slug": "Forza-Horizon-6-jdm-cars",
+        "file": "Forza-Horizon-6-jdm-cars"
+      },
+      {
+        "slug": "Forza-Horizon-6-miata",
+        "file": "Forza-Horizon-6-miata"
+      },
+      {
+        "slug": "Forza-Horizon-6-motorcycles",
+        "file": "Forza-Horizon-6-motorcycles"
+      },
+      {
+        "slug": "Forza-Horizon-6-new-cars",
+        "file": "Forza-Horizon-6-new-cars"
+      },
+      {
+        "slug": "Forza-Horizon-6-nissan-silvia",
+        "file": "Forza-Horizon-6-nissan-silvia"
+      },
+      {
+        "slug": "Forza-Horizon-6-tuning",
+        "file": "Forza-Horizon-6-tuning"
+      }
+    ],
+    "editions": [
+      {
+        "slug": "Forza-Horizon-6-DLC",
+        "file": "Forza-Horizon-6-DLC"
+      },
+      {
+        "slug": "Forza-Horizon-6-car-pass",
+        "file": "Forza-Horizon-6-car-pass"
+      },
+      {
+        "slug": "Forza-Horizon-6-deluxe-edition",
+        "file": "Forza-Horizon-6-deluxe-edition"
+      },
+      {
+        "slug": "Forza-Horizon-6-deluxe-vs-premium",
+        "file": "Forza-Horizon-6-deluxe-vs-premium"
+      },
+      {
+        "slug": "Forza-Horizon-6-editions",
+        "file": "Forza-Horizon-6-editions"
+      },
+      {
+        "slug": "Forza-Horizon-6-loyalty-rewards",
+        "file": "Forza-Horizon-6-loyalty-rewards"
+      },
+      {
+        "slug": "Forza-Horizon-6-pre-order-bonus",
+        "file": "Forza-Horizon-6-pre-order-bonus"
+      },
+      {
+        "slug": "Forza-Horizon-6-pre-order",
+        "file": "Forza-Horizon-6-pre-order"
+      },
+      {
+        "slug": "Forza-Horizon-6-premium-edition",
+        "file": "Forza-Horizon-6-premium-edition"
+      },
+      {
+        "slug": "Forza-Horizon-6-premium-upgrade",
+        "file": "Forza-Horizon-6-premium-upgrade"
+      },
+      {
+        "slug": "Forza-Horizon-6-price",
+        "file": "Forza-Horizon-6-price"
+      },
+      {
+        "slug": "Forza-Horizon-6-standard-edition",
+        "file": "Forza-Horizon-6-standard-edition"
+      },
+      {
+        "slug": "Forza-Horizon-6-steelbook",
+        "file": "Forza-Horizon-6-steelbook"
+      },
+      {
+        "slug": "Forza-Horizon-6-vip-membership",
+        "file": "Forza-Horizon-6-vip-membership"
+      },
+      {
+        "slug": "forza-horizon-6-collector-edition",
+        "file": "forza-horizon-6-collector-edition"
+      },
+      {
+        "slug": "forza-horizon-6-expansions",
+        "file": "forza-horizon-6-expansions"
+      }
+    ],
+    "map": [
+      {
+        "slug": "Forza-Horizon-6-full-map",
+        "file": "Forza-Horizon-6-full-map"
+      },
+      {
+        "slug": "Forza-Horizon-6-houses",
+        "file": "Forza-Horizon-6-houses"
+      },
+      {
+        "slug": "Forza-Horizon-6-japan",
+        "file": "Forza-Horizon-6-japan"
+      },
+      {
+        "slug": "Forza-Horizon-6-location",
+        "file": "Forza-Horizon-6-location"
+      },
+      {
+        "slug": "Forza-Horizon-6-map-size",
+        "file": "Forza-Horizon-6-map-size"
+      },
+      {
+        "slug": "Forza-Horizon-6-map",
+        "file": "Forza-Horizon-6-map"
+      },
+      {
+        "slug": "Forza-Horizon-6-tokyo",
+        "file": "Forza-Horizon-6-tokyo"
+      },
+      {
+        "slug": "forza-horizon-6-map-size-comparison",
+        "file": "forza-horizon-6-map-size-comparison"
+      },
+      {
+        "slug": "forza-horizon-6-open-world",
+        "file": "forza-horizon-6-open-world"
+      }
+    ],
+    "media": [
+      {
+        "slug": "Forza-Horizon-6-Xbox-showcase",
+        "file": "Forza-Horizon-6-Xbox-showcase"
+      },
+      {
+        "slug": "Forza-Horizon-6-eliminator",
+        "file": "Forza-Horizon-6-eliminator"
+      },
+      {
+        "slug": "Forza-Horizon-6-new-features",
+        "file": "Forza-Horizon-6-new-features"
+      },
+      {
+        "slug": "Forza-Horizon-6-preview",
+        "file": "Forza-Horizon-6-preview"
+      },
+      {
+        "slug": "Forza-Horizon-6-review",
+        "file": "Forza-Horizon-6-review"
+      },
+      {
+        "slug": "Forza-Horizon-6-trailer",
+        "file": "Forza-Horizon-6-trailer"
+      },
+      {
+        "slug": "forza-horizon-6-gameplay-reveal",
+        "file": "forza-horizon-6-gameplay-reveal"
+      }
+    ],
+    "platforms": [
+      {
+        "slug": "Forza-Horizon-6-cloud-gaming",
+        "file": "Forza-Horizon-6-cloud-gaming"
+      },
+      {
+        "slug": "Forza-Horizon-6-crossplay",
+        "file": "Forza-Horizon-6-crossplay"
+      },
+      {
+        "slug": "Forza-Horizon-6-game-pass",
+        "file": "Forza-Horizon-6-game-pass"
+      },
+      {
+        "slug": "Forza-Horizon-6-pc",
+        "file": "Forza-Horizon-6-pc"
+      },
+      {
+        "slug": "Forza-Horizon-6-ps4",
+        "file": "Forza-Horizon-6-ps4"
+      },
+      {
+        "slug": "Forza-Horizon-6-ps5",
+        "file": "Forza-Horizon-6-ps5"
+      },
+      {
+        "slug": "Forza-Horizon-6-switch-2",
+        "file": "Forza-Horizon-6-switch-2"
+      },
+      {
+        "slug": "Forza-Horizon-6-xbox-one",
+        "file": "Forza-Horizon-6-xbox-one"
+      },
+      {
+        "slug": "Forza-Horizon-6-xbox",
+        "file": "Forza-Horizon-6-xbox"
+      },
+      {
+        "slug": "forza-horizon-6-compatibility",
+        "file": "forza-horizon-6-compatibility"
+      },
+      {
+        "slug": "forza-horizon-6-cross-platform",
+        "file": "forza-horizon-6-cross-platform"
+      },
+      {
+        "slug": "forza-horizon-6-cross-save",
+        "file": "forza-horizon-6-cross-save"
+      }
+    ],
+    "release": [
+      {
+        "slug": "Forza-Horizon-6-countdown",
+        "file": "Forza-Horizon-6-countdown"
+      },
+      {
+        "slug": "Forza-Horizon-6-early-access",
+        "file": "Forza-Horizon-6-early-access"
+      },
+      {
+        "slug": "Forza-Horizon-6-launch-date",
+        "file": "Forza-Horizon-6-launch-date"
+      },
+      {
+        "slug": "Forza-Horizon-6-release-date",
+        "file": "Forza-Horizon-6-release-date"
+      },
+      {
+        "slug": "Forza-Horizon-6-release-time",
+        "file": "Forza-Horizon-6-release-time"
+      },
+      {
+        "slug": "Forza-Horizon-6-release",
+        "file": "Forza-Horizon-6-release"
+      },
+      {
+        "slug": "forza-horizon-6-announcement",
+        "file": "forza-horizon-6-announcement"
+      },
+      {
+        "slug": "forza-horizon-6-pre-load",
+        "file": "forza-horizon-6-pre-load"
+      }
+    ],
+    "specs": [
+      {
+        "slug": "Forza-Horizon-6-controller",
+        "file": "Forza-Horizon-6-controller"
+      },
+      {
+        "slug": "Forza-Horizon-6-game-size",
+        "file": "Forza-Horizon-6-game-size"
+      },
+      {
+        "slug": "Forza-Horizon-6-graphics",
+        "file": "Forza-Horizon-6-graphics"
+      },
+      {
+        "slug": "Forza-Horizon-6-minimum-requirements",
+        "file": "Forza-Horizon-6-minimum-requirements"
+      },
+      {
+        "slug": "Forza-Horizon-6-pc-requirements",
+        "file": "Forza-Horizon-6-pc-requirements"
+      },
+      {
+        "slug": "Forza-Horizon-6-recommended-specs",
+        "file": "Forza-Horizon-6-recommended-specs"
+      },
+      {
+        "slug": "Forza-Horizon-6-requirements",
+        "file": "Forza-Horizon-6-requirements"
+      },
+      {
+        "slug": "Forza-Horizon-6-size",
+        "file": "Forza-Horizon-6-size"
+      },
+      {
+        "slug": "Forza-Horizon-6-specs",
+        "file": "Forza-Horizon-6-specs"
+      },
+      {
+        "slug": "Forza-Horizon-6-steam-deck",
+        "file": "Forza-Horizon-6-steam-deck"
+      },
+      {
+        "slug": "Forza-Horizon-6-system-requirements",
+        "file": "Forza-Horizon-6-system-requirements"
+      },
+      {
+        "slug": "Forza-Horizon-6-wheel-support",
+        "file": "Forza-Horizon-6-wheel-support"
+      },
+      {
+        "slug": "forza-horizon-6-install-size-pc",
+        "file": "forza-horizon-6-install-size-pc"
+      },
+      {
+        "slug": "forza-horizon-6-pc-config",
+        "file": "forza-horizon-6-pc-config"
+      },
+      {
+        "slug": "forza-horizon-6-space-requirements",
+        "file": "forza-horizon-6-space-requirements"
+      },
+      {
+        "slug": "forza-horizon-6-system-requirements-ssd",
+        "file": "forza-horizon-6-system-requirements-ssd"
+      }
+    ]
+  }
+}
